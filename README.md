@@ -1,8 +1,8 @@
 ## Hi there 👋
 
 <!-- BLOG-POST-LIST:START -->
-- [Code › Js: Email Obsfrustration](https://lucianofedericopereira.github.io/articles/code/email-obfuscation/")
-- [Design › CSS: Star Rating](https://lucianofedericopereira.github.io/articles/design/star-rating/")
+- [Code › Js: Email Obsfrustration](https://lucianofedericopereira.github.io/articles/code/email-obfuscation/)
+- [Design › CSS: Star Rating](https://lucianofedericopereira.github.io/articles/design/star-rating/)
 <!-- BLOG-POST-LIST:END -->
 
 <!--
