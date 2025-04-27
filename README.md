@@ -14,7 +14,8 @@
         <tr><th>📅 Date</th><th>Article</th></tr>
     </thead>
     <tbody><!-- BLOG-POST-LIST:START -->
-    <!-- BLOG-POST-LIST:END --></tbody>     
+<p>📅  2023-04 <a href='https://lucianofedericopereira.github.io/articles/code/email-obfuscation/'>Code › Js: Email Obsfrustration</a></p>
+<p>📅  2023-04 <a href='https://lucianofedericopereira.github.io/articles/design/star-rating/'>Design › CSS: Star Rating</a></p><!-- BLOG-POST-LIST:END --></tbody>     
 </table>
 </div>
 
