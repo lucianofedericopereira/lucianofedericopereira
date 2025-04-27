@@ -7,7 +7,7 @@ permissions:
   contents: write
 jobs:
   update-readme-with-blog:
-    name: Update this repo's README with latest blog posts
+    name: Update readme.md with latest blog posts.
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -16,5 +16,5 @@ jobs:
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           feed_list: "https://lucianofedericopereira.github.io/articles/feed.xml"
-          template: $newline<p>📅 $date <a href='$url'>$title</a></p>
+          template: $newline<h3>📅 $date <a href='$url'>$title</a></h3>
           date_format: 'UTC: yyyy-mm'
