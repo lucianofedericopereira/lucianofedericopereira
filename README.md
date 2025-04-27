@@ -7,13 +7,16 @@
 </a></p>
 
 
-
-<h4>✒️ Articles</h4>
-<!-- BLOG-POST-LIST:START -->
-<p>📅  2023-04 <a href='https://lucianofedericopereira.github.io/articles/code/email-obfuscation/'>Code › Js: Email Obsfrustration</a></p>
-<p>📅  2023-04 <a href='https://lucianofedericopereira.github.io/articles/design/star-rating/'>Design › CSS: Star Rating</a></p>
-<!-- BLOG-POST-LIST:END -->
-
+<div align="center">
+<table>
+    <thead>
+        <tr><th colspan="2">✒️ Articles</th></tr>
+        <tr><th>📅 Date</th><th>Article</th></tr>
+    </thead>
+    <tbody><!-- BLOG-POST-LIST:START -->
+    <!-- BLOG-POST-LIST:END --></tbody>     
+</table>
+</div>
 
 
 <p align="center"><img src="./assets/stats.svg" alt="GitHub Metrics"></p>
