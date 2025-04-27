@@ -11,7 +11,7 @@
 <table>
     <thead>
         <tr><th colspan="2">✒️ Articles</th></tr>
-        <tr><th>📅 Date</th><th>Article</th></tr>
+        <tr><th>📅 Date</th><th>Title</th></tr>
     </thead>
     <tbody>
     <!-- BLOG-POST-LIST:START -->
