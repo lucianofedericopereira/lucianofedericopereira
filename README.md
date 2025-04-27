@@ -4,8 +4,6 @@
 
 <p align="center"><a href="#">
  <img src="./assets/signature.svg" width="250px" alt="Luciano Pereira Signature">
- <br>
- <img src="./assets/resume.svg" height="250px" alt="Luciano Pereira Resume">
 </a></p>
 
 
