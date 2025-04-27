@@ -1,8 +1,8 @@
 ## Hi there 👋
 
 <!-- BLOG-POST-LIST:START -->
- <p>📅  2023-04 <a href='https://lucianofedericopereira.github.io/articles/code/email-obfuscation/'>Code › Js: Email Obsfrustration</a></p>
- <p>📅  2023-04 <a href='https://lucianofedericopereira.github.io/articles/design/star-rating/'>Design › CSS: Star Rating</a></p><!-- BLOG-POST-LIST:END -->
+<p>📅  2023-04 <a href='https://lucianofedericopereira.github.io/articles/code/email-obfuscation/'>Code › Js: Email Obsfrustration</a></p>
+<p>📅  2023-04 <a href='https://lucianofedericopereira.github.io/articles/design/star-rating/'>Design › CSS: Star Rating</a></p><!-- BLOG-POST-LIST:END -->
 
 <!--
 **lucianofedericopereira/lucianofedericopereira** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
