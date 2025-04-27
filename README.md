@@ -8,6 +8,16 @@
  <img src="./assets/resume.svg" height="250px" alt="Luciano Pereira Resume">
 </a></p>
 
+
+
+<h4>✒️ Articles</h4>
+<!-- BLOG-POST-LIST:START -->
+<p>📅  2023-04 <a href='https://lucianofedericopereira.github.io/articles/code/email-obfuscation/'>Code › Js: Email Obsfrustration</a></p>
+<p>📅  2023-04 <a href='https://lucianofedericopereira.github.io/articles/design/star-rating/'>Design › CSS: Star Rating</a></p>
+<!-- BLOG-POST-LIST:END -->
+
+
+
 <p align="center"><img src="./assets/stats.svg" alt="GitHub Metrics"></p>
 
 <p align="center">&nbsp;
@@ -190,10 +200,3 @@
 <a href="https://framework.zend.com"><img height="24px" src="./assets/icons/zend.svg" alt="zend"></a>
 </p>
 
-
-
-<h4>✒️ Articles</h4>
-<!-- BLOG-POST-LIST:START -->
-<p>📅  2023-04 <a href='https://lucianofedericopereira.github.io/articles/code/email-obfuscation/'>Code › Js: Email Obsfrustration</a></p>
-<p>📅  2023-04 <a href='https://lucianofedericopereira.github.io/articles/design/star-rating/'>Design › CSS: Star Rating</a></p>
-<!-- BLOG-POST-LIST:END -->
