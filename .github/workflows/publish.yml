@@ -1,4 +1,4 @@
-name: Stats
+name: Publish
 on:
   schedule:
     - cron: '0 0 * * *'
@@ -7,7 +7,7 @@ permissions:
   contents: write
 jobs:
   github-stats:
-    name: Update readme.md with account stats.
+    name: Update readme.md with account stats
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
@@ -22,3 +22,15 @@ jobs:
             .field svg { fill:#969289!important}
             footer {display: none!important}
           token: ${{ secrets.METRICS_TOKEN }}
+  update-readme-with-blog:
+    name: Update readme.md with latest blog posts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Pull in Jekyll posts
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://lucianofedericopereira.github.io/articles/feed.xml"
+          template: $newline<tr><td>$date</td><td align="left"><a href='$url'>$title</a></td></tr>
+          date_format: 'UTC: yyyy-mm'
