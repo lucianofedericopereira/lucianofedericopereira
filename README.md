@@ -10,7 +10,7 @@
 <div align="center">
 <table>
     <thead>
-        <tr><th colspan="2" color="#969289">Articles</th></tr>
+        <tr><th colspan="2">Articles</th></tr>
         <tr><th>📅 Date</th><th>Title</th></tr>
     </thead>
     <tbody>
