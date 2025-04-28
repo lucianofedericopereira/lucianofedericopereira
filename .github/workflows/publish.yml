@@ -14,7 +14,6 @@ jobs:
         with:
           filename: assets/stats.svg
           plugin_languages: yes
-          plugin_languages_indepth: yes
           commits_authoring: Luciano Pereira, lucianofedericopereira, lucianofedericopereira@users.noreply.github.com
           extras_css: |
             h1.field { color: #25d366!important }
