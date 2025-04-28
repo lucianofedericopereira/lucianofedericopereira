@@ -7,7 +7,7 @@ permissions:
   contents: write
 jobs:
   github-stats:
-    name: Update readme.md with account stats
+    name: Stats Update
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
@@ -23,7 +23,7 @@ jobs:
             footer {display: none!important}
           token: ${{ secrets.METRICS_TOKEN }}
   update-readme-with-blog:
-    name: Update readme.md with latest blog posts
+    name: Blog Update
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
