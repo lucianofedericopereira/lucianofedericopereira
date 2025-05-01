@@ -13,7 +13,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: assets/stats.svg
-          config_output_dimensions: 600x600
+          config_display: columns
           plugin_languages: yes
           plugin_languages_analysis: yes
           plugin_languages_indepth: yes
