@@ -32,7 +32,7 @@
 </div>
 
 
-<div align="center"><img src="./assets/stats.svg" alt="GitHub Metrics"></div>
+<img src="./assets/stats.svg" alt="GitHub Metrics">
 
 <p align="center">&nbsp;
 <a href="https://apache.org"><img height="24px" src="./assets/icons/apache.svg" alt="Apache"></a>
