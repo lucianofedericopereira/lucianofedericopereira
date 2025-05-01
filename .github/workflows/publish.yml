@@ -12,8 +12,9 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: assets/stats.svg
-          config_display: large
+          filename: assets/stats.png
+          config_display: regular
+          config_output: png
           plugin_languages: yes
           plugin_languages_analysis: yes
           plugin_languages_indepth: yes
