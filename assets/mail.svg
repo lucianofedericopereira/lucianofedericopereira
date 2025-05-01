@@ -1,6 +1,6 @@
 <svg viewBox="0 0 330 32" xmlns="http://www.w3.org/2000/svg">
     <style>text{font-family:system-ui,-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,&quot;Helvetica Neue&quot;,Arial,&quot;Noto Sans&quot;,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;,&quot;Noto Color Emoji&quot;;font-weight:600;font-size:16px;fill:#233}@media (prefers-color-scheme:dark){text{fill:#dfe2e2}}</style>
-  <path fill="#2867b2" d="M 30.909091,-5.0000003e-8 H 8.9090909 c -2.76142,0 -5,2.238579950000003 -5,4.999999950000003 V 27 c 0,2.7614 2.23858,5 5,5 H 30.909091 c 2.7614,0 5,-2.2386 5,-5 V 4.9999999 c 0,-2.76142 -2.2386,-4.999999950000003 -5,-4.999999950000003 z"/>
+  <path fill="#a9d158" d="M 30.909091,-5.0000003e-8 H 8.9090909 c -2.76142,0 -5,2.238579950000003 -5,4.999999950000003 V 27 c 0,2.7614 2.23858,5 5,5 H 30.909091 c 2.7614,0 5,-2.2386 5,-5 V 4.9999999 c 0,-2.76142 -2.2386,-4.999999950000003 -5,-4.999999950000003 z"/>
   <text x="40" y="20.137">lucianopereira@posteo.es</text>
   <g transform="matrix(1.2889011,0,0,1.2311091,-4.0197895,-5.6998924)">
     <path fill="#ffffff" stroke-width="1.65699" d="M 10.813,9.7897273 H 26.538364 V 24.581 H 10.813 Z"/>
