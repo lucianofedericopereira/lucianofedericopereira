@@ -21,7 +21,7 @@
 <table>
     <thead>
         <tr><th colspan="2">Articles</th></tr>
-        <tr><th>📅 Date</th><th>Title</th></tr>
+        <tr><th>Date</th><th>Title</th></tr>
     </thead>
     <tbody>
     <!-- BLOG-POST-LIST:START -->
@@ -160,7 +160,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://www.php.net"><img height="24px" src="./assets/icons/php.svg" alt="php"></a>
 </p>
-<p align="center"> 
+<p align="center">
 <a href="https://www.postgresql.org"><img height="24px" src="./assets/icons/postgresql.svg" alt="postgresql"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://www.python.org"><img height="24px" src="./assets/icons/python.svg" alt="python"></a>
@@ -213,4 +213,3 @@
 &nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://framework.zend.com"><img height="24px" src="./assets/icons/zend.svg" alt="zend"></a>
 </p>
-

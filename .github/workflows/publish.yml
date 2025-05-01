@@ -1,7 +1,7 @@
 name: Publish
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: "0 0 * * *"
   workflow_dispatch:
 permissions:
   contents: write
@@ -13,7 +13,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: assets/stats.svg
-          config_output_dimensions: 480x480 
+          config_output_dimensions: 600x600
           plugin_languages: yes
           plugin_languages_analysis: yes
           plugin_languages_indepth: yes
@@ -35,4 +35,4 @@ jobs:
         with:
           feed_list: "https://lucianofedericopereira.github.io/articles/feed.xml"
           template: $newline<tr><td>$date</td><td align="left"><a href='$url'>$title</a></td></tr>
-          date_format: 'UTC: yyyy-mm'
+          date_format: "UTC: yyyy-mm"
