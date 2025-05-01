@@ -1,13 +1,6 @@
 <p align="center"><a href="#">
  <img src="./assets/signature.svg" width="250px" alt="Luciano Pereira Signature">
-</a></p>
-
-
-
-
-
-<p align="center"><a href="#">
-    <img src="./assets/lucianopereira.svg" alt="Luciano Pereira">
+ <img src="./assets/lucianopereira.svg" alt="Luciano Pereira">
 </a></p>
 
 <p align="center">&nbsp;
