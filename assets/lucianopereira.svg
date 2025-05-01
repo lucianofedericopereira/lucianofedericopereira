@@ -1,32 +1,18 @@
-<svg fill="none" viewBox="0 0 800 90" width="800" height="90" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <style>
-        .bg {     font-family: Georgia, Times, "Times New Roman", serif;
-                  text-rendering: optimizeLegibility;
-                  text-align:center;
-       }
-       .divider{  height:2px;
-                  width:120px;
-                  margin: 0 auto;
-                  display:block;
-                  margin-top:7px;
-                  background: #cdc8bc;
-       } h1 {     font-size: 1.75rem;
-                  line-height: 1.5rem;
-                  font-style: normal;
-                  font-variant: small-caps;
-                  font-weight: 400;
-                  color:#24292f;
-       }
-      @media (    prefers-color-scheme: dark) {
-       .divider { background:#ada89c}
-        h1      { color:#dfe2e2}
-      }
-      </style>
-      <div class="bg">
-        <h1>Software Engineer<span class="divider"></span></h1>
-      </div>
-    </div>
-  </foreignObject>
+<svg fill="none" viewBox="0 0 800 90" width="100%" height="90" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text { font-family: Georgia, Times, "Times New Roman", serif; font-variant: small-caps; font-weight: 400; fill: #24292f; text-anchor: middle; }
+    .divider { fill: #cdc8bc; }
+    @media (prefers-color-scheme: dark) {
+      text { fill: #dfe2e2; }
+      .divider { fill: #ada89c; }
+    }
+    @media (max-width: 600px) {
+      text { font-size: 5vw; }
+    }
+    @media (min-width: 601px) {
+      text { font-size: 1.75rem; }
+    }
+  </style>
+  <text x="50%" y="45">Software Engineer</text>
+  <rect class="divider" x="340" y="55" width="120" height="2"/>
 </svg>
