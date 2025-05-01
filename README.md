@@ -1,12 +1,6 @@
 <p align="center"><a href="#">
-    <img src="./assets/lucianopereira.svg" alt="Luciano Pereira">
-</a></p>
-
-<p align="center"><a href="#">
  <img src="./assets/signature.svg" width="250px" alt="Luciano Pereira Signature">
 </a></p>
-
-
 
 <p align="center">
 <a href="mailto:lucianopereira@posteo.es?subject=I%20saw%20your%20GitHub%20Profilee&body=Hi,%20Luciano%20"><img height="26px" src="./assets/mail.svg" alt="mail"></a>
@@ -15,25 +9,13 @@
 <br><a href="https://bit.ly/lucianofedericopereira"><img height="26px" src="./assets/whatsapp.svg" alt="whatsapp"></a>
 </p>
 
-
-
-<div align="center">
-<table>
-    <thead>
-        <tr><th colspan="2">Articles</th></tr>
-        <tr><th>Date</th><th>Title</th></tr>
-    </thead>
-    <tbody>
-    <!-- BLOG-POST-LIST:START -->
-<tr><td> 2023-04</td><td align="left"><a href='https://lucianofedericopereira.github.io/articles/code/email-obfuscation/'>Code › Js: Email Obsfrustration</a></td></tr>
-<tr><td> 2023-04</td><td align="left"><a href='https://lucianofedericopereira.github.io/articles/design/star-rating/'>Design › CSS: Star Rating</a></td></tr><!-- BLOG-POST-LIST:END -->
-    </tbody>
-</table>
-</div>
-
 <div align="center">
 <img src="./assets/stats.png" alt="GitHub Metrics">
 </div>
+
+<p align="center"><a href="#">
+    <img src="./assets/lucianopereira.svg" alt="Luciano Pereira">
+</a></p>
 
 <p align="center">&nbsp;
 <a href="https://apache.org"><img height="24px" src="./assets/icons/apache.svg" alt="Apache"></a>
@@ -214,3 +196,17 @@
 &nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://framework.zend.com"><img height="24px" src="./assets/icons/zend.svg" alt="zend"></a>
 </p>
+
+<div align="center">
+<table>
+    <thead>
+        <tr><th colspan="2">Articles</th></tr>
+        <tr><th>Date</th><th>Title</th></tr>
+    </thead>
+    <tbody>
+    <!-- BLOG-POST-LIST:START -->
+<tr><td> 2023-04</td><td align="left"><a href='https://lucianofedericopereira.github.io/articles/code/email-obfuscation/'>Code › Js: Email Obsfrustration</a></td></tr>
+<tr><td> 2023-04</td><td align="left"><a href='https://lucianofedericopereira.github.io/articles/design/star-rating/'>Design › CSS: Star Rating</a></td></tr><!-- BLOG-POST-LIST:END -->
+    </tbody>
+</table>
+</div>
