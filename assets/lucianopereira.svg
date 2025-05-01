@@ -7,14 +7,14 @@
       .divider { fill: #ada89c; }
     }
     @media (max-width: 700px) {
-      text { font-size: 7vh; }
-      .divider { width:70%; x:15%; y:70}
+      text { font-size: 4rem; }
+      .divider { width: 60%; x: 20%; }
     }
     @media (min-width: 701px) {
       text { font-size: 2rem; }
-      .divider { width:120px; x:340px; y:55}
+      .divider { width: 120px; x: 340px; }
     }
   </style>
   <text x="50%" y="45">Software Engineer</text>
-  <rect class="divider" height="2"/>
+  <rect class="divider" y="55" height="2"/>
 </svg>
