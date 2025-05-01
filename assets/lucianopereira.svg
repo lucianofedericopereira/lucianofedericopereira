@@ -8,13 +8,13 @@
     }
     @media (max-width: 700px) {
       text { font-size: 3rem; }
-      .divider { width: 40%; x: 30%; }
+      .divider { width:30%; x:35%; y:65 }
     }
     @media (min-width: 701px) {
       text { font-size: 2rem; }
-      .divider { width: 120px; x: 340px; }
+      .divider { width:120px; x:340px; y:55}
     }
   </style>
   <text x="50%" y="45">Software Engineer</text>
-  <rect class="divider" y="55" height="2"/>
+  <rect class="divider" height="2"/>
 </svg>
