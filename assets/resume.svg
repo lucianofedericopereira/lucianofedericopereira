@@ -1,0 +1,33 @@
+<svg viewBox="0 0 300 32" xmlns="http://www.w3.org/2000/svg">
+  <style>text { font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; font-weight:600; font-size: 16px; fill: #233} @media ( prefers-color-scheme: dark) { text {fill:#dfe2e2} }</style>
+  <text x="40" y="22">C.V. Curriculum Vitae</text>
+  <path fill="#2867B2" d="M27 0H5C2.23858 0 0 2.23858 0 5V27C0 29.7614 2.23858 32 5 32H27C29.7614 32 32 29.7614 32 27V5C32 2.23858 29.7614 0 27 0Z"/>
+  <circle cx="8.3064051" cy="5.9416814" r="2.4871368" style="fill:#ffffff;fill-opacity:1;stroke-width:0.573999" />
+  <path
+     d="M 3.3946988,14.446621 H 13.21754 c 0.343252,0 0.626233,-0.279538 0.579165,-0.619919 -0.339233,-2.454419 -2.103706,-4.3537808 -5.4902985,-4.3537808 -3.3865929,0 -5.1510652,1.8993618 -5.4902985,4.3537808 -0.047642,0.340381 0.2353395,0.619919 0.5785908,0.619919 z"
+     style="fill:#ffffff;fill-opacity:1;stroke-width:0.573999" />
+  <rect
+     x="18.1987"
+     y="5.6535325"
+     width="10.99093"
+     height="2.1984153"
+     style="fill:#ffffff;fill-opacity:1;stroke-width:0.573999" />
+  <rect
+     x="18.1987"
+     y="12.248203"
+     width="10.99093"
+     height="2.1984153"
+     style="fill:#ffffff;fill-opacity:1;stroke-width:0.573999" />
+  <rect
+     x="2.8103681"
+     y="18.843451"
+     width="26.379263"
+     height="2.1984153"
+     style="fill:#ffffff;fill-opacity:1;stroke-width:0.573999" />
+  <rect
+     x="2.8103681"
+     y="25.438122"
+     width="26.379263"
+     height="2.1984153"
+     style="fill:#ffffff;fill-opacity:1;stroke-width:0.573999" />
+</svg>
