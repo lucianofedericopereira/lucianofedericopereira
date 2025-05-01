@@ -6,8 +6,8 @@
       text { fill: #dfe2e2; }
       .divider { fill: #ada89c; }
     }
-    @media (max-width: 600px) {
-      text { font-size: 5vw; }
+    @media (max-width: 700px) {
+      text { font-size: 20vw; }
     }
     @media (min-width: 601px) {
       text { font-size: 1.75rem; }
