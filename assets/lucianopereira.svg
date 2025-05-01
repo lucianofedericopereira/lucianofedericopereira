@@ -8,7 +8,7 @@
     }
     @media (max-width: 700px) {
       text { font-size: 20vw; }
-      .divider { width: 160vw; x: 30vw; }
+      .divider { width: 140vw; x: 60vw; }
     }
     @media (min-width: 701px) {
       text { font-size: 2rem; }
