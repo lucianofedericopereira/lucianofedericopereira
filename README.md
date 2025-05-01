@@ -27,7 +27,7 @@
     <!-- BLOG-POST-LIST:START -->
 <tr><td> 2023-04</td><td align="left"><a href='https://lucianofedericopereira.github.io/articles/code/email-obfuscation/'>Code › Js: Email Obsfrustration</a></td></tr>
 <tr><td> 2023-04</td><td align="left"><a href='https://lucianofedericopereira.github.io/articles/design/star-rating/'>Design › CSS: Star Rating</a></td></tr><!-- BLOG-POST-LIST:END -->
-    </tbody>     
+    </tbody>
 </table>
 </div>
 
