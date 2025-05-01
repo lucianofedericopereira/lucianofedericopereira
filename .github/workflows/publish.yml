@@ -16,7 +16,7 @@ jobs:
           plugin_languages: yes
           plugin_languages_analysis: yes
           plugin_languages_indepth: yes
-          commits_authoring: Luciano Pereira, lucianofedericopereira, lucianofedericopereira@users.noreply.github.com
+          commits_authoring: Luciano Pereira, Luciano Federico Pereira, lucianofedericopereira, lucianofedericopereira@users.noreply.github.com, lucianopereira@posteo.es
           extras_css: |
             h1.field { color: #25d366!important }
             h2.field, h3.field { color: #969289!important }
