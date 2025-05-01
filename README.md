@@ -212,7 +212,7 @@
 
 <p align="center">
     <img src="./assets/contact.svg" alt="contact">
-    <br><a href="mailto:lucianopereira@posteo.es?subject=I%20saw%20your%20GitHub%20Profilee&body=Hi,%20Luciano%20"><img height="26px" src="./assets/mail.svg" alt="mail"></a>
+    <a href="mailto:lucianopereira@posteo.es?subject=I%20saw%20your%20GitHub%20Profilee&body=Hi,%20Luciano%20"><img height="26px" src="./assets/mail.svg" alt="mail"></a>
     <br><a href="https://www.linkedin.com/in/lucianofedericopereira"><img height="26px" src="./assets/linkedin.svg" alt="LinkedIn"></a>
     <br><a href="https://www.linkedin.com/in/lucianofedericopereira"><img height="26px" src="./assets/resume.svg" alt="LinkedIn"></a>
     <br><a href="https://bit.ly/lucianofedericopereira"><img height="26px" src="./assets/whatsapp.svg" alt="whatsapp"></a>
