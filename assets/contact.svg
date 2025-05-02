@@ -12,7 +12,7 @@
     }
     @media (min-width: 701px) {
       text { font-size: 2rem; }
-      .divider { width:90px; x:355px; y:55px}
+      .divider { width:70px; x:365px; y:55px}
     }
   </style>
   <text x="50%" y="45">Contact</text>
