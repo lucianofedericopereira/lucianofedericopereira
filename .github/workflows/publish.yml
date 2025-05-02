@@ -36,4 +36,4 @@ jobs:
         with:
           feed_list: "https://lucianofedericopereira.github.io/articles/feed.xml"
           template: $newline<tr><td>$date</td><td align="left"><a href='$url'>$title</a></td></tr>
-          date_format: "UTC: yyyy-mm"
+          date_format: "UTC: mmm. yyyy"
