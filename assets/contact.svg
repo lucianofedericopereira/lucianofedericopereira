@@ -7,7 +7,7 @@
       .divider { fill: #ada89c; }
     }
     @media (max-width: 700px) {
-      text { font-size: 4rem; }
+      text { font-size: 24px; }
       .divider { width:20%; x:40%; y:65px }
     }
     @media (min-width: 701px) {
