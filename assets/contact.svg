@@ -7,11 +7,13 @@
       .divider { fill: #ada89c; }
     }
     @media (max-width: 700px) {
-      text { font-size: 56px; width: 100%; height: auto;}
+      text { font-size: 48px; width: 100%; height: auto;}
       .divider { width:20%; x:40%; y:65px; width: 100%; height: auto; }
     }
     @media (min-width: 701px) {
-      text { font-size: 2rem; }
+      text { font-size: 1.5rem; }
+
+
       .divider { width:70px; x:90px; y:35px}
     }
   </style>
