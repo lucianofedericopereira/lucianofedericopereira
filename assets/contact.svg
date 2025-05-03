@@ -11,8 +11,8 @@
       .divider { width:20%; x:40%; y:65px; width: 100%; height: auto; }
     }
     @media (min-width: 701px) {
-      text { font-size: .62rem; }
-      .divider { width:35px; x:110px; y:35px}
+      text { font-size: .62rem; line-height:0;}
+      .divider { width:35px; x:100px; y:27px}
     }
   </style>
   <text x="50%" y="25">Contact</text>
