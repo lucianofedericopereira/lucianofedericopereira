@@ -1,20 +1,20 @@
-<svg fill="none" viewBox="0 0 250 60" width="100%" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 42 60" height="48px" width="100%" xmlns="http://www.w3.org/2000/svg">
   <style>
-    text { font-family: Georgia, Times, "Times New Roman", serif; font-variant: small-caps; font-weight: 400; fill: #24292f; text-anchor: middle; }
-    .divider { fill: #cdc8bc; }
+    text { font-size: 48px; font-family: Georgia, Times, "Times New Roman", serif; font-variant: small-caps; font-weight: 400; fill: #24292f; text-anchor: middle; }
+    rect { width: 64px; height: 2px; fill: #cdc8bc; }
+    @media (max-width: 768px) {
+      text { font-size: 44px; }
+      rect { width: 50px; height: 1.5px}
+    }
+    @media (max-width: 480px) {
+      text { font-size: 42px; }
+      rect { width: 56px; }
+    }
     @media (prefers-color-scheme: dark) {
-      text { fill: #dfe2e2; height: 11dvh}
-      .divider { fill: #ada89c}
-    }
-    @media (max-width: 700px) {
-      text { font-size: 48px; width: 100%; height: auto;}
-      .divider { width:20%; x:40%; y:65px; width: 100%; height: auto; }
-    }
-    @media (min-width: 701px) {
-      text { font-size: .62rem; line-height:0; height:4dvh;}
-      .divider { width:35px; x:90px; y:30px}
+      text { fill: #dfe2e2; transition: 0.3s ease-in-out; }
+      rect { fill: #ada89c; transition: 0.3s ease-in-out; }
     }
   </style>
-  <text x="50%" y="25">Contact</text>
-  <rect class="divider" height="1"/>
+  <text x="50%" y="36px">Contact</text>
+  <rect width="50px" height="1px" y="45px" x="50%" transform="translate(-25,0)" />
 </svg>
