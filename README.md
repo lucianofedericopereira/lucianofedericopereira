@@ -1,5 +1,5 @@
 <p align="center">
- <img src="./assets/signature.svg" width="250px" alt="Luciano Pereira Signature">
+ <img src="./assets/signature.svg" width="250px" alt="Luciano Pereira Signature"><br>
  <img src="./assets/lucianopereira.svg" alt="Luciano Pereira">
 </p>
 
