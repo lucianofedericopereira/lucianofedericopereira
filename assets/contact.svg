@@ -2,17 +2,14 @@
   <style>
     text { font-size: clamp(24px, 5vw, 48px); font-family: Georgia, Times, "Times New Roman", serif; font-variant: small-caps; font-weight: 400; fill: #24292f; text-anchor: middle; }
     rect { width: clamp(40px, 60%, 64px); height: 2px; fill: #cdc8bc; }
-
     @media (max-width: 768px) {
       text { font-size: 40px; }
       rect { width: 50px; height: 1.5px; }
     }
-
     @media (max-width: 480px) {
       text { font-size: 36px; }
       rect { width: 48px; }
     }
-
     @media (prefers-color-scheme: dark) {
       text { fill: #dfe2e2; transition: 0.3s ease-in-out; }
       rect { fill: #ada89c; transition: 0.3s ease-in-out; }
