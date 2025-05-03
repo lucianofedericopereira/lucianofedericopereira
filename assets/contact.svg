@@ -11,10 +11,10 @@
       .divider { width:20%; x:40%; y:65px; width: 100%; height: auto; }
     }
     @media (min-width: 701px) {
-      text { font-size: .75rem; }
-      .divider { width:70px; x:90px; y:35px; height: 1}
+      text { font-size: .62rem; }
+      .divider { width:70px; x:90px; y:35px}
     }
   </style>
   <text x="50%" y="25">Contact</text>
-  <rect class="divider"/>
+  <rect class="divider" height="1.5"/>
 </svg>
