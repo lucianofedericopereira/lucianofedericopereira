@@ -11,9 +11,7 @@
       .divider { width:20%; x:40%; y:65px; width: 100%; height: auto; }
     }
     @media (min-width: 701px) {
-      text { font-size: 1.5rem; }
-
-
+      text { font-size: 1rem; }
       .divider { width:70px; x:90px; y:35px}
     }
   </style>
