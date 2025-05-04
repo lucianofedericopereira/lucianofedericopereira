@@ -6,7 +6,7 @@
 <p align="center">&nbsp;
 <a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://apache.org"><img height="24px" src="./assets/icons/apache.png" alt="Apache"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://apple.com"><img height="24px" src="./assets/icons/apple.svg" alt="Apple"></a>
+<a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://apple.com"><img height="24px" src="./assets/icons/apple.png" alt="Apple"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://www.arduino.cc"><img height="24px" src="./assets/icons/arduino.png" alt="Arduino"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;
