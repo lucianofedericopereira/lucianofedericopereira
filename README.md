@@ -10,9 +10,9 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://www.arduino.cc"><img height="24px" src="./assets/icons/arduino.png" alt="Arduino"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://www.gnu.org/software/bash"><img height="24px" src="./assets/icons/bash.svg" alt="bash"></a>
+<a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://www.gnu.org/software/bash"><img height="24px" src="./assets/icons/bash.png" alt="bash"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://bitbucket.org"><img height="24px" src="./assets/icons/bitbucket.svg" alt="Bitbucket"></a>
+<a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://bitbucket.org"><img height="24px" src="./assets/icons/bitbucket.png" alt="Bitbucket"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;
 <a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://getbootstrap.com"><img height="24px" src="./assets/icons/bootstrap.svg" alt="bootstrap"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;
