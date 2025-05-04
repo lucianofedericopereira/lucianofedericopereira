@@ -14,9 +14,9 @@
 &nbsp;&nbsp;&nbsp;&nbsp;
 <a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://bitbucket.org"><img height="24px" src="./assets/icons/bitbucket.png" alt="Bitbucket"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://getbootstrap.com"><img height="24px" src="./assets/icons/bootstrap.svg" alt="bootstrap"></a>
+<a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://getbootstrap.com"><img height="24px" src="./assets/icons/bootstrap.png" alt="bootstrap"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://www.open-std.org/jtc1/sc22/wg14"><img height="24px" src="./assets/icons/c.svg" alt="c language"></a>
+<a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://www.open-std.org/jtc1/sc22/wg14"><img height="24px" src="./assets/icons/c.png" alt="c language"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;
 <a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://cakephp.org"><img height="24px" src="./assets/icons/cakephp.svg" alt="cake php"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;
