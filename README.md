@@ -8,8 +8,7 @@
 <!--
     <img height="24px" src="./assets/icons/apache.svg" alt="Apache">
 -->
-    <img height="24px" src="./assets/icons.svg#apache" alt="Apache">
-
+    <svg height="24px" alt="apache"> <use href="./assets/icons.svg#apache"></use></svg>
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;
 <a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://apple.com"><img height="24px" src="./assets/icons/apple.svg" alt="Apple"></a>
