@@ -6,17 +6,18 @@
 <p align="center">&nbsp;
 <a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://apache.org"><img height="24px" src="./assets/icons/apache.png" alt="Apache"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://apple.com"><img height="24px" src="./assets/icons/apple.png" alt="Apple"></a>
+<a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://apple.com"><img alt="Apple" height="24px" src="data:image/svg+xml;base64,CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iODE0IiBoZWlnaHQ9IjEwMDAiPgogIDxwYXRoIGZpbGw9IiM5NjkyODkiIGQ9Ik03ODguMSAzNDAuOWMtNS44IDQuNS0xMDguMiA2Mi4yLTEwOC4yIDE5MC41IDAgMTQ4LjQgMTMwLjMgMjAwLjkgMTM0LjIgMjAyLjItLjYgMy4yLTIwLjcgNzEuOS02OC43IDE0MS45LTQyLjggNjEuNi04Ny41IDEyMy4xLTE1NS41IDEyMy4xcy04NS41LTM5LjUtMTY0LTM5LjVjLTc2LjUgMC0xMDMuNyA0MC44LTE2NS45IDQwLjhzLTEwNS42LTU3LTE1NS41LTEyN0M0Ni43IDc5MC43IDAgNjYzIDAgNTQxLjhjMC0xOTQuNCAxMjYuNC0yOTcuNSAyNTAuOC0yOTcuNSA2Ni4xIDAgMTIxLjIgNDMuNCAxNjIuNyA0My40IDM5LjUgMCAxMDEuMS00NiAxNzYuMy00NiAyOC41IDAgMTMwLjkgMi42IDE5OC4zIDk5LjJ6bS0yMzQtMTgxLjVjMzEuMS0zNi45IDUzLjEtODguMSA1My4xLTEzOS4zIDAtNy4xLS42LTE0LjMtMS45LTIwLjEtNTAuNiAxLjktMTEwLjggMzMuNy0xNDcuMSA3NS44LTI4LjUgMzIuNC01NS4xIDgzLjYtNTUuMSAxMzUuNSAwIDcuOCAxLjMgMTUuNiAxLjkgMTguMSAzLjIuNiA4LjQgMS4zIDEzLjYgMS4zIDQ1LjQgMCAxMDIuNS0zMC40IDEzNS41LTcxLjN6Ii8+Cjwvc3ZnPgo="></a>
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://www.arduino.cc"><img height="24px" src="./assets/icons/arduino.png" alt="Arduino"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://www.gnu.org/software/bash"><img height="24px" src="./assets/icons/bash.png" alt="bash"></a>
+<a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://www.gnu.org/software/bash"><img height="24px" src="./assets/icons/bash.svg" alt="bash"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://bitbucket.org"><img height="24px" src="./assets/icons/bitbucket.png" alt="Bitbucket"></a>
+<a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://bitbucket.org"><img height="24px" src="./assets/icons/bitbucket.svg" alt="Bitbucket"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://getbootstrap.com"><img height="24px" src="./assets/icons/bootstrap.png" alt="bootstrap"></a>
+<a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://getbootstrap.com"><img height="24px" src="./assets/icons/bootstrap.svg" alt="bootstrap"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://www.open-std.org/jtc1/sc22/wg14"><img height="24px" src="./assets/icons/c.png" alt="c language"></a>
+<a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://www.open-std.org/jtc1/sc22/wg14"><img height="24px" src="./assets/icons/c.svg" alt="c language"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;
 <a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://cakephp.org"><img height="24px" src="./assets/icons/cakephp.svg" alt="cake php"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;
