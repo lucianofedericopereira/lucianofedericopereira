@@ -8,7 +8,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;
 <a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://apple.com"><img height="24px" src="./assets/icons/apple.svg" alt="Apple"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://www.arduino.cc"><img height="24px" src="./assets/icons/arduino.svg" alt="Arduino"></a>
+<a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://www.arduino.cc"><img height="24px" src="./assets/icons/arduino.png" alt="Arduino"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;
 <a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://www.gnu.org/software/bash"><img height="24px" src="./assets/icons/bash.svg" alt="bash"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;
