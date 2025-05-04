@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">&nbsp;
-<a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://apache.org"><img height="24px" src="./assets/icons/apache.svg" alt="Apache"></a>
+<a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://apache.org"><img height="24px" src="./assets/icons/apache.png" alt="Apache"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;
 <a rel="nofollow" target="_blank" rel="noopener" rel="noreferrer" href="https://apple.com"><img height="24px" src="./assets/icons/apple.svg" alt="Apple"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
