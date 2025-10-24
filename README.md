@@ -197,7 +197,7 @@
     </thead>
     <tbody>
     <!-- BLOG-POST-LIST:START -->
-<tr><td> Apr. 2023</td><td align="left"><a href='https://lucianofedericopereira.github.io/articles/code/email-obfuscation/'>Code › Js: Email Obsfrustration</a></td></tr>
+<tr><td> Oct. 2025</td><td align="left"><a href='https://lucianofedericopereira.github.io/articles/code/email-obfuscation/'>Code › Js: Email Obsfrustration</a></td></tr>
 <tr><td> Apr. 2023</td><td align="left"><a href='https://lucianofedericopereira.github.io/articles/design/star-rating/'>Design › CSS: Star Rating</a></td></tr><!-- BLOG-POST-LIST:END -->
     </tbody>
 </table>
