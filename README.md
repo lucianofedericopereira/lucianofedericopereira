@@ -197,6 +197,7 @@
     </thead>
     <tbody>
     <!-- BLOG-POST-LIST:START -->
+<tr><td> Nov. 2025</td><td align="left"><a href='https://lucianofedericopereira.github.io/articles/code/automating-git-repository-backups/'>Code › Bash: Automating Self-Hosting Git Repository Backups</a></td></tr>
 <tr><td> Nov. 2025</td><td align="left"><a href='https://lucianofedericopereira.github.io/articles/code/managing-bookmarks-with-linkding-and-podman/'>Code › Bash: Managing Bookmarks with Linkding and Podman</a></td></tr>
 <tr><td> Oct. 2025</td><td align="left"><a href='https://lucianofedericopereira.github.io/articles/code/email-obfuscation/'>Code › Js: Email Obsfrustration</a></td></tr>
 <tr><td> Apr. 2023</td><td align="left"><a href='https://lucianofedericopereira.github.io/articles/design/star-rating/'>Design › CSS: Star Rating</a></td></tr><!-- BLOG-POST-LIST:END -->
