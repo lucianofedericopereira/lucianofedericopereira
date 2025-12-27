@@ -16,7 +16,7 @@ env:
   USERNAME: "lucianofedericopereira"
   AUTHOR_NAMES: "Luciano Pereira, Luciano Federico Pereira, lucianofedericopereira, lucianofedericopereira@users.noreply.github.com, lucianopereira@posteo.es"
   FEED_URL: "https://lucianofedericopereira.github.io/codecraft/feed.xml"
-  FEED_TEMPLATE: $newline<tr><td> $date</td><td align="left"><a href='$url'>$title</a></td></tr>
+  FEED_TEMPLATE: "<tr><td>$date</td><td align=\"left\"><a href=\"$url\">$title</a></td></tr>"
   FEED_DATE_FORMAT: "mmm. yyyy"
 
 jobs:
@@ -63,6 +63,7 @@ jobs:
   update-readme-with-blog:
     name: Blog Update
     runs-on: ubuntu-latest
+    needs: github-stats
     steps:
       # Checkout your profile repo (root repo)
       - name: Checkout profile repo
