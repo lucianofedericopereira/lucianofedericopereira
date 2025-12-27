@@ -197,16 +197,11 @@
     </thead>
     <tbody>
     <!-- BLOG-POST-LIST:START -->
-
-<tr><td> Mon, 17 Nov 2025 00:00:00 +0000</td><td align="left"><a href='https://lucianofedericopereira.github.io/codecraftdesign/unlocking-the-xterm-color-palette/'>Design › Bash: Unlocking the Xterm Color Palette</a></td></tr>
-
-<tr><td> Mon, 10 Nov 2025 00:00:00 +0000</td><td align="left"><a href='https://lucianofedericopereira.github.io/codecraftcode/automating--git-repository-backups/'>Code › Bash: Automating Self-Hosting Git Repository Backups</a></td></tr>
-
-<tr><td> Sun, 09 Nov 2025 00:00:00 +0000</td><td align="left"><a href='https://lucianofedericopereira.github.io/codecraftcode/managing-bookmarks-with-linkding-and-podman/'>Code › Bash: Managing Bookmarks with Linkding and Podman</a></td></tr>
-
-<tr><td> Fri, 25 Oct 2024 00:00:00 +0000</td><td align="left"><a href='https://lucianofedericopereira.github.io/codecraftcode/email-obfuscation/'>Code › JavaScript Email Obfuscation with XOR Encoding</a></td></tr>
-
-<tr><td> Mon, 10 Apr 2023 00:00:00 +0000</td><td align="left"><a href='https://lucianofedericopereira.github.io/codecraftdesign/star-rating/'>Design › CSS: Star Rating</a></td></tr>
+<tr><td> </td><td align=left><a href=''></a></td></tr>
+<tr><td> </td><td align=left><a href=''></a></td></tr>
+<tr><td> </td><td align=left><a href=''></a></td></tr>
+<tr><td> </td><td align=left><a href=''></a></td></tr>
+<tr><td> </td><td align=left><a href=''></a></td></tr>
 <!-- BLOG-POST-LIST:END -->
     </tbody>
 </table>
