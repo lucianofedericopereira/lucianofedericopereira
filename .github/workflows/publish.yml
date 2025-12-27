@@ -3,36 +3,69 @@ on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
+
 permissions:
   contents: write
+
 jobs:
   github-stats:
     name: Stats Update
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          filename: assets/stats.png
-          config_display: regular
-          config_output: png
-          plugin_languages: yes
-          plugin_languages_indepth: yes
-          commits_authoring: Luciano Pereira, Luciano Federico Pereira, lucianofedericopereira, lucianofedericopereira@users.noreply.github.com, lucianopereira@posteo.es
-          extras_css: |
-            h1.field, h1 span { color: #bab7b1!important }
-            h2.field, h3.field { color: #969289!important }
-            .field svg { fill:#969289!important}
-            footer {display: none!important}
-          token: ${{ secrets.METRICS_TOKEN }}
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install -r git-metrics/requirements.txt
+
+      - name: Generate GitHub statistics
+        run: |
+          python git-metrics/generate_stats.py \
+            --token ${{ secrets.GITHUB_TOKEN }} \
+            --output assets/stats.png \
+            --format png \
+            --author-names "Luciano Pereira, Luciano Federico Pereira, lucianofedericopereira, lucianofedericopereira@users.noreply.github.com, lucianopereira@posteo.es"
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add assets/stats.png
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update GitHub stats"
+          git push
+
   update-readme-with-blog:
     name: Blog Update
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
-      - name: Pull in Jekyll posts
-        uses: gautamkrishnar/blog-post-workflow@v1
+        uses: actions/checkout@v6
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          feed_list: "https://lucianofedericopereira.github.io/articles/feed.xml"
-          template: $newline<tr><td>$date</td><td align="left"><a href='$url'>$title</a></td></tr>
-          date_format: "UTC: mmm. yyyy"
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install -r feed-to-posts/requirements.txt
+
+      - name: Pull in CodeCraft posts
+        run: |
+          python feed-to-posts/update_readme.py \
+            --feed-url "https://lucianofedericopereira.github.io/codecraft/feed.xml" \
+            --readme-path "README.md" \
+            --template '$newline<tr><td> $date</td><td align="left"><a href='"'"'$url'"'"'>$title</a></td></tr>' \
+            --date-format "mmm. yyyy"
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update blog posts"
+          git push
