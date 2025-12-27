@@ -6,20 +6,19 @@ on:
 
 permissions:
   contents: write
+  actions: read
+  id-token: write
+  pull-requests: write
+  user: read
 
 jobs:
   github-stats:
     name: Stats Update
     runs-on: ubuntu-latest
     steps:
-      # Checkout your profile repo
-      - name: Checkout profile repo
+      - name: Checkout
         uses: actions/checkout@v6
-
-      # Checkout git-metrics repo into ./git-metrics
-      - name: Checkout git-metrics
-        uses: actions/checkout@v6
-        with:
+        with: 
           repository: lucianofedericopereira/git-metrics
           path: git-metrics
 
@@ -51,16 +50,8 @@ jobs:
     name: Blog Update
     runs-on: ubuntu-latest
     steps:
-      # Checkout your profile repo
-      - name: Checkout profile repo
+      - name: Checkout
         uses: actions/checkout@v6
-
-      # Checkout feed-to-posts repo into ./feed-to-posts
-      - name: Checkout feed-to-posts
-        uses: actions/checkout@v6
-        with:
-          repository: lucianofedericopereira/feed-to-posts
-          path: feed-to-posts
 
       - name: Setup Python
         uses: actions/setup-python@v5
