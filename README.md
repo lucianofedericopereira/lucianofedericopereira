@@ -197,11 +197,11 @@
     </thead>
     <tbody>
     <!-- BLOG-POST-LIST:START -->
-<tr><td> </td><td align=left><a href=''></a></td></tr>
-<tr><td> </td><td align=left><a href=''></a></td></tr>
-<tr><td> </td><td align=left><a href=''></a></td></tr>
-<tr><td> </td><td align=left><a href=''></a></td></tr>
-<tr><td> </td><td align=left><a href=''></a></td></tr>
+<tr><td></td><td align=left><a href=></a></td></tr>
+<tr><td></td><td align=left><a href=></a></td></tr>
+<tr><td></td><td align=left><a href=></a></td></tr>
+<tr><td></td><td align=left><a href=></a></td></tr>
+<tr><td></td><td align=left><a href=></a></td></tr>
 <!-- BLOG-POST-LIST:END -->
     </tbody>
 </table>
