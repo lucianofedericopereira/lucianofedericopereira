@@ -197,11 +197,11 @@
     </thead>
     <tbody>
     <!-- BLOG-POST-LIST:START -->
-<tr><td>Nov. 2025</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraftdesign/unlocking-the-xterm-color-palette/">Design › Bash: Unlocking the Xterm Color Palette</a></td></tr>
-<tr><td>Nov. 2025</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraftcode/automating--git-repository-backups/">Code › Bash: Automating Self-Hosting Git Repository Backups</a></td></tr>
-<tr><td>Nov. 2025</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraftcode/managing-bookmarks-with-linkding-and-podman/">Code › Bash: Managing Bookmarks with Linkding and Podman</a></td></tr>
-<tr><td>Oct. 2024</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraftcode/email-obfuscation/">Code › JavaScript Email Obfuscation with XOR Encoding</a></td></tr>
-<tr><td>Apr. 2023</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraftdesign/star-rating/">Design › CSS: Star Rating</a></td></tr>
+<tr><td>Nov. 2025</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/design/unlocking-the-xterm-color-palette/">Design › Bash: Unlocking the Xterm Color Palette</a></td></tr>
+<tr><td>Nov. 2025</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/code/automating--git-repository-backups/">Code › Bash: Automating Self-Hosting Git Repository Backups</a></td></tr>
+<tr><td>Nov. 2025</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/code/managing-bookmarks-with-linkding-and-podman/">Code › Bash: Managing Bookmarks with Linkding and Podman</a></td></tr>
+<tr><td>Oct. 2024</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/code/email-obfuscation/">Code › JavaScript Email Obfuscation with XOR Encoding</a></td></tr>
+<tr><td>Apr. 2023</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/design/star-rating/">Design › CSS: Star Rating</a></td></tr>
 <!-- BLOG-POST-LIST:END -->
     </tbody>
 </table>
