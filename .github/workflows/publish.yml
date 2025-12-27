@@ -92,10 +92,10 @@ jobs:
       - name: Pull in CodeCraft posts
         run: |
           python feed-to-posts/update_readme.py \
-            --feed-url "${{ env.FEED_URL }}" \
-            --readme-path "README.md" \
-            --template "${{ env.FEED_TEMPLATE }}" \
-            --date-format "${{ env.FEED_DATE_FORMAT }}"
+            --feed-url '${{ env.FEED_URL }}' \
+            --readme-path 'README.md' \
+            --template '${{ env.FEED_TEMPLATE }}' \
+            --date-format '${{ env.FEED_DATE_FORMAT }}'
 
       - name: Commit changes
         run: |
