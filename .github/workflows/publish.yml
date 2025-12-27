@@ -1,4 +1,5 @@
 name: Publish
+
 on:
   schedule:
     - cron: "0 0 * * *"
@@ -9,23 +10,33 @@ permissions:
   actions: read
   id-token: write
   pull-requests: write
-  user: read
+
+env:
+  PYTHON_VERSION: "3.x"
+  USERNAME: "lucianofedericopereira"
+  AUTHOR_NAMES: "Luciano Pereira, Luciano Federico Pereira, lucianofedericopereira, lucianofedericopereira@users.noreply.github.com, lucianopereira@posteo.es"
+  FEED_URL: "https://lucianofedericopereira.github.io/codecraft/feed.xml"
+  FEED_TEMPLATE: '$newline<tr><td> $date</td><td align="left"><a href='"'"'$url'"'"'>$title</a></td></tr>'
+  FEED_DATE_FORMAT: "mmm. yyyy"
 
 jobs:
   github-stats:
     name: Stats Update
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout profile repo
         uses: actions/checkout@v6
-        with: 
+
+      - name: Checkout git-metrics
+        uses: actions/checkout@v6
+        with:
           repository: lucianofedericopereira/git-metrics
           path: git-metrics
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: ${{ env.PYTHON_VERSION }}
 
       - name: Install dependencies
         run: pip install -r git-metrics/requirements.txt
@@ -34,9 +45,10 @@ jobs:
         run: |
           python git-metrics/generate_stats.py \
             --token ${{ secrets.GITHUB_TOKEN }} \
+            --username ${{ env.USERNAME }} \
             --output assets/stats.png \
             --format png \
-            --author-names "Luciano Pereira, Luciano Federico Pereira, lucianofedericopereira, lucianofedericopereira@users.noreply.github.com, lucianopereira@posteo.es"
+            --author-names "${{ env.AUTHOR_NAMES }}"
 
       - name: Commit changes
         run: |
@@ -50,13 +62,19 @@ jobs:
     name: Blog Update
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout profile repo
         uses: actions/checkout@v6
+
+      - name: Checkout feed-to-posts
+        uses: actions/checkout@v6
+        with:
+          repository: lucianofedericopereira/feed-to-posts
+          path: feed-to-posts
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: ${{ env.PYTHON_VERSION }}
 
       - name: Install dependencies
         run: pip install -r feed-to-posts/requirements.txt
@@ -64,10 +82,10 @@ jobs:
       - name: Pull in CodeCraft posts
         run: |
           python feed-to-posts/update_readme.py \
-            --feed-url "https://lucianofedericopereira.github.io/codecraft/feed.xml" \
+            --feed-url "${{ env.FEED_URL }}" \
             --readme-path "README.md" \
-            --template '$newline<tr><td> $date</td><td align="left"><a href='"'"'$url'"'"'>$title</a></td></tr>' \
-            --date-format "mmm. yyyy"
+            --template "${{ env.FEED_TEMPLATE }}" \
+            --date-format "${{ env.FEED_DATE_FORMAT }}"
 
       - name: Commit changes
         run: |
