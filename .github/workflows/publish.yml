@@ -56,8 +56,9 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+          git pull origin main
           git add assets/stats.png
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update GitHub stats" && git pull --rebase origin main && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update GitHub stats" && git push)
 
   update-readme-with-blog:
     name: Blog Update
@@ -102,4 +103,4 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add README.md
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update blog posts" && git pull --rebase origin main && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update blog posts" && git push)
