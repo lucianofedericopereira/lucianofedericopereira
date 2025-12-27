@@ -68,6 +68,12 @@ jobs:
       # Checkout your profile repo (root repo)
       - name: Checkout profile repo
         uses: actions/checkout@v6
+        with:
+          ref: main
+
+      # Pull latest changes from the stats job
+      - name: Pull latest changes
+        run: git pull origin main
 
       # Checkout feed-to-posts into a subfolder
       - name: Checkout feed-to-posts
