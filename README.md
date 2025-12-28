@@ -11,9 +11,14 @@
 
 <h3>Currently using a diverse stack spanning applications, data, automation, and modern AI tooling:</h3>
 
+| <img src="./assets/icons/php.svg" height="24"> | PHP, Composer |
+|---|---|
 
-<img height="24px" src="./assets/icons/php.svg" alt="php" style="vertical-align: middle;">
-PHP, Composer
+
+<p>
+  <img src="./assets/icons/php.svg" height="24" style="vertical-align: middle; display: inline-block;">
+  <span style="display: inline-block; vertical-align: middle;">PHP, Composer</span>
+</p>
 
 
 JavaScript (ES6+)
