@@ -11,6 +11,9 @@
 
 <h3>Currently using a diverse stack spanning applications, data, automation, and modern AI tooling:</h3>
 
+
+<!--
+
 <p>
 <img src="./assets/icons/php.svg" height="24">
 </p>
@@ -55,7 +58,7 @@ Vue.js, Vite
 
 AI‑Problem Solving
 
-
+-->
 
 <!-- 
 
