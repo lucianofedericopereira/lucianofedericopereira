@@ -9,28 +9,28 @@
 
 <h3>Currently using a diverse stack spanning applications, data, automation, and modern AI tooling:</h3>
 <p>
-<img src="./assets/badges/typescript.svg">
-&nbsp;<img src="./assets/badges/php-composer.svg">
-&nbsp;<img src="./assets/badges/react.svg">
-&nbsp;<img src="./assets/badges/node.svg">
-&nbsp;<img src="./assets/badges/laravel.svg">
-&nbsp;<img src="./assets/badges/vue.svg">
-&nbsp;<img src="./assets/badges/mongodb.svg">
+<img src="./assets/badges/ai.svg">
+&nbsp;<img src="./assets/badges/api.svg">
+&nbsp;<img src="./assets/badges/html.svg">
+&nbsp;<img src="./assets/badges/agile.svg">
 <br>
-<img src="./assets/badges/python.svg">
-&nbsp;<img src="./assets/badges/docker.svg">
+<img src="./assets/badges/team.svg">
+&nbsp;<img src="./assets/badges/mysql.svg">
 &nbsp;<img src="./assets/badges/git.svg">
-&nbsp;<img src="./assets/badges/github.svg">
+&nbsp;<img src="./assets/badges/php-composer.svg">
+<br>
+<img src="./assets/badges/docker.svg">
 &nbsp;<img src="./assets/badges/tailwind.svg">
+&nbsp;<img src="./assets/badges/github.svg">
+&nbsp;<img src="./assets/badges/python.svg">
 &nbsp;<img src="./assets/badges/postgre.svg">
 <br>
-<img src="./assets/badges/api.svg">
-&nbsp;<img src="./assets/badges/html.svg">
-&nbsp;<img src="./assets/badges/mysql.svg">
-&nbsp;<img src="./assets/badges/agile.svg">
-&nbsp;<img src="./assets/badges/team.svg">
-<br>
-<img src="./assets/badges/ai.svg">
+<img src="./assets/badges/typescript.svg">
+&nbsp;<img src="./assets/badges/vue.svg">
+&nbsp;<img src="./assets/badges/mongodb.svg">
+&nbsp;<img src="./assets/badges/node.svg">
+&nbsp;<img src="./assets/badges/laravel.svg">
+&nbsp;<img src="./assets/badges/react.svg">
 </p>
 
 
