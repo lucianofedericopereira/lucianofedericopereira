@@ -35,7 +35,7 @@
 </p>
 <br>
 <hr>
-<h3 align="center">Last Articles</h3>
+<h3 align="center">Recent Writing</h3>
 <hr>
 <div align="center">
 <table width="90%">
