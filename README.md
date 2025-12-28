@@ -11,20 +11,8 @@
 
 <h3>Currently using a diverse stack spanning applications, data, automation, and modern AI tooling:</h3>
 
-<p align="center">
-<img src="./assets/icons/php.svg" height="40"> &nbsp; PHP, Composer
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./assets/icons/js.svg" height="40"> &nbsp; JavaScript (ES6+)
-</p>
-<!--
-| <img src="./assets/icons/js.svg" height="24"> | JavaScript (ES6+) |
-| <img src="./assets/icons/python.svg" height="24"> | Python, Pandas |
-
-<p>
-<img src="./assets/icons/php.svg" height="24">
-</p>
-
-
+<img src="./assets/badges/php-composer.svg" height="48px">
+<!-- 
 
 
 
@@ -64,9 +52,7 @@ Vue.js, Vite
 
 AI‑Problem Solving
 
--->
 
-<!-- 
 
 <p align="center">&nbsp;
 <a rel="nofollow noopener noreferrer" target="_blank" href="https://apache.org"><img height="24px" src="./assets/icons/apache.png" alt="Apache"></a>
