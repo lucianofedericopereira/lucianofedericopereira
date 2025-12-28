@@ -35,7 +35,8 @@
 </p>
 <br>
 <hr>
-<h2 align="center">Last Articles</h2>
+<h3 align="center">Last Articles</h3>
+<hr>
 <div align="center">
 <table width="90%">
     <thead width="90%">
