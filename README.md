@@ -1,5 +1,5 @@
 <p align="center">
- <img src="./assets/signature.svg" width="280px" alt="Luciano Pereira Signature"><br>
+ <img src="./assets/signature.svg" width="320px" alt="Luciano Pereira Signature"><br>
  <img src="./assets/lucianopereira.svg" alt="Luciano Pereira">
 </p>
 <h2 align="center">Creating clean, scalable, and maintainable solutions<br>across the full development lifecycle.</h2>
@@ -12,13 +12,13 @@
 <p align="center">
 <img src="./assets/badges/ai.svg">
 &nbsp;&nbsp;&nbsp;<img src="./assets/badges/api.svg">
-&nbsp;&nbsp;&nbsp;<img src="./assets/badges/html.svg">
+&nbsp;&nbsp;&nbsp;<img src="./assets/badges/html.svg" alt="HTML5, Components">
 &nbsp;&nbsp;&nbsp;<img src="./assets/badges/vue.svg">
 <br><br>
 <img src="./assets/badges/team.svg">
-&nbsp;&nbsp;&nbsp;<img src="./assets/badges/mysql.svg">
+&nbsp;&nbsp;&nbsp;<img src="./assets/badges/mysql.svg" alt="MySQL, ORM, Eloquent">
 &nbsp;&nbsp;&nbsp;<img src="./assets/badges/git.svg">
-&nbsp;&nbsp;&nbsp;<img src="./assets/badges/php-composer.svg">
+&nbsp;&nbsp;&nbsp;<img src="./assets/badges/php-composer.svg" alt="PHP, Composer">
 <br><br>
 <img src="./assets/badges/docker.svg">
 &nbsp;&nbsp;&nbsp;<img src="./assets/badges/tailwind.svg">
@@ -26,9 +26,9 @@
 &nbsp;&nbsp;&nbsp;<img src="./assets/badges/python.svg">
 &nbsp;&nbsp;&nbsp;<img src="./assets/badges/typescript.svg">
 <br><br>
-<img src="./assets/badges/postgre.svg">
+<img src="./assets/badges/postgre.svg" alt="PostgreSQL">
 &nbsp;&nbsp;&nbsp;<img src="./assets/badges/agile.svg">
-&nbsp;&nbsp;&nbsp;<img src="./assets/badges/mongodb.svg">
+&nbsp;&nbsp;&nbsp;<img src="./assets/badges/mongodb.svg" alt="MongoDB">
 &nbsp;&nbsp;&nbsp;<img src="./assets/badges/node.svg">
 &nbsp;&nbsp;&nbsp;<img src="./assets/badges/laravel.svg">
 &nbsp;&nbsp;&nbsp;<img src="./assets/badges/react.svg">
