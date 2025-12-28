@@ -2,15 +2,13 @@
  <img src="./assets/signature.svg" width="280px" alt="Luciano Pereira Signature"><br>
  <img src="./assets/lucianopereira.svg" alt="Luciano Pereira">
 </p>
+<h2 align="center">Creating clean, scalable, and maintainable solutions across the full development lifecycle.</h2>
 
 <div align="center">
 <img src="./assets/stats.png" alt="GitHub Metrics">
 </div>
 
-<h2 align="center">Creating clean, scalable, and maintainable solutions across the engineering lifecycle.</h2>
-
 <h3>Currently using a diverse stack spanning applications, data, automation, and modern AI tooling:</h3>
-
 <p>
 <img src="./assets/badges/php-composer.svg">
 &nbsp;<img src="./assets/badges/typescript.svg">
