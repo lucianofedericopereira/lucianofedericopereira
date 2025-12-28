@@ -11,10 +11,14 @@
 
 <h3>Currently using a diverse stack spanning applications, data, automation, and modern AI tooling:</h3>
 
-<h6>
-<img src="./assets/icons/php.svg" height="96">
+<table>
+<tr>
+<td>
+<img src="./assets/icons/php.svg" height="32">
  PHP, Composer 
-</h6>
+</td>
+</tr>
+</table>
 
 
 <!--
