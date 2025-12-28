@@ -7,8 +7,54 @@
 <img src="./assets/stats.png" alt="GitHub Metrics">
 </div>
 
-<h2 align="center" style="color:#bab7b1">Actively building efficient, minimal, and future‑proof solutions across backend, frontend, and DevOps.</h2>
+<h2 align="center">Creating clean, scalable, and maintainable solutions across the engineering lifecycle.</h2>
 
+<h3>Currently using a diverse stack spanning applications, data, automation, and modern AI tooling:</h3>
+
+
+PHP, Composer
+
+JavaScript (ES6+)
+
+typescript
+
+API Restful design
+
+Laravel, Blade
+
+Node.js
+
+React.js
+
+Team & Peer Programming
+
+MySQL, ORM, Eloquent
+
+PostgreSQL
+
+MongoDB
+
+Agile, Scrum, Kanban 
+
+Python, Pandas
+
+git, CLI, Scripting
+
+Docker, Podman
+
+CI/CD|GitHub Actions
+
+HTML5, Components
+
+CSS3, Tailwind
+
+Vue.js, Vite
+
+AI‑Problem Solving
+
+
+
+<!-- 
 
 <p align="center">&nbsp;
 <a rel="nofollow noopener noreferrer" target="_blank" href="https://apache.org"><img height="24px" src="./assets/icons/apache.png" alt="Apache"></a>
@@ -189,7 +235,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;
 <a rel="nofollow noopener noreferrer" target="_blank" href="https://framework.zend.com"><img height="24px" src="./assets/icons/zend.svg" alt="zend"></a>
 </p>
-
+-->
 
 
 
