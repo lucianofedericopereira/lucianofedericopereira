@@ -13,10 +13,7 @@
 
 <table>
 <tr>
-<td valign="middle">
-<img src="./assets/icons/php.svg" height="32">
- PHP, Composer 
-</td>
+<td valign="middle"><img src="./assets/icons/php.svg" height="24"> PHP, Composer</td>
 </tr>
 </table>
 
