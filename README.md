@@ -12,7 +12,7 @@
 <h3>Currently using a diverse stack spanning applications, data, automation, and modern AI tooling:</h3>
 
 
-PHP, Composer
+<img height="24px" src="./assets/icons/php.svg" alt="php">PHP,Composer
 
 JavaScript (ES6+)
 
