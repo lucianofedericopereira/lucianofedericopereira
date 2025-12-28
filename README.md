@@ -15,11 +15,17 @@
 <img src="./assets/badges/php-composer.svg">
 &nbsp;
 <img src="./assets/badges/typescript.svg">
+<!--API Restful design-->
 &nbsp;
 <img src="./assets/badges/laravel.svg">
+&nbsp;
+<img src="./assets/badges/node.svg">
+
+
 </p>
 
-<!--API Restful design-->
+
+
 
 <!-- 
 -->
@@ -33,7 +39,6 @@
 
 
 
-Laravel, Blade
 
 Node.js
 
