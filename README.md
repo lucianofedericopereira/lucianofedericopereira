@@ -9,7 +9,7 @@
 
 
 <div align="center">
-<table>
+<table style="width: 90%;">
     <thead>
         <tr><th colspan="2">Articles</th></tr>
         <tr><th>Date</th><th>Title</th></tr>
