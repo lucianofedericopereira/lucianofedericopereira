@@ -3,9 +3,8 @@
  <img src="./assets/lucianopereira.svg" alt="Luciano Pereira">
 </p>
 <h2 align="center">Creating clean, scalable, and maintainable solutions across the full development lifecycle.</h2>
-
 <div align="center">
-<img src="./assets/stats.png" alt="GitHub Metrics">
+    <img src="./assets/stats.png" alt="GitHub Metrics">
 </div>
 
 <h3>Currently using a diverse stack spanning applications, data, automation, and modern AI tooling:</h3>
