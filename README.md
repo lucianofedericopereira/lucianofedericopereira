@@ -13,18 +13,18 @@
 &nbsp;<img src="./assets/badges/api.svg">
 &nbsp;<img src="./assets/badges/html.svg">
 &nbsp;<img src="./assets/badges/vue.svg">
-<br>
+<br><br>
 <img src="./assets/badges/team.svg">
 &nbsp;<img src="./assets/badges/mysql.svg">
 &nbsp;<img src="./assets/badges/git.svg">
 &nbsp;<img src="./assets/badges/php-composer.svg">
-<br>
+<br><br>
 <img src="./assets/badges/docker.svg">
 &nbsp;<img src="./assets/badges/tailwind.svg">
 &nbsp;<img src="./assets/badges/github.svg">
 &nbsp;<img src="./assets/badges/python.svg">
 &nbsp;<img src="./assets/badges/postgre.svg">
-<br>
+<br><br>
 <img src="./assets/badges/typescript.svg">
 &nbsp;<img src="./assets/badges/agile.svg">
 &nbsp;<img src="./assets/badges/mongodb.svg">
