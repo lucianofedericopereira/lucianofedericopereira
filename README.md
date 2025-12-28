@@ -9,10 +9,12 @@
 
 <h3>Currently using a diverse stack spanning applications, data, automation, and modern AI tooling:</h3>
 <p>
+<span align="center">
 <img src="./assets/badges/ai.svg">
 &nbsp;<img src="./assets/badges/api.svg">
 &nbsp;<img src="./assets/badges/html.svg">
 &nbsp;<img src="./assets/badges/vue.svg">
+</span>
 <br>
 <img src="./assets/badges/team.svg">
 &nbsp;<img src="./assets/badges/mysql.svg">
