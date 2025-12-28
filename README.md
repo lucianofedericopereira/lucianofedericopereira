@@ -13,69 +13,30 @@
 
 <p>
 <img src="./assets/badges/php-composer.svg">
-&nbsp;
-<img src="./assets/badges/typescript.svg">
-<!--API Restful design-->
-&nbsp;
-<img src="./assets/badges/laravel.svg">
-&nbsp;
-<img src="./assets/badges/node.svg">
-&nbsp;
-<img src="./assets/badges/react.svg">
-
-<!--
-
-Team & Peer Programming
-
-MySQL, ORM, Eloquent
-
-PostgreSQL
-
--->
-<img src="./assets/badges/mongodb.svg">
-
-
-
+&nbsp;<img src="./assets/badges/typescript.svg">
+&nbsp;<img src="./assets/badges/api.svg">
+&nbsp;<img src="./assets/badges/laravel.svg">
+&nbsp;<img src="./assets/badges/node.svg">
+&nbsp;<img src="./assets/badges/react.svg">
+&nbsp;<img src="./assets/badges/team.svg">
+&nbsp;<img src="./assets/badges/mysql.svg">
+&nbsp;<img src="./assets/badges/postgre.svg">
+&nbsp;<img src="./assets/badges/mongodb.svg">
+&nbsp;<img src="./assets/badges/agile.svg">
+&nbsp;<img src="./assets/badges/python.svg">
+&nbsp;<img src="./assets/badges/git.svg">
+&nbsp;<img src="./assets/badges/docker.svg">
+&nbsp;<img src="./assets/badges/github.svg">
+&nbsp;<img src="./assets/badges/html.svg">
+&nbsp;<img src="./assets/badges/tailwind.svg">
+&nbsp;<img src="./assets/badges/vue.svg">
+&nbsp;<img src="./assets/badges/ai.svg">
 </p>
 
 
 
 
 
-
-
-<!-- 
-
-
-
-
-
-
-
-
-
-
-
-
-Agile, Scrum, Kanban 
-
-Python, Pandas
-
-git, CLI, Scripting
-
-Docker, Podman
-
-CI/CD|GitHub Actions
-
-HTML5, Components
-
-CSS3, Tailwind
-
-Vue.js, Vite
-
-AI‑Problem Solving
-
--->
 
 
 <div align="center">

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="124" height="20">
+        <title> Docker, Podman</title>
+        <defs>
+            <linearGradient id="s" x2="0" y2="100%">
+                <stop offset="0" stop-color="#bbbbbb" stop-opacity=".1"/>
+                <stop offset="1" stop-opacity=".1"/>
+            </linearGradient>
+            <clipPath id="r">
+                <rect width="124" height="20" rx="3" fill="#ffffff"/>
+            </clipPath>
+        </defs>
+        <g clip-path="url(#r)">
+            <rect width="23" height="20" fill="#2496ED"/>
+            <rect width="101" height="20" fill="#444" x="23"/>
+            <rect width="124" height="20" fill="url(#s)"/>
+        </g>
+        <image x="4" y="3" height="14" width="14" xlink:href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgICAgICAgICAgIDxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0xMy45ODMgMTEuMDc4aDIuMTE5YS4xODYuMTg2IDAgMDAuMTg2LS4xODVWOS4wMDZhLjE4Ni4xODYgMCAwMC0uMTg2LS4xODZoLTIuMTE5YS4xODUuMTg1IDAgMDAtLjE4NS4xODV2MS44ODhjMCAuMTAyLjA4My4xODUuMTg1LjE4NW0tMi45NTQtNS40M2gyLjExOGEuMTg2LjE4NiAwIDAwLjE4Ni0uMTg2VjMuNTc0YS4xODYuMTg2IDAgMDAtLjE4Ni0uMTg1aC0yLjExOGEuMTg1LjE4NSAwIDAwLS4xODUuMTg1djEuODg4YzAgLjEwMi4wODIuMTg1LjE4NS4xODVtMCAyLjcxNmgyLjExOGEuMTg3LjE4NyAwIDAwLjE4Ni0uMTg2VjYuMjlhLjE4Ni4xODYgMCAwMC0uMTg2LS4xODVoLTIuMTE4YS4xODUuMTg1IDAgMDAtLjE4NS4xODV2MS44ODdjMCAuMTAyLjA4Mi4xODUuMTg1LjE4Nm0tMi45MyAwaDIuMTJhLjE4Ni4xODYgMCAwMC4xODQtLjE4NlY2LjI5YS4xODUuMTg1IDAgMDAtLjE4NS0uMTg1SDguMWEuMTg1LjE4NSAwIDAwLS4xODUuMTg1djEuODg3YzAgLjEwMi4wODMuMTg1LjE4NS4xODZtLTIuOTY0IDBoMi4xMTlhLjE4Ni4xODYgMCAwMC4xODUtLjE4NlY2LjI5YS4xODUuMTg1IDAgMDAtLjE4NS0uMTg1SDUuMTM2YS4xODYuMTg2IDAgMDAtLjE4Ni4xODV2MS44ODdjMCAuMTAyLjA4NC4xODUuMTg2LjE4Nm01Ljg5MyAyLjcxNWgyLjExOGEuMTg2LjE4NiAwIDAwLjE4Ni0uMTg1VjkuMDA2YS4xODYuMTg2IDAgMDAtLjE4Ni0uMTg2aC0yLjExOGEuMTg1LjE4NSAwIDAwLS4xODUuMTg1djEuODg4YzAgLjEwMi4wODIuMTg1LjE4NS4xODVtLTIuOTMgMGgyLjEyYS4xODUuMTg1IDAgMDAuMTg0LS4xODVWOS4wMDZhLjE4NS4xODUgMCAwMC0uMTg0LS4xODZoLTIuMTJhLjE4NS4xODUgMCAwMC0uMTg0LjE4NXYxLjg4OGMwIC4xMDIuMDgzLjE4NS4xODUuMTg1bS0yLjk2NCAwaDIuMTE5YS4xODUuMTg1IDAgMDAuMTg1LS4xODVWOS4wMDZhLjE4NS4xODUgMCAwMC0uMTg0LS4xODZoLTIuMTJhLjE4Ni4xODYgMCAwMC0uMTg2LjE4NnYxLjg4N2MwIC4xMDIuMDg0LjE4NS4xODYuMTg1bS0yLjkyIDBoMi4xMmEuMTg1LjE4NSAwIDAwLjE4NC0uMTg1VjkuMDA2YS4xODUuMTg1IDAgMDAtLjE4NC0uMTg2aC0yLjEyYS4xODUuMTg1IDAgMDAtLjE4NC4xODV2MS44ODhjMCAuMTAyLjA4Mi4xODUuMTg1LjE4NU0yMy43NjMgOS44OWMtLjA2NS0uMDUxLS42NzItLjUxLTEuOTU0LS41MS0uMzM4LjAwMS0uNjc2LjAzLTEuMDEuMDg3LS4yNDgtMS43LTEuNjUzLTIuNTMtMS43MTYtMi41NjZsLS4zNDQtLjE5OS0uMjI2LjMyN2MtLjI4NC40MzgtLjQ5LjkyMi0uNjEyIDEuNDMtLjIzLjk3LS4wOSAxLjg4Mi40MDMgMi42NjEtLjU5NS4zMzItMS41NS40MTMtMS43NDQuNDJILjc1MWEuNzUxLjc1MSAwIDAwLS43NS43NDggMTEuMzc2IDExLjM3NiAwIDAwLjY5MiA0LjA2MmMuNTQ1IDEuNDI4IDEuMzU1IDIuNDggMi40MSAzLjEyNCAxLjE4LjcyMyAzLjEgMS4xMzcgNS4yNzUgMS4xMzcuOTgzLjAwMyAxLjk2My0uMDg2IDIuOTMtLjI2NmExMi4yNDggMTIuMjQ4IDAgMDAzLjgyMy0xLjM4OWMuOTgtLjU2NyAxLjg2LTEuMjg4IDIuNjEtMi4xMzYgMS4yNTItMS40MTggMS45OTgtMi45OTcgMi41NTMtNC40aC4yMjFjMS4zNzIgMCAyLjIxNS0uNTQ5IDIuNjgtMS4wMDkuMzA5LS4yOTMuNTUtLjY1LjcwNy0xLjA0NmwuMDk4LS4yODhaIi8+CiAgICAgICAgICAgIDwvc3ZnPg=="/>
+        <g fill="#ffffff" text-anchor="middle" font-family="Verdana,sans-serif" font-size="11">
+            <text x="18" y="15" fill="#010101" textLength="0" fill-opacity=".3"/>
+            <text x="18" y="14" fill="#ffffff" textLength="0"/>
+            <text x="73.5" y="15" fill="#010101" textLength="91" fill-opacity=".3">Docker, Podman</text>
+            <text x="73.5" y="14" fill="#ffffff" textLength="91">Docker, Podman</text>
+        </g>
+    </svg>
