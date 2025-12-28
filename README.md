@@ -13,8 +13,8 @@
 
 <table>
 <tr>
-<td valign="middle"><img src="./assets/icons/php.svg" width="22" height="22"> <h6>PHP, Composer</h6></td>
-<td valign="middle"><img src="./assets/icons/js.svg" width="22" height="22"> <h6>JavaScript (ES6+)</h6></td>
+<td valign="middle"><img src="./assets/icons/php.svg" width="22" height="22"> PHP, Composer</td>
+<td valign="middle"><img src="./assets/icons/js.svg" width="22" height="22"> JavaScript (ES6+)</td>
 </tr>
 </table>
 
