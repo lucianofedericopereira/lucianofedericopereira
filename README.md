@@ -11,16 +11,11 @@
 
 <h3>Currently using a diverse stack spanning applications, data, automation, and modern AI tooling:</h3>
 
-<table>
-<tr>
-<td align="center">
-<img src="./assets/icons/php.svg" height="48px"><br> PHP, Composer
-</td>
-<td align="center">
-<img src="./assets/icons/js.svg" height="48px"><br> JavaScript (ES6+)
-</td>
-</tr>
-</table>
+<p align="center">
+<img src="./assets/icons/php.svg" height="40"> &nbsp; PHP, Composer
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./assets/icons/js.svg" height="40"> &nbsp; JavaScript (ES6+)
+</p>
 <!--
 | <img src="./assets/icons/js.svg" height="24"> | JavaScript (ES6+) |
 | <img src="./assets/icons/python.svg" height="24"> | Python, Pandas |
