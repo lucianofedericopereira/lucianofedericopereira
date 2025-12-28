@@ -34,6 +34,7 @@
 &nbsp;&nbsp;&nbsp;<img src="./assets/badges/react.svg">
 </p>
 <br>
+<h2>Last Articles</h2>
 <div align="center">
 <table width="90%">
     <thead width="90%">
