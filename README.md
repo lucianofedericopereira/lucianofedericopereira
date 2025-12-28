@@ -24,9 +24,9 @@
 &nbsp;&nbsp;&nbsp;<img src="./assets/badges/tailwind.svg">
 &nbsp;&nbsp;&nbsp;<img src="./assets/badges/github.svg">
 &nbsp;&nbsp;&nbsp;<img src="./assets/badges/python.svg">
-&nbsp;&nbsp;&nbsp;<img src="./assets/badges/postgre.svg">
+&nbsp;&nbsp;&nbsp;<img src="./assets/badges/typescript.svg">
 <br><br>
-<img src="./assets/badges/typescript.svg">
+<img src="./assets/badges/postgre.svg">
 &nbsp;&nbsp;&nbsp;<img src="./assets/badges/agile.svg">
 &nbsp;&nbsp;&nbsp;<img src="./assets/badges/mongodb.svg">
 &nbsp;&nbsp;&nbsp;<img src="./assets/badges/node.svg">
