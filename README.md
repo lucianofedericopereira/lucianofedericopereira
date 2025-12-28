@@ -7,7 +7,7 @@
 <img src="./assets/stats.png" alt="GitHub Metrics">
 </div>
 
-<h3 align="center">Actively building efficient, minimal, and future‑proof solutions across backend, frontend, and DevOps.</h3>
+<h2 align="center" style="color:#bab7b1">Actively building efficient, minimal, and future‑proof solutions across backend, frontend, and DevOps.</h2>
 
 
 <p align="center">&nbsp;
