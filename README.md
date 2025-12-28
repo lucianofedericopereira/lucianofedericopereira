@@ -12,7 +12,7 @@
 <h3>Currently using a diverse stack spanning applications, data, automation, and modern AI tooling:</h3>
 
 <p>
-<img src="./assets/icons/php.svg" height="auto"> PHP, Composer
+<img src="./assets/icons/php.svg" height="auto"><br/> PHP, Composer
 </p>
 
 <!--
