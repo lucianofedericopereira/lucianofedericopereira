@@ -11,12 +11,9 @@
 
 <h3>Currently using a diverse stack spanning applications, data, automation, and modern AI tooling:</h3>
 
-<table>
-<tr>
-<td valign="middle"><img src="./assets/icons/php.svg" height="24"> PHP, Composer</td>
-</tr>
-</table>
-
+<p>
+<img src="./assets/icons/php.svg" height="auto"> PHP, Composer
+</p>
 
 <!--
 | <img src="./assets/icons/js.svg" height="24"> | JavaScript (ES6+) |
