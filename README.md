@@ -11,6 +11,7 @@
 
 <h3>Currently using a diverse stack spanning applications, data, automation, and modern AI tooling:</h3>
 
+|------|--------|
 | <img src="./assets/icons/php.svg" height="24"> | PHP, Composer |
 | <img src="./assets/icons/js.svg" height="24"> | JavaScript (ES6+) |
 | <img src="./assets/icons/python.svg" height="24"> | Python, Pandas |
