@@ -10,7 +10,7 @@
 
 <div align="center">
 <table width="90%">
-    <thead>
+    <thead width="90%">
         <tr><th colspan="2">Articles</th></tr>
         <tr><th>Date</th><th>Title</th></tr>
     </thead>
