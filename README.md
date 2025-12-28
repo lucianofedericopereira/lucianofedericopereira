@@ -20,29 +20,10 @@
 <img src="./assets/badges/laravel.svg">
 &nbsp;
 <img src="./assets/badges/node.svg">
+&nbsp;
+<img src="./assets/badges/react.svg">
 
-
-</p>
-
-
-
-
-<!-- 
--->
-
-
-
-<!-- 
-
-
-
-
-
-
-
-Node.js
-
-React.js
+<!--
 
 Team & Peer Programming
 
@@ -50,7 +31,31 @@ MySQL, ORM, Eloquent
 
 PostgreSQL
 
-MongoDB
+-->
+<img src="./assets/badges/mongodb.svg">
+
+
+
+</p>
+
+
+
+
+
+
+
+<!-- 
+
+
+
+
+
+
+
+
+
+
+
 
 Agile, Scrum, Kanban 
 
