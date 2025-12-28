@@ -14,14 +14,11 @@
 <table>
 <tr>
 <td align="center">
-<img src="./assets/icons/php.svg" height="48px"><br> PHP, Composer
+<img src="./assets/icons/php.svg" width="48px"><br> PHP, Composer
 </td>
-
-
 <td align="center">
-<img src="./assets/icons/js.svg" height="48px"><br> JavaScript (ES6+)
+<img src="./assets/icons/js.svg" width="48px"><br> JavaScript (ES6+)
 </td>
-
 </tr>
 </table>
 <!--
