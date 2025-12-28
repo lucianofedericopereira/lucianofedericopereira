@@ -11,7 +11,7 @@
 
 <h3>Currently using a diverse stack spanning applications, data, automation, and modern AI tooling:</h3>
 
-| <img src="./assets/icons/php.svg" height="16" align="center"> PHP, Composer | <img src="./assets/icons/js.svg" height="16" align="center"> JavaScript (ES6+) |
+| <img src="./assets/icons/php.svg" height="22"> &nbsp;PHP, Composer | <img src="./assets/icons/js.svg" height="22"> &nbsp;JavaScript (ES6+) |
 |---|---|
 
 
