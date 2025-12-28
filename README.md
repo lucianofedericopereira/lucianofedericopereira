@@ -16,7 +16,7 @@
 
 
 <p>
-  <img src="./assets/icons/php.svg" height="34">
+  <img src="./assets/icons/php.svg" height="42">
   <span style="display: inline-block; vertical-align: middle;">PHP, Composer</span>
 </p>
 
