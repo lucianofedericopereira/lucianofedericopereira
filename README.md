@@ -7,6 +7,9 @@
 <img src="./assets/stats.png" alt="GitHub Metrics">
 </div>
 
+<h3 align="center">Actively building efficient, minimal, and future‑proof solutions across backend, frontend, and DevOps.</h3>
+
+
 <p align="center">&nbsp;
 <a rel="nofollow noopener noreferrer" target="_blank" href="https://apache.org"><img height="24px" src="./assets/icons/apache.png" alt="Apache"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;
