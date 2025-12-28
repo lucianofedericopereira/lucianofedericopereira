@@ -7,7 +7,7 @@
     <img src="./assets/stats.png" alt="GitHub Metrics">
 </div>
 
-<h3>Currently using a diverse stack spanning applications, data, automation, and modern AI tooling:</h3>
+<h3 align="center">Currently using a diverse stack spanning applications, data, automation, and modern AI tooling:</h3>
 <p align="center">
 <img src="./assets/badges/ai.svg">
 &nbsp;&nbsp;<img src="./assets/badges/api.svg">
