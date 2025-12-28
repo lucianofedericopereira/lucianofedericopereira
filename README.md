@@ -33,9 +33,7 @@
 &nbsp;&nbsp;&nbsp;<img src="./assets/badges/laravel.svg">
 &nbsp;&nbsp;&nbsp;<img src="./assets/badges/react.svg">
 </p>
-
-
-
+<br>
 <div align="center">
 <table width="90%">
     <thead width="90%">
