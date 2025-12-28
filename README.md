@@ -11,7 +11,9 @@
 
 <h3>Currently using a diverse stack spanning applications, data, automation, and modern AI tooling:</h3>
 
-<img src="./assets/badges/php-composer.svg" height="72px">
+<img src="./assets/badges/php-composer.svg">
+<img src="./assets/badges/typescript.svg">
+
 <!-- 
 
 
