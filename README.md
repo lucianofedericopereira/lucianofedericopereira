@@ -1,12 +1,17 @@
 <p align="center">
- <img src="./assets/signature.svg" width="320px" alt="Luciano Pereira Signature"><br>
- <img src="./assets/lucianopereira.svg" alt="Luciano Pereira">
+    <picture>
+        <img src="./assets/signature.svg" width="320px" alt="Luciano Pereira Signature"><br>
+    </picture>
+    <picture>
+        <img src="./assets/lucianopereira.svg" alt="Luciano Pereira">
+    </picture>
 </p>
 <h2 align="center">Creating clean, scalable, and maintainable solutions<br>across the full development lifecycle.</h2>
 <div align="center">
-    <img src="./assets/stats.png" alt="GitHub Metrics">
+    <picture>
+        <img src="./assets/stats.png" alt="GitHub Metrics">
+    </picture>
 </div>
-
 <h3 align="center">Currently using a diverse stack spanning applications, data, automation, and modern AI tooling:</h3>
 <br>
 <p align="center">
