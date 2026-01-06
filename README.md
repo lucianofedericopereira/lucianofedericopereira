@@ -83,16 +83,16 @@
     <!-- Row 6: Agile + HTML + React (152 + 140 + 64 = 356px + spacing ≈ 363px) -->
     <br><br>
     <picture>
+        <img src="./assets/badges/react.svg" alt="React">
+    </picture>
+    &nbsp;&thinsp;
+    <picture>
         <img src="./assets/badges/agile.svg" alt="Agile, Scrum, Kanban">
     </picture>
     &nbsp;&thinsp;
     <picture>
         <img src="./assets/badges/html.svg" alt="HTML5, Components">
-    </picture>
-    &nbsp;&thinsp;
-    <picture>
-        <img src="./assets/badges/react.svg" alt="React">
-    </picture>
+    </picture>        
     <!-- Row 7: Tailwind (116px) -->
     <br><br>
     <picture>
