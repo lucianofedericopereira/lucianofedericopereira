@@ -36,64 +36,64 @@
         <img src="./assets/badges/vue.svg" alt="Vue.js, Vite">
     </picture>
     <picture>
-            <img src="./assets/badges/team.svg" alt="Team | Pear Programming">
-        </picture>
-        &nbsp;&nbsp;&nbsp;
-        <picture>
+        <img src="./assets/badges/team.svg" alt="Team | Pear Programming">
+    </picture>
+    &nbsp;&nbsp;&nbsp;
+    <picture>
         <img src="./assets/badges/mysql.svg" alt="MySQL, ORM, Eloquent">
-        </picture>
-        &nbsp;&nbsp;&nbsp;
-        <picture>
+    </picture>
+    &nbsp;&nbsp;&nbsp;
+    <picture>
         <img src="./assets/badges/git.svg" alt="Git (cli, scripting)">
-        </picture>
-        &nbsp;&nbsp;&nbsp;
-        <picture>
+    </picture>
+    &nbsp;&nbsp;&nbsp;
+    <picture>
         <img src="./assets/badges/php-composer.svg" alt="PHP, Composer">
-        </picture>
-        <br><br>
-        <picture>
+    </picture>
+    <br><br>
+    <picture>
         <img src="./assets/badges/docker.svg" alt="Docker, Podman">
-        </picture>
-        &nbsp;&nbsp;&nbsp;
-        <picture>
+    </picture>
+    &nbsp;&nbsp;&nbsp;
+    <picture>
         <img src="./assets/badges/tailwind.svg" alt="CSS3, Tailwind 4">
-        </picture>
-        &nbsp;&nbsp;&nbsp;
-        <picture>
+    </picture>
+    &nbsp;&nbsp;&nbsp;
+    <picture>
         <img src="./assets/badges/github.svg" alt="GitHub CI/CD Actions">
-        </picture>
-        &nbsp;&nbsp;&nbsp;
-        <picture>
+    </picture>
+    &nbsp;&nbsp;&nbsp;
+    <picture>
         <img src="./assets/badges/python.svg" alt="Python, Pandas, Numpy, Geopandas">
-        </picture>
-        &nbsp;&nbsp;&nbsp;
-        <picture>
+    </picture>
+    &nbsp;&nbsp;&nbsp;
+    <picture>
         <img src="./assets/badges/typescript.svg" alt="typescript">
-        </picture>
-        <br><br>
-        <picture>
+    </picture>
+    <br><br>
+    <picture>
         <img src="./assets/badges/postgre.svg" alt="PostgreSQL">
-        </picture>
-        &nbsp;&nbsp;&nbsp;
-        <picture>
+    </picture>
+    &nbsp;&nbsp;&nbsp;
+    <picture>
         <img src="./assets/badges/agile.svg" alt="Agile, Scrum, Kanban">
-        </picture>
-        &nbsp;&nbsp;&nbsp;
-        <picture>
+    </picture>
+    &nbsp;&nbsp;&nbsp;
+    <picture>
         <img src="./assets/badges/mongodb.svg" alt="MongoDB">
-        </picture>
-        &nbsp;&nbsp;&nbsp;
-        <picture>
+    </picture>
+    &nbsp;&nbsp;&nbsp;
+    <picture>
         <img src="./assets/badges/node.svg" alt="Node.js">
-        </picture>
-        &nbsp;&nbsp;&nbsp;
-        <picture>
+    </picture>
+    &nbsp;&nbsp;&nbsp;
+    <picture>
         <img src="./assets/badges/laravel.svg" alt="Laravel">
-        </picture>
-        &nbsp;&nbsp;&nbsp;
-        <picture>
+    </picture>
+    &nbsp;&nbsp;&nbsp;
+    <picture>
         <img src="./assets/badges/react.svg" alt="React">
-        </picture>
+    </picture>
 </p>
 <br>
 <hr>
