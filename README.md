@@ -35,11 +35,9 @@
     <picture>
         <img src="./assets/badges/ai.svg" alt="Agents: AI Solution Orchestation">
     </picture>
-    &nbsp;&thinsp;
     <picture>
         <img src="./assets/badges/mongodb.svg" alt="MongoDB">
     </picture>
-    &nbsp;&thinsp;
     <picture>
         <img src="./assets/badges/laravel.svg" alt="Laravel">
     </picture>
@@ -48,9 +46,11 @@
     <picture>
         <img src="./assets/badges/php-composer.svg" alt="PHP, Composer">
     </picture>
+    &nbsp;&thinsp;
     <picture>
         <img src="./assets/badges/github.svg" alt="GitHub CI/CD Actions">
     </picture>
+    &nbsp;&thinsp;
     <picture>
         <img src="./assets/badges/python.svg" alt="Python, Pandas, Numpy, Geopandas">
     </picture>
