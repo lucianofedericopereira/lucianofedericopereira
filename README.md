@@ -46,11 +46,11 @@
     <picture>
         <img src="./assets/badges/php-composer.svg" alt="PHP, Composer">
     </picture>
-    &nbsp;&thinsp;
+    &thinsp;
     <picture>
         <img src="./assets/badges/github.svg" alt="GitHub CI/CD Actions">
     </picture>
-    &nbsp;&thinsp;
+    &thinsp;
     <picture>
         <img src="./assets/badges/python.svg" alt="Python, Pandas, Numpy, Geopandas">
     </picture>
