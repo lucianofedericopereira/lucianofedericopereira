@@ -24,9 +24,11 @@
     <picture>
         <img src="./assets/badges/api.svg" alt="API Restful design">
     </picture>
+    &thinsp;
     <picture>
         <img src="./assets/badges/docker.svg" alt="Docker, Podman">
     </picture>
+    &thinsp;
     <picture>
         <img src="./assets/badges/postgre.svg" alt="PostgreSQL">
     </picture>
@@ -39,7 +41,7 @@
     <picture>
         <img src="./assets/badges/mongodb.svg" alt="MongoDB">
     </picture>
-    &nbsp;
+    &nbsp;&thinsp;
     <picture>
         <img src="./assets/badges/laravel.svg" alt="Laravel">
     </picture>
