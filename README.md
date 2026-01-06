@@ -2,6 +2,7 @@
     <picture>
         <img src="./assets/signature.svg" width="320px" alt="Luciano Pereira Signature"><br>
     </picture>
+    <br>
     <picture>
         <img src="./assets/lucianopereira.svg" alt="Luciano Pereira">
     </picture>
