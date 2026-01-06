@@ -19,30 +19,78 @@
     <picture>
         <img src="./assets/badges/ai.svg" alt="Agents: AI Solution Orchestation">
     </picture>
-&nbsp;&nbsp;&nbsp;
-<img src="./assets/badges/api.svg">
-&nbsp;&nbsp;&nbsp;
-<img src="./assets/badges/html.svg" alt="HTML5, Components">
-&nbsp;&nbsp;&nbsp;
-<img src="./assets/badges/vue.svg">
-<br><br>
-<img src="./assets/badges/team.svg">
-&nbsp;&nbsp;&nbsp;<img src="./assets/badges/mysql.svg" alt="MySQL, ORM, Eloquent">
-&nbsp;&nbsp;&nbsp;<img src="./assets/badges/git.svg">
-&nbsp;&nbsp;&nbsp;<img src="./assets/badges/php-composer.svg" alt="PHP, Composer">
-<br><br>
-<img src="./assets/badges/docker.svg">
-&nbsp;&nbsp;&nbsp;<img src="./assets/badges/tailwind.svg">
-&nbsp;&nbsp;&nbsp;<img src="./assets/badges/github.svg">
-&nbsp;&nbsp;&nbsp;<img src="./assets/badges/python.svg">
-&nbsp;&nbsp;&nbsp;<img src="./assets/badges/typescript.svg">
-<br><br>
-<img src="./assets/badges/postgre.svg" alt="PostgreSQL">
-&nbsp;&nbsp;&nbsp;<img src="./assets/badges/agile.svg">
-&nbsp;&nbsp;&nbsp;<img src="./assets/badges/mongodb.svg" alt="MongoDB">
-&nbsp;&nbsp;&nbsp;<img src="./assets/badges/node.svg">
-&nbsp;&nbsp;&nbsp;<img src="./assets/badges/laravel.svg">
-&nbsp;&nbsp;&nbsp;<img src="./assets/badges/react.svg">
+    &nbsp;&nbsp;&nbsp;
+    <picture>
+        <img src="./assets/badges/api.svg">
+    </picture>
+    &nbsp;&nbsp;&nbsp;
+    <picture>
+        <img src="./assets/badges/html.svg" alt="HTML5, Components">
+    </picture>
+    &nbsp;&nbsp;&nbsp;
+    <picture>
+        <img src="./assets/badges/vue.svg">
+    </picture>
+    <br><br>
+        <picture>
+            <img src="./assets/badges/team.svg">
+        </picture>
+        &nbsp;&nbsp;&nbsp;
+        <picture>
+        <img src="./assets/badges/mysql.svg" alt="MySQL, ORM, Eloquent">
+        </picture>
+        &nbsp;&nbsp;&nbsp;
+        <picture>
+        <img src="./assets/badges/git.svg">
+        </picture>
+        &nbsp;&nbsp;&nbsp;
+        <picture>
+        <img src="./assets/badges/php-composer.svg" alt="PHP, Composer">
+        </picture>
+        <br><br>
+        <picture>
+        <img src="./assets/badges/docker.svg">
+        </picture>
+        &nbsp;&nbsp;&nbsp;
+        <picture>
+        <img src="./assets/badges/tailwind.svg">
+        </picture>
+        &nbsp;&nbsp;&nbsp;
+        <picture>
+        <img src="./assets/badges/github.svg">
+        </picture>
+        &nbsp;&nbsp;&nbsp;
+        <picture>
+        <img src="./assets/badges/python.svg">
+        </picture>
+        &nbsp;&nbsp;&nbsp;
+        <picture>
+        <img src="./assets/badges/typescript.svg">
+        </picture>
+        <br><br>
+        <picture>
+        <img src="./assets/badges/postgre.svg" alt="PostgreSQL">
+        </picture>
+        &nbsp;&nbsp;&nbsp;
+        <picture>
+        <img src="./assets/badges/agile.svg">
+        </picture>
+        &nbsp;&nbsp;&nbsp;
+        <picture>
+        <img src="./assets/badges/mongodb.svg" alt="MongoDB">
+        </picture>
+        &nbsp;&nbsp;&nbsp;
+        <picture>
+        <img src="./assets/badges/node.svg">
+        </picture>
+        &nbsp;&nbsp;&nbsp;
+        <picture>
+        <img src="./assets/badges/laravel.svg">
+        </picture>
+        &nbsp;&nbsp;&nbsp;
+        <picture>
+        <img src="./assets/badges/react.svg">
+        </picture>
 </p>
 <br>
 <hr>
@@ -65,12 +113,25 @@
     </tbody>
 </table>
 </div>
-
-
 <p align="center">
-    <br><img src="./assets/contact.svg" alt="contact"><br>
-    <a href="mailto:lucianopereira@posteo.es?subject=I%20saw%20your%20GitHub%20Profilee&body=Hi,%20Luciano%20"><img height="26px" src="./assets/mail.svg" alt="mail"></a>
-    <br><a rel="nofollow noopener noreferrer" href="https://www.linkedin.com/in/lucianofedericopereira"><img height="26px" src="./assets/linkedin.svg" alt="LinkedIn"></a>
-    <br><a rel="nofollow noopener noreferrer" href="https://www.linkedin.com/in/lucianofedericopereira"><img height="26px" src="./assets/resume.svg" alt="LinkedIn"></a>
-    <br><a rel="nofollow noopener noreferrer" href="https://bit.ly/lucianofedericopereira"><img height="26px" src="./assets/whatsapp.svg" alt="whatsapp"></a>
+    <br>
+    <picture>
+    <img src="./assets/contact.svg" alt="contact">
+    </picture>
+    <br>
+    <a href="mailto:lucianopereira@posteo.es?subject=I%20saw%20your%20GitHub%20Profilee&body=Hi,%20Luciano%20">
+        <img height="26px" src="./assets/mail.svg" alt="mail">
+    </a>
+    <br>
+    <a rel="nofollow noopener noreferrer" href="https://www.linkedin.com/in/lucianofedericopereira">
+        <img height="26px" src="./assets/linkedin.svg" alt="LinkedIn">
+    </a>
+    <br>
+    <a rel="nofollow noopener noreferrer" href="https://www.linkedin.com/in/lucianofedericopereira">
+        <img height="26px" src="./assets/resume.svg" alt="LinkedIn">
+    </a>
+    <br>
+    <a rel="nofollow noopener noreferrer" href="https://bit.ly/lucianofedericopereira">
+        <img height="26px" src="./assets/whatsapp.svg" alt="whatsapp">
+    </a>
 </p>
