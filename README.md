@@ -70,16 +70,16 @@
     <!-- Row 5: Team + Vue + Node (179 + 97 + 75 = 351px + spacing ≈ 363px) -->
     <br><br>
     <picture>
-        <img src="./assets/badges/team.svg" alt="Team | Pear Programming">
+        <img src="./assets/badges/node.svg" alt="Node.js">
     </picture>
     &nbsp;&nbsp;
+    <picture>
+        <img src="./assets/badges/team.svg" alt="Team | Pear Programming">
+    </picture>
     <picture>
         <img src="./assets/badges/vue.svg" alt="Vue.js, Vite">
     </picture>
     &nbsp;&nbsp;
-    <picture>
-        <img src="./assets/badges/node.svg" alt="Node.js">
-    </picture>
     <!-- Row 6: Agile + HTML + React (152 + 140 + 64 = 356px + spacing ≈ 363px) -->
     <br><br>
     <picture>
