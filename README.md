@@ -76,10 +76,10 @@
     <picture>
         <img src="./assets/badges/team.svg" alt="Team | Pear Programming">
     </picture>
+    &nbsp;&nbsp;
     <picture>
         <img src="./assets/badges/vue.svg" alt="Vue.js, Vite">
     </picture>
-    &nbsp;&nbsp;
     <!-- Row 6: Agile + HTML + React (152 + 140 + 64 = 356px + spacing ≈ 363px) -->
     <br><br>
     <picture>
