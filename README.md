@@ -10,10 +10,15 @@
 <h3 align="center">Currently using a diverse stack spanning applications, data, automation, and modern AI tooling:</h3>
 <br>
 <p align="center">
-<img src="./assets/badges/ai.svg">
-&nbsp;&nbsp;&nbsp;<img src="./assets/badges/api.svg">
-&nbsp;&nbsp;&nbsp;<img src="./assets/badges/html.svg" alt="HTML5, Components">
-&nbsp;&nbsp;&nbsp;<img src="./assets/badges/vue.svg">
+    <picture>
+        <img src="./assets/badges/ai.svg" alt="Agents: AI Solution Orchestation">
+    </picture>
+&nbsp;&nbsp;&nbsp;
+<img src="./assets/badges/api.svg">
+&nbsp;&nbsp;&nbsp;
+<img src="./assets/badges/html.svg" alt="HTML5, Components">
+&nbsp;&nbsp;&nbsp;
+<img src="./assets/badges/vue.svg">
 <br><br>
 <img src="./assets/badges/team.svg">
 &nbsp;&nbsp;&nbsp;<img src="./assets/badges/mysql.svg" alt="MySQL, ORM, Eloquent">
