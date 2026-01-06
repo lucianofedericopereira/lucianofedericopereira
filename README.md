@@ -35,9 +35,11 @@
     <picture>
         <img src="./assets/badges/ai.svg" alt="Agents: AI Solution Orchestation">
     </picture>
+    &thinsp;
     <picture>
         <img src="./assets/badges/mongodb.svg" alt="MongoDB">
     </picture>
+    &thinsp;    
     <picture>
         <img src="./assets/badges/laravel.svg" alt="Laravel">
     </picture>
