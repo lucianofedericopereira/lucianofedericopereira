@@ -17,7 +17,7 @@
         <img src="./assets/stats.png" alt="GitHub Metrics">
     </picture>
 </div>
-<h3 align="center">Currently using a diverse stack spanning applications, data, automation, and modern AI tooling:</h3>
+<h3 align="center">Currently using a diverse stack spanning applications, <br>data, automation, and modern AI tooling:</h3>
 <br>
 <p align="center">
     <!-- Row 1: API + Docker + PostgreSQL (142 + 124 + 97 = 363px) -->
