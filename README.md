@@ -20,80 +20,79 @@
 <h3 align="center">Currently using a diverse stack spanning applications, data, automation, and modern AI tooling:</h3>
 <br>
 <p align="center">
-    <picture>
-        <img src="./assets/badges/ai.svg" alt="Agents: AI Solution Orchestation">
-    </picture>
-    &nbsp;&nbsp;&nbsp;
+    <!-- Row 1: API + Docker + PostgreSQL (142 + 124 + 97 = 363px) -->
     <picture>
         <img src="./assets/badges/api.svg" alt="API Restful design">
     </picture>
-    &nbsp;&nbsp;&nbsp;
-    <picture>
-        <img src="./assets/badges/html.svg" alt="HTML5, Components">
-    </picture>
-    &nbsp;&nbsp;&nbsp;
-    <picture>
-        <img src="./assets/badges/vue.svg" alt="Vue.js, Vite">
-    </picture>
-    <br><br>
-    <picture>
-        <img src="./assets/badges/team.svg" alt="Team | Pear Programming">
-    </picture>
-    &nbsp;&nbsp;&nbsp;
-    <picture>
-        <img src="./assets/badges/mysql.svg" alt="MySQL, ORM, Eloquent">
-    </picture>
-    &nbsp;&nbsp;&nbsp;
-    <picture>
-        <img src="./assets/badges/git.svg" alt="Git (cli, scripting)">
-    </picture>
-    &nbsp;&nbsp;&nbsp;
-    <picture>
-        <img src="./assets/badges/php-composer.svg" alt="PHP, Composer">
-    </picture>
-    <br><br>
     <picture>
         <img src="./assets/badges/docker.svg" alt="Docker, Podman">
     </picture>
-    &nbsp;&nbsp;&nbsp;
-    <picture>
-        <img src="./assets/badges/tailwind.svg" alt="CSS3, Tailwind 4">
-    </picture>
-    &nbsp;&nbsp;&nbsp;
-    <picture>
-        <img src="./assets/badges/github.svg" alt="GitHub CI/CD Actions">
-    </picture>
-    &nbsp;&nbsp;&nbsp;
-    <picture>
-        <img src="./assets/badges/python.svg" alt="Python, Pandas, Numpy, Geopandas">
-    </picture>
-    &nbsp;&nbsp;&nbsp;
-    <picture>
-        <img src="./assets/badges/typescript.svg" alt="typescript">
-    </picture>
-    <br><br>
     <picture>
         <img src="./assets/badges/postgre.svg" alt="PostgreSQL">
     </picture>
-    &nbsp;&nbsp;&nbsp;
+    <!-- Row 2: AI + MongoDB + Laravel (198 + 85 + 73 = 356px + spacing ≈ 363px) -->
+    <br><br>
     <picture>
-        <img src="./assets/badges/agile.svg" alt="Agile, Scrum, Kanban">
+        <img src="./assets/badges/ai.svg" alt="Agents: AI Solution Orchestation">
     </picture>
-    &nbsp;&nbsp;&nbsp;
+    &nbsp;&thinsp;
     <picture>
         <img src="./assets/badges/mongodb.svg" alt="MongoDB">
     </picture>
-    &nbsp;&nbsp;&nbsp;
-    <picture>
-        <img src="./assets/badges/node.svg" alt="Node.js">
-    </picture>
-    &nbsp;&nbsp;&nbsp;
+    &nbsp;&thinsp;
     <picture>
         <img src="./assets/badges/laravel.svg" alt="Laravel">
     </picture>
-    &nbsp;&nbsp;&nbsp;
+    <!-- Row 3: PHP + GitHub + Python (126 + 119 + 118 = 363px) -->
+    <picture>
+        <img src="./assets/badges/php-composer.svg" alt="PHP, Composer">
+    </picture>
+    <picture>
+        <img src="./assets/badges/github.svg" alt="GitHub CI/CD Actions">
+    </picture>
+    <picture>
+        <img src="./assets/badges/python.svg" alt="Python, Pandas, Numpy, Geopandas">
+    </picture>
+    <!-- Row 4: MySQL + Git + TypeScript (148 + 127 + 87 = 362px + spacing ≈ 363px) -->
+    <picture>
+        <img src="./assets/badges/mysql.svg" alt="MySQL, ORM, Eloquent">
+    </picture>
+    &thinsp;
+    <picture>
+        <img src="./assets/badges/git.svg" alt="Git (cli, scripting)">
+    </picture>
+    &thinsp;
+    <picture>
+        <img src="./assets/badges/typescript.svg" alt="typescript">
+    </picture>
+    <!-- Row 5: Team + Vue + Node (179 + 97 + 75 = 351px + spacing ≈ 363px) -->
+    <picture>
+        <img src="./assets/badges/team.svg" alt="Team | Pear Programming">
+    </picture>
+    &nbsp;&nbsp;
+    <picture>
+        <img src="./assets/badges/vue.svg" alt="Vue.js, Vite">
+    </picture>
+    &nbsp;&nbsp;
+    <picture>
+        <img src="./assets/badges/node.svg" alt="Node.js">
+    </picture>
+    <!-- Row 6: Agile + HTML + React (152 + 140 + 64 = 356px + spacing ≈ 363px) -->
+    <picture>
+        <img src="./assets/badges/agile.svg" alt="Agile, Scrum, Kanban">
+    </picture>
+    &nbsp;&thinsp;
+    <picture>
+        <img src="./assets/badges/html.svg" alt="HTML5, Components">
+    </picture>
+    &nbsp;&thinsp;
     <picture>
         <img src="./assets/badges/react.svg" alt="React">
+    </picture>
+    <!-- Row 7: Tailwind (116px) -->
+    <br><br>
+    <picture>
+        <img src="./assets/badges/tailwind.svg" alt="CSS3, Tailwind 4">
     </picture>
 </p>
 <br>
