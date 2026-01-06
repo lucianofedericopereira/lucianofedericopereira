@@ -35,8 +35,7 @@
     <picture>
         <img src="./assets/badges/vue.svg" alt="Vue.js, Vite">
     </picture>
-
-        <picture>
+    <picture>
             <img src="./assets/badges/team.svg" alt="Team | Pear Programming">
         </picture>
         &nbsp;&nbsp;&nbsp;
