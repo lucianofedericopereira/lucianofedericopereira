@@ -44,6 +44,7 @@
         <img src="./assets/badges/laravel.svg" alt="Laravel">
     </picture>
     <!-- Row 3: PHP + GitHub + Python (126 + 119 + 118 = 363px) -->
+    <br><br>
     <picture>
         <img src="./assets/badges/php-composer.svg" alt="PHP, Composer">
     </picture>
@@ -54,6 +55,7 @@
         <img src="./assets/badges/python.svg" alt="Python, Pandas, Numpy, Geopandas">
     </picture>
     <!-- Row 4: MySQL + Git + TypeScript (148 + 127 + 87 = 362px + spacing ≈ 363px) -->
+    <br><br>
     <picture>
         <img src="./assets/badges/mysql.svg" alt="MySQL, ORM, Eloquent">
     </picture>
@@ -66,6 +68,7 @@
         <img src="./assets/badges/typescript.svg" alt="typescript">
     </picture>
     <!-- Row 5: Team + Vue + Node (179 + 97 + 75 = 351px + spacing ≈ 363px) -->
+    <br><br>
     <picture>
         <img src="./assets/badges/team.svg" alt="Team | Pear Programming">
     </picture>
@@ -78,6 +81,7 @@
         <img src="./assets/badges/node.svg" alt="Node.js">
     </picture>
     <!-- Row 6: Agile + HTML + React (152 + 140 + 64 = 356px + spacing ≈ 363px) -->
+    <br><br>
     <picture>
         <img src="./assets/badges/agile.svg" alt="Agile, Scrum, Kanban">
     </picture>
