@@ -31,12 +31,12 @@
     <picture>
         <img src="./assets/badges/postgre.svg" alt="PostgreSQL">
     </picture>
-    <!-- Row 2 -->
-    <br><br>
+    &thinsp;
     <picture>
         <img src="./assets/badges/ai.svg" alt="Agents: AI Solution Orchestation">
     </picture>
-    &thinsp;
+    <!-- Row 2 -->
+    <br>
     <picture>
         <img src="./assets/badges/mongodb.svg" alt="MongoDB">
     </picture>
@@ -44,8 +44,7 @@
     <picture>
         <img src="./assets/badges/laravel.svg" alt="Laravel">
     </picture>
-    <!-- Row 3 -->
-    <br><br>
+    &thinsp;
     <picture>
         <img src="./assets/badges/php-composer.svg" alt="PHP, Composer">
     </picture>
@@ -53,12 +52,12 @@
     <picture>
         <img src="./assets/badges/github.svg" alt="GitHub CI/CD Actions">
     </picture>
-    &thinsp;
+    <!-- Row 3 -->
+    <br>
     <picture>
         <img src="./assets/badges/python.svg" alt="Python, Pandas, Numpy, Geopandas">
     </picture>
-    <!-- Row 4 -->
-    <br><br>
+    &thinsp;
     <picture>
         <img src="./assets/badges/mysql.svg" alt="MySQL, ORM, Eloquent">
     </picture>
@@ -70,8 +69,8 @@
     <picture>
         <img src="./assets/badges/typescript.svg" alt="typescript">
     </picture>
-    <!-- Row 5 -->
-    <br><br>
+    <!-- Row 4 -->
+    <br>
     <picture>
         <img src="./assets/badges/node.svg" alt="Node.js">
     </picture>
@@ -83,12 +82,12 @@
     <picture>
         <img src="./assets/badges/vue.svg" alt="Vue.js, Vite">
     </picture>
-    <!-- Row 6 -->
-    <br><br>
+    &thinsp;
     <picture>
         <img src="./assets/badges/react.svg" alt="React">
     </picture>
-    &thinsp;
+    <!-- Row 5 -->
+    <br>
     <picture>
         <img src="./assets/badges/agile.svg" alt="Agile, Scrum, Kanban">
     </picture>
@@ -96,8 +95,7 @@
     <picture>
         <img src="./assets/badges/html.svg" alt="HTML5, Components">
     </picture>        
-    <!-- Row 7 -->
-    <br><br>
+    &thinsp;
     <picture>
         <img src="./assets/badges/tailwind.svg" alt="CSS3, Tailwind 4">
     </picture>
