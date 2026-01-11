@@ -1,24 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="97" height="20">
-        <title> Vue.js, Vite</title>
-        <defs>
-            <linearGradient id="s" x2="0" y2="100%">
-                <stop offset="0" stop-color="#bbbbbb" stop-opacity=".1"/>
-                <stop offset="1" stop-opacity=".1"/>
-            </linearGradient>
-            <clipPath id="r">
-                <rect width="97" height="20" rx="3" fill="#ffffff"/>
-            </clipPath>
-        </defs>
-        <g clip-path="url(#r)">
-            <rect width="23" height="20" fill="#4FC08D"/>
-            <rect width="74" height="20" fill="#444" x="23"/>
-            <rect width="97" height="20" fill="url(#s)"/>
-        </g>
-        <image x="4" y="3" height="14" width="14" xlink:href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgICAgICAgICAgIDxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0yNCwxLjYxSDE0LjA2TDEyLDUuMTYsOS45NCwxLjYxSDBMMTIsMjIuMzlaTTEyLDE0LjA4LDUuMTYsMi4yM0g5LjU5TDEyLDYuNDFsMi40MS00LjE4aDQuNDNaIi8+CiAgICAgICAgICAgIDwvc3ZnPg=="/>
-        <g fill="#ffffff" text-anchor="middle" font-family="Verdana,sans-serif" font-size="11">
-            <text x="18" y="15" fill="#010101" textLength="0" fill-opacity=".3"/>
-            <text x="18" y="14" fill="#ffffff" textLength="0"/>
-            <text x="60" y="15" fill="#010101" textLength="64" fill-opacity=".3">Vue.js, Vite</text>
-            <text x="60" y="14" fill="#ffffff" textLength="64">Vue.js, Vite</text>
-        </g>
-    </svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="28" viewBox="0 0 140 28">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#42B883"/>
+      <stop offset="100%" stop-color="#33A06F"/>
+    </linearGradient>
+  </defs>
+  <rect width="140" height="28" rx="6" fill="url(#bg)"/>
+  <g transform="translate(6, 5)">
+    <path fill="#35495E" d="M14.4 0H9L9 0 4.5 0H0l9 16 9-16h-3.6z"/>
+    <path fill="#fff" d="M9 9.6L5.4 3.2h3l.6 1 .6-1h3L9 9.6z"/>
+  </g>
+  <text x="52" y="18.5" fill="#fff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">Vue.js</text>
+</svg>

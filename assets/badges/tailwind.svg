@@ -1,24 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="116" height="20">
-        <title> CSS3, Tailwind</title>
-        <defs>
-            <linearGradient id="s" x2="0" y2="100%">
-                <stop offset="0" stop-color="#bbbbbb" stop-opacity=".1"/>
-                <stop offset="1" stop-opacity=".1"/>
-            </linearGradient>
-            <clipPath id="r">
-                <rect width="116" height="20" rx="3" fill="#ffffff"/>
-            </clipPath>
-        </defs>
-        <g clip-path="url(#r)">
-            <rect width="23" height="20" fill="#06B6D4"/>
-            <rect width="93" height="20" fill="#444" x="23"/>
-            <rect width="116" height="20" fill="url(#s)"/>
-        </g>
-        <image x="4" y="3" height="14" width="14" xlink:href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgICAgICAgICAgIDxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0xMi4wMDEsNC44Yy0zLjIsMC01LjIsMS42LTYsNC44YzEuMi0xLjYsMi42LTIuMiw0LjItMS44YzAuOTEzLDAuMjI4LDEuNTY1LDAuODksMi4yODgsMS42MjQgQzEzLjY2NiwxMC42MTgsMTUuMDI3LDEyLDE4LjAwMSwxMmMzLjIsMCw1LjItMS42LDYtNC44Yy0xLjIsMS42LTIuNiwyLjItNC4yLDEuOGMtMC45MTMtMC4yMjgtMS41NjUtMC44OS0yLjI4OC0xLjYyNCBDMTYuMzM3LDYuMTgyLDE0Ljk3Niw0LjgsMTIuMDAxLDQuOHogTTYuMDAxLDEyYy0zLjIsMC01LjIsMS42LTYsNC44YzEuMi0xLjYsMi42LTIuMiw0LjItMS44YzAuOTEzLDAuMjI4LDEuNTY1LDAuODksMi4yODgsMS42MjQgYzEuMTc3LDEuMTk0LDIuNTM4LDIuNTc2LDUuNTEyLDIuNTc2YzMuMiwwLDUuMi0xLjYsNi00LjhjLTEuMiwxLjYtMi42LDIuMi00LjIsMS44Yy0wLjkxMy0wLjIyOC0xLjU2NS0wLjg5LTIuMjg4LTEuNjI0IEMxMC4zMzcsMTMuMzgyLDguOTc2LDEyLDYuMDAxLDEyeiIvPgogICAgICAgICAgICA8L3N2Zz4="/>
-        <g fill="#ffffff" text-anchor="middle" font-family="Verdana,sans-serif" font-size="11">
-            <text x="18" y="15" fill="#010101" textLength="0" fill-opacity=".3"/>
-            <text x="18" y="14" fill="#ffffff" textLength="0"/>
-            <text x="69.5" y="15" fill="#010101" textLength="83" fill-opacity=".3">CSS3, Tailwind</text>
-            <text x="69.5" y="14" fill="#ffffff" textLength="83">CSS3, Tailwind</text>
-        </g>
-    </svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="28" viewBox="0 0 140 28">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#0891B2"/>
+    </linearGradient>
+  </defs>
+  <rect width="140" height="28" rx="6" fill="url(#bg)"/>
+  <g transform="translate(8, 8)">
+    <path fill="#fff" d="M9 0C6.6 0 5.1 1.2 4.5 3.6c.9-1.2 2-1.65 3.15-1.35.66.17 1.13.66 1.65 1.22C10.13 4.35 11.12 5.4 13.5 5.4c2.4 0 3.9-1.2 4.5-3.6-.9 1.2-2 1.65-3.15 1.35-.66-.17-1.13-.66-1.65-1.22C12.37 1.05 11.38 0 9 0zM4.5 5.4C2.1 5.4.6 6.6 0 9c.9-1.2 2-1.65 3.15-1.35.66.17 1.13.66 1.65 1.22.83.88 1.82 1.93 4.2 1.93 2.4 0 3.9-1.2 4.5-3.6-.9 1.2-2 1.65-3.15 1.35-.66-.17-1.13-.66-1.65-1.22C7.87 6.45 6.88 5.4 4.5 5.4z"/>
+  </g>
+  <text x="52" y="18.5" fill="#fff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">Tailwind</text>
+</svg>

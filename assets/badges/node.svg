@@ -1,24 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75" height="20">
-        <title> Node.js</title>
-        <defs>
-            <linearGradient id="s" x2="0" y2="100%">
-                <stop offset="0" stop-color="#bbbbbb" stop-opacity=".1"/>
-                <stop offset="1" stop-opacity=".1"/>
-            </linearGradient>
-            <clipPath id="r">
-                <rect width="75" height="20" rx="3" fill="#ffffff"/>
-            </clipPath>
-        </defs>
-        <g clip-path="url(#r)">
-            <rect width="23" height="20" fill="#5FA04E"/>
-            <rect width="52" height="20" fill="#555" x="23"/>
-            <rect width="75" height="20" fill="url(#s)"/>
-        </g>
-        <image x="4" y="3" height="14" width="14" xlink:href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgICAgICAgICAgIDxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0xMS45OTgsMjRjLTAuMzIxLDAtMC42NDEtMC4wODQtMC45MjItMC4yNDdsLTIuOTM2LTEuNzM3Yy0wLjQzOC0wLjI0NS0wLjIyNC0wLjMzMi0wLjA4LTAuMzgzIGMwLjU4NS0wLjIwMywwLjcwMy0wLjI1LDEuMzI4LTAuNjA0YzAuMDY1LTAuMDM3LDAuMTUxLTAuMDIzLDAuMjE4LDAuMDE3bDIuMjU2LDEuMzM5YzAuMDgyLDAuMDQ1LDAuMTk3LDAuMDQ1LDAuMjcyLDBsOC43OTUtNS4wNzYgYzAuMDgyLTAuMDQ3LDAuMTM0LTAuMTQxLDAuMTM0LTAuMjM4VjYuOTIxYzAtMC4wOTktMC4wNTMtMC4xOTItMC4xMzctMC4yNDJsLTguNzkxLTUuMDcyYy0wLjA4MS0wLjA0Ny0wLjE4OS0wLjA0Ny0wLjI3MSwwIEwzLjA3NSw2LjY4QzIuOTksNi43MjksMi45MzYsNi44MjUsMi45MzYsNi45MjF2MTAuMTVjMCwwLjA5NywwLjA1NCwwLjE4OSwwLjEzOSwwLjIzNWwyLjQwOSwxLjM5MiBjMS4zMDcsMC42NTQsMi4xMDgtMC4xMTYsMi4xMDgtMC44OVY3Ljc4N2MwLTAuMTQyLDAuMTE0LTAuMjUzLDAuMjU2LTAuMjUzaDEuMTE1YzAuMTM5LDAsMC4yNTUsMC4xMTIsMC4yNTUsMC4yNTN2MTAuMDIxIGMwLDEuNzQ1LTAuOTUsMi43NDUtMi42MDQsMi43NDVjLTAuNTA4LDAtMC45MDksMC0yLjAyNi0wLjU1MUwyLjI4LDE4LjY3NWMtMC41Ny0wLjMyOS0wLjkyMi0wLjk0NS0wLjkyMi0xLjYwNFY2LjkyMSBjMC0wLjY1OSwwLjM1My0xLjI3NSwwLjkyMi0xLjYwM2w4Ljc5NS01LjA4MmMwLjU1Ny0wLjMxNSwxLjI5Ni0wLjMxNSwxLjg0OCwwbDguNzk0LDUuMDgyYzAuNTcsMC4zMjksMC45MjQsMC45NDQsMC45MjQsMS42MDMgdjEwLjE1YzAsMC42NTktMC4zNTQsMS4yNzMtMC45MjQsMS42MDRsLTguNzk0LDUuMDc4QzEyLjY0MywyMy45MTYsMTIuMzI0LDI0LDExLjk5OCwyNHogTTE5LjA5OSwxMy45OTMgYzAtMS45LTEuMjg0LTIuNDA2LTMuOTg3LTIuNzYzYy0yLjczMS0wLjM2MS0zLjAwOS0wLjU0OC0zLjAwOS0xLjE4N2MwLTAuNTI4LDAuMjM1LTEuMjMzLDIuMjU4LTEuMjMzIGMxLjgwNywwLDIuNDczLDAuMzg5LDIuNzQ3LDEuNjA3YzAuMDI0LDAuMTE1LDAuMTI5LDAuMTk5LDAuMjQ3LDAuMTk5aDEuMTQxYzAuMDcxLDAsMC4xMzgtMC4wMzEsMC4xODYtMC4wODEgYzAuMDQ4LTAuMDU0LDAuMDc0LTAuMTIzLDAuMDY3LTAuMTk2Yy0wLjE3Ny0yLjA5OC0xLjU3MS0zLjA3Ni00LjM4OC0zLjA3NmMtMi41MDgsMC00LjAwNCwxLjA1OC00LjAwNCwyLjgzMyBjMCwxLjkyNSwxLjQ4OCwyLjQ1NywzLjg5NSwyLjY5NWMyLjg4LDAuMjgyLDMuMTAzLDAuNzAzLDMuMTAzLDEuMjY5YzAsMC45ODMtMC43ODksMS40MDItMi42NDIsMS40MDIgYy0yLjMyNywwLTIuODM5LTAuNTg0LTMuMDExLTEuNzQyYy0wLjAyLTAuMTI0LTAuMTI2LTAuMjE1LTAuMjUzLTAuMjE1aC0xLjEzN2MtMC4xNDEsMC0wLjI1NCwwLjExMi0wLjI1NCwwLjI1MyBjMCwxLjQ4MiwwLjgwNiwzLjI0OCw0LjY1NSwzLjI0OEMxNy41MDEsMTcuMDA3LDE5LjA5OSwxNS45MSwxOS4wOTksMTMuOTkzeiIvPgogICAgICAgICAgICA8L3N2Zz4="/>
-        <g fill="#ffffff" text-anchor="middle" font-family="Verdana,sans-serif" font-size="11">
-            <text x="18" y="15" fill="#010101" textLength="0" fill-opacity=".3"/>
-            <text x="18" y="14" fill="#ffffff" textLength="0"/>
-            <text x="49" y="15" fill="#010101" textLength="42" fill-opacity=".3">Node.js</text>
-            <text x="49" y="14" fill="#ffffff" textLength="42">Node.js</text>
-        </g>
-    </svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="28" viewBox="0 0 140 28">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5FA04E"/>
+      <stop offset="100%" stop-color="#4A7D3D"/>
+    </linearGradient>
+  </defs>
+  <rect width="140" height="28" rx="6" fill="url(#bg)"/>
+  <g transform="translate(10, 5)">
+    <path fill="#fff" d="M9 0L0 5.2v10.4L9 20.8l9-5.2V5.2L9 0zm0 2l6.5 3.8v7.6L9 17.2l-6.5-3.8V5.8L9 2z"/>
+    <path fill="#fff" d="M9 5l-4 2.3v4.6l4 2.3 4-2.3V7.3L9 5z"/>
+  </g>
+  <text x="52" y="18.5" fill="#fff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">Node.js</text>
+</svg>

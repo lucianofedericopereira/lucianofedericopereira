@@ -1,24 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="142" height="20">
-        <title> API | Restful design</title>
-        <defs>
-            <linearGradient id="s" x2="0" y2="100%">
-                <stop offset="0" stop-color="#bbbbbb" stop-opacity=".1"/>
-                <stop offset="1" stop-opacity=".1"/>
-            </linearGradient>
-            <clipPath id="r">
-                <rect width="142" height="20" rx="3" fill="#ffffff"/>
-            </clipPath>
-        </defs>
-        <g clip-path="url(#r)">
-            <rect width="23" height="20" fill="#85EA2D"/>
-            <rect width="119" height="20" fill="#258A0D" x="23"/>
-            <rect width="142" height="20" fill="url(#s)"/>
-        </g>
-        <image x="4" y="3" height="14" width="14" xlink:href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgICAgICAgICAgIDxwYXRoIGZpbGw9IiMwMDAiIGQ9Ik0xMiAwQzUuMzgzIDAgMCA1LjM4MyAwIDEyczUuMzgzIDEyIDEyIDEyYzYuNjE2IDAgMTItNS4zODMgMTItMTJTMTguNjE2IDAgMTIgMHptMCAxLjE0NGM1Ljk5NSAwIDEwLjg1NiA0Ljg2IDEwLjg1NiAxMC44NTYgMCA1Ljk5NS00Ljg2IDEwLjg1Ni0xMC44NTYgMTAuODU2LTUuOTk2IDAtMTAuODU2LTQuODYtMTAuODU2LTEwLjg1NkMxLjE0NCA2LjAwNCA2LjAwNCAxLjE0NCAxMiAxLjE0NHpNOC4zNyA1Ljg2OGE2LjcwNyA2LjcwNyAwIDAgMC0uNDIzLjAwNWMtLjk4My4wNTYtMS41NzMuNTE3LTEuNzM1IDEuNDcyLS4xMTUuNjY1LS4wOTYgMS4zNDgtLjE0MyAyLjAxNy0uMDEzLjM1LS4wNS42OTctLjExNSAxLjAzOC0uMTM0LjYwOS0uMzk3Ljc5OC0xLjAxNi44M2EyLjY1IDIuNjUgMCAwIDAtLjI0NC4wNDJ2MS40NjNjMS4xMjYuMDU1IDEuMjc4LjQ1MiAxLjM3IDEuNjI5LjAzMy40MjktLjAxMy44NTguMDE1IDEuMjg3LjAxOC40MDYuMDczLjgwOC4xNTYgMS4yLjI1OSAxLjA3NSAxLjMwNyAxLjQzNSAyLjU3NSAxLjIxOHYtMS4yODNjLS4yMDMgMC0uMzgzLjAwNS0uNTU4IDAtLjQzLS4wMTMtLjU5MS0uMTItLjYzMi0uNTM1LS4wNTYtLjUzNS0uMDQyLTEuMDgtLjA3NS0xLjYyLS4wNjQtMS4wMDEtLjE3NS0xLjk4OC0xLjE1My0yLjYyNS41MDMtLjM3Ljg2OC0uODEyLjk4My0xLjM5OC4wODMtLjQxLjEzNC0uODIxLjE2Ni0xLjIzNy4wMjgtLjQxNS0uMDIzLS44NC4wMTQtMS4yNS4wNi0uNjY1LjEwMi0uOTM3LjktLjkxLjEyIDAgLjIzNS0uMDE3LjM2OS0uMDI3di0xLjMxYy0uMTYgMC0uMzEtLjAwNC0uNDU0LS4wMDZ6bTcuNTkzLjAwOWE0LjI0NyA0LjI0NyAwIDAgMC0uODEzLjA2djEuMjc0Yy4yNDUgMCAuNDM0IDAgLjYyMy4wMDUuMzI4LjAwNC41NzcuMTMuNjEuNDk0LjAzMi4zMzIuMDMxLjY2OS4wNjQgMS4wMDYuMDY1LjY2OS4xMDEgMS4zNDcuMjE3IDIuMDA3LjEwMi41NDQuNDc1Ljk1Ljk0MSAxLjI4My0uODE3LjU0OS0xLjA1NyAxLjMzMy0xLjA5OCAyLjIxNS0uMDIzLjYwNC0uMDM3IDEuMjEzLS4wNjkgMS44MjItLjAyOC41NTQtLjIyMi43MzQtLjc4Ljc0OC0uMTU3LjAwNC0uMzEuMDE4LS40ODQuMDI4djEuMzA1Yy4zMjcgMCAuNjI3LjAxOS45MjcgMCAuOTMyLS4wNTUgMS40OTUtLjUwNyAxLjY4LTEuNDEyLjA3OC0uNDk4LjEyNC0xIC4xMzgtMS41MDQuMDMyLS40NjEuMDI4LS45MjcuMDc0LTEuMzg0LjA2OS0uNzE1LjM5Ny0xLjAxIDEuMTEyLTEuMDU3YS45NzIuOTcyIDAgMCAwIC4xOTktLjA0NnYtMS40NjNjLS4xMi0uMDE0LS4yMDQtLjAyNy0uMjkxLS4wMzItLjUzNi0uMDIzLS44MDQtLjIwMy0uOTM3LS43MWE1LjE0NiA1LjE0NiAwIDAgMS0uMTUyLS45OTNjLS4wMzctLjYxOC0uMDMzLTEuMjQxLS4wNzQtMS44Ni0uMDgtMS4xOTItLjc5NC0xLjc1My0xLjg4Ny0xLjc4NnptLTYuODkgNS4yOGEuODQ0Ljg0NCAwIDAgMC0uMDgzIDEuNjg0aC4wNTVhLjgzLjgzIDAgMCAwIC44NzctLjc4di0uMDQ2YS44NDUuODQ1IDAgMCAwLS44My0uODU4em0yLjkxMSAwYS44MDguODA4IDAgMCAwLS44MzQuNzhjMCAuMDI3IDAgLjA1LjAwNC4wNzggMCAuNTAzLjM0Mi44MjYuODU5LjgyNi41MDcgMCAuODI2LS4zMzIuODI2LS44NTMtLjAwNS0uNTAzLS4zNDItLjgzNi0uODU1LS44MzF6bTIuOTYzIDBhLjg2MS44NjEgMCAwIDAtLjg3Ni44MzVjMCAuNDcuMzc4Ljg0OS44NDkuODQ5aC4wMDljLjQyNS4wNzQuODUzLS4zMzcuODgxLS44My4wMjMtLjQ1Ny0uMzkyLS44NTQtLjg2My0uODU0eiIvPgogICAgICAgICAgICA8L3N2Zz4="/>
-        <g fill="#ffffff" text-anchor="middle" font-family="Verdana,sans-serif" font-size="11">
-            <text x="18" y="15" fill="#010101" textLength="0" fill-opacity=".3"/>
-            <text x="18" y="14" fill="#ffffff" textLength="0"/>
-            <text x="82.5" y="15" fill="#010101" textLength="109" fill-opacity=".3">API | Restful design</text>
-            <text x="82.5" y="14" fill="#ffffff" textLength="109">API | Restful design</text>
-        </g>
-    </svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="28" viewBox="0 0 140 28">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#4F46E5"/>
+    </linearGradient>
+  </defs>
+  <rect width="140" height="28" rx="6" fill="url(#bg)"/>
+  <g transform="translate(8, 6)">
+    <circle cx="4" cy="8" r="2" fill="#fff"/>
+    <circle cx="9" cy="8" r="2" fill="#fff"/>
+    <circle cx="14" cy="8" r="2" fill="#fff"/>
+    <path fill="#fff" opacity="0.6" d="M4 4v2M9 4v2M14 4v2M4 10v2M9 10v2M14 10v2" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <text x="52" y="18.5" fill="#fff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">REST API</text>
+</svg>

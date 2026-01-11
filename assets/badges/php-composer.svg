@@ -1,24 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="126" height="20">
-        <title>php PHP, Composer</title>
-        <defs>
-            <linearGradient id="s" x2="0" y2="100%">
-                <stop offset="0" stop-color="#bbbbbb" stop-opacity=".1"/>
-                <stop offset="1" stop-opacity=".1"/>
-            </linearGradient>
-            <clipPath id="r">
-                <rect width="126" height="20" rx="3" fill="#ffffff"/>
-            </clipPath>
-        </defs>
-        <g clip-path="url(#r)">
-            <rect width="31" height="20" fill="#B0B3D6"/>
-            <rect width="95" height="20" fill="#787CB5" x="31"/>
-            <rect width="126" height="20" fill="url(#s)"/>
-        </g>
-        
-        <g fill="#ffffff" text-anchor="middle" font-family="Verdana,sans-serif" font-size="11">
-            <text x="15.5" y="15" fill="#cccccc" textLength="21" fill-opacity=".3">php</text>
-            <text x="15.5" y="14" fill="#333333" textLength="21">php</text>
-            <text x="78.5" y="15" fill="#010101" textLength="85" fill-opacity=".3">PHP, Composer</text>
-            <text x="78.5" y="14" fill="#ffffff" textLength="85">PHP, Composer</text>
-        </g>
-    </svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="28" viewBox="0 0 140 28">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#777BB4"/>
+      <stop offset="100%" stop-color="#5D5F94"/>
+    </linearGradient>
+  </defs>
+  <rect width="140" height="28" rx="6" fill="url(#bg)"/>
+  <g transform="translate(8, 5)">
+    <ellipse cx="9" cy="9" rx="9" ry="5.5" fill="#fff" opacity="0.2"/>
+    <text x="9" y="12" fill="#fff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8" font-weight="700" text-anchor="middle">php</text>
+  </g>
+  <text x="52" y="18.5" fill="#fff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">PHP</text>
+</svg>

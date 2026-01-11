@@ -1,24 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="198" height="20">
-        <title>Agents AI Solution Orchestration</title>
-        <defs>
-            <linearGradient id="s" x2="0" y2="100%">
-                <stop offset="0" stop-color="#bbbbbb" stop-opacity=".1"/>
-                <stop offset="1" stop-opacity=".1"/>
-            </linearGradient>
-            <clipPath id="r">
-                <rect width="198" height="20" rx="3" fill="#ffffff"/>
-            </clipPath>
-        </defs>
-        <g clip-path="url(#r)">
-            <rect width="48" height="20" fill="#D97757"/>
-            <rect width="150" height="20" fill="#444" x="48"/>
-            <rect width="198" height="20" fill="url(#s)"/>
-        </g>
-        
-        <g fill="#ffffff" text-anchor="middle" font-family="Verdana,sans-serif" font-size="11">
-            <text x="24" y="15" fill="#010101" textLength="38" fill-opacity=".3">Agents</text>
-            <text x="24" y="14" fill="#ffffff" textLength="38">Agents</text>
-            <text x="123" y="15" fill="#010101" textLength="140" fill-opacity=".3">AI Solution Orchestration</text>
-            <text x="123" y="14" fill="#ffffff" textLength="140">AI Solution Orchestration</text>
-        </g>
-    </svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="28" viewBox="0 0 140 28">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EC4899"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+  <rect width="140" height="28" rx="6" fill="url(#bg)"/>
+  <g transform="translate(8, 5)">
+    <circle cx="9" cy="9" r="7" fill="none" stroke="#fff" stroke-width="1.5"/>
+    <circle cx="9" cy="9" r="2" fill="#fff"/>
+    <path fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" d="M9 4v2M9 13v2M4 9h2M13 9h2M5.5 5.5l1.4 1.4M11.1 11.1l1.4 1.4M5.5 12.5l1.4-1.4M11.1 6.9l1.4-1.4"/>
+  </g>
+  <text x="52" y="18.5" fill="#fff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">AI / ML</text>
+</svg>
