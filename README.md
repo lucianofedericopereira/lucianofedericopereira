@@ -17,7 +17,7 @@
         <img src="./assets/stats.png" alt="GitHub Metrics">
     </picture>
 </div>
-<h3 align="center">Currently using a diverse stack spanning applications, <br>data, automation, and modern AI tooling:</h3>
+<h3 align="center">Current stack of technical and interpersonal competencies:</h3>
 <br>
 <p align="center">
     <picture>
@@ -76,6 +76,9 @@
     </picture>        
     <picture>
         <img src="./assets/badges/tailwind.svg" alt="CSS3, Tailwind 4">
+    </picture>
+    <picture>
+        <img src="./assets/badges/linux.svg" alt="Linux, Shell, System Administration">
     </picture>
 </p>
 <br>
