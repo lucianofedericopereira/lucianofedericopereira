@@ -116,8 +116,8 @@
         <img height="26px" src="./assets/linkedin.svg" alt="LinkedIn">
     </a>
     <br>
-    <a rel="nofollow noopener noreferrer" href="https://www.linkedin.com/in/lucianofedericopereira">
-        <img height="26px" src="./assets/resume.svg" alt="LinkedIn">
+    <a rel="nofollow noopener noreferrer" href="https://luciano-pereira.pages.dev">
+        <img height="26px" src="./assets/resume.svg" alt="Luciano Federico Pereira résumé">
     </a>
     <br>
     <a rel="nofollow noopener noreferrer" href="https://bit.ly/lucianofedericopereira">
