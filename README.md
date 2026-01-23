@@ -93,6 +93,7 @@
     </thead>
     <tbody>
     <!-- BLOG-POST-LIST:START -->
+<tr><td>Jan. 2026</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/code/stop-dockerizing-your-dev-databases/">Code › Stop Dockerizing Your Dev Databases</a></td></tr>
 <tr><td>Jan. 2026</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/design/building-a-self-documenting-portfolio-page/">Design › Building a Self-Documenting Portfolio Page</a></td></tr>
 <tr><td>Nov. 2025</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/design/unlocking-the-xterm-color-palette/">Design › Bash: Unlocking the Xterm Color Palette</a></td></tr>
 <tr><td>Nov. 2025</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/code/automating--git-repository-backups/">Code › Bash: Automating Self-Hosting Git Repository Backups</a></td></tr>
