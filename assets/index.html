@@ -36,17 +36,26 @@
   <meta property="og:locale:alternate" content="es_ES">
   <meta property="og:locale:alternate" content="it_IT">
   <meta property="og:site_name" content="Luciano Federico Pereira CV">
+  <meta property="og:image" content="https://avatars.githubusercontent.com/lucianofedericopereira">
+  <meta property="og:image:width" content="460">
+  <meta property="og:image:height" content="460">
+  <meta property="og:image:alt" content="Luciano Federico Pereira">
   <meta property="profile:first_name" content="Luciano">
   <meta property="profile:last_name" content="Pereira">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Luciano Federico Pereira – Full-Stack Developer & Architect">
   <meta name="twitter:description"
     content="Enterprise e-commerce architect delivering 93% database query reductions. Distributed team experience across three languages.">
+  <meta name="twitter:image" content="https://avatars.githubusercontent.com/lucianofedericopereira">
+  <meta name="twitter:image:alt" content="Luciano Federico Pereira">
   <meta name="repository" content="https://github.com/lucianofedericopereira">
-  <link rel="icon" type="image/webp" id="favicon" href="data:,">
+  <link rel="icon" type="image/png" href="https://avatars.githubusercontent.com/lucianofedericopereira">
   <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+  <link rel="dns-prefetch" href="https://avatars.githubusercontent.com">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://avatars.githubusercontent.com" crossorigin>
+  <link rel="preload" href="https://avatars.githubusercontent.com/lucianofedericopereira" as="image" type="image/png">
   <link rel="prefetch" href="luciano-pereira-cv-en.pdf" as="document">
   <link rel="prefetch" href="luciano-pereira-cv-es.pdf" as="document">
   <link rel="prefetch" href="luciano-pereira-cv-it.pdf" as="document">
@@ -61,29 +70,29 @@
       --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
       --font-mono: 'JetBrains Mono', 'Consolas', 'Monaco', monospace;
       --line-height: 1.6;
-      /* Grayscale Palette using OKLCH (c00=darkest, c99=lightest) */
-      --c00: oklch(0.15 0 0);
-      --c06: oklch(0.20 0 0);
-      --c18: oklch(0.35 0 0);
-      --c24: oklch(0.42 0 0);
-      --c36: oklch(0.52 0 0);
-      --c48: oklch(0.62 0 0);
-      --c60: oklch(0.72 0 0);
-      --c72: oklch(0.80 0 0);
-      --c84: oklch(0.88 0 0);
-      --c90: oklch(0.92 0 0);
-      --c96: oklch(0.96 0 0);
-      --c99: oklch(0.99 0 0);
-      /* Accent Colors in OKLCH */
-      --red: oklch(0.55 0.22 27);
-      --blue: oklch(0.55 0.10 230);
-      --green: oklch(0.60 0.15 140);
+      /* Grayscale Palette - hex fallbacks then OKLCH */
+      --c00: #262626; --c00: oklch(0.15 0 0);
+      --c06: #333333; --c06: oklch(0.20 0 0);
+      --c18: #525252; --c18: oklch(0.35 0 0);
+      --c24: #666666; --c24: oklch(0.42 0 0);
+      --c36: #7a7a7a; --c36: oklch(0.52 0 0);
+      --c48: #949494; --c48: oklch(0.62 0 0);
+      --c60: #adadad; --c60: oklch(0.72 0 0);
+      --c72: #c4c4c4; --c72: oklch(0.80 0 0);
+      --c84: #dbdbdb; --c84: oklch(0.88 0 0);
+      --c90: #e8e8e8; --c90: oklch(0.92 0 0);
+      --c96: #f5f5f5; --c96: oklch(0.96 0 0);
+      --c99: #fcfcfc; --c99: oklch(0.99 0 0);
+      /* Accent Colors - hex fallbacks then OKLCH */
+      --red: #d93025; --red: oklch(0.55 0.22 27);
+      --blue: #5c8ab5; --blue: oklch(0.55 0.10 230);
+      --green: #34a853; --green: oklch(0.60 0.15 140);
       /* Semantic Colors */
       --color-text: var(--c00);
       --color-text-muted: var(--c24);
       --color-text-subtle: var(--c36);
       --color-bg: var(--c99);
-      --color-accent: oklch(0.50 0.15 250);
+      --color-accent: #4a6fa5; --color-accent: oklch(0.50 0.15 250);
       /* Spacing */
       --space-xs: 0.25rem;
       --space-sm: 0.5rem;
@@ -1044,14 +1053,14 @@
       }
 
       .code-viewer-dialog {
-        top: 0;
-        left: 0;
+        inset: 0;
+        width: auto;
+        height: auto;
+        max-width: none;
+        max-height: none;
         transform: none;
-        width: 100vw;
-        height: 100dvh;
-        max-width: 100vw;
-        max-height: 100dvh;
         border: none;
+        border-radius: 0;
       }
 
       .code-viewer-dialog.active {
@@ -1059,20 +1068,32 @@
       }
 
       .code-viewer-panels {
-        background: var(--c06) !important;
-        height: calc(100vh - 5.5rem) !important;
-        flex: none !important;
-        overflow: visible !important;
+        position: relative;
+        background: var(--c06);
+        flex: 1 1 0;
+        min-height: 0;
+        overflow: hidden;
       }
 
       .code-viewer-panel {
-        height: 100% !important;
-        overflow-y: auto !important;
+        position: absolute;
+        inset: 0;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+        overscroll-behavior: contain;
       }
 
       .code-viewer-pre {
-        min-height: calc(100dvh - 7.5rem) !important;
+        padding: var(--space-md) var(--space-sm);
+        font-size: 0.75rem;
+        line-height: 1.5;
       }
+
+      .code-line::before {
+        width: 2.5ch;
+        margin-right: 0.75rem;
+      }
+
     }
 
     /* --- Desktop (≥769px) --- */
@@ -1104,12 +1125,14 @@
       }
 
       .section-label {
+        position: -webkit-sticky;
         position: sticky;
         top: var(--space-xl);
       }
 
       .section-sidebar {
         display: block;
+        position: -webkit-sticky;
         position: sticky;
         top: var(--space-xl);
         align-self: start;
@@ -1458,28 +1481,48 @@
         transition-duration: 0.01ms !important;
         scroll-behavior: auto !important;
       }
-      .code-viewer-dialog {
-        transform: translate(-50%, -50%) !important;
-      }
       .line-over::after {
         clip-path: inset(0 0 0 0) !important;
       }
     }
 
+    /* Desktop only: reduced motion transform for code viewer */
+    @media (prefers-reduced-motion: reduce) and (min-width: 769px) {
+      .code-viewer-dialog {
+        transform: translate(-50%, -50%) !important;
+      }
+    }
+
+    /* Custom elements fallback - display as block when JS fails */
+    person-entry,
+    summary-entry,
+    experience-entry,
+    education-entry,
+    skills-entry,
+    languages-entry {
+      display: block;
+    }
+
+    /* Fallback: show content by default, JS adds .js-ready to html */
     [data-animate] {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    /* Only animate when JS is working */
+    html.js-ready [data-animate] {
       opacity: 0;
       transform: translateY(20px);
       transition: opacity 0.6s ease-out, transform 0.6s ease-out;
     }
-    [data-animate].animate {
+    html.js-ready [data-animate].animate {
       opacity: 1;
       transform: translateY(0);
     }
-    [data-animate="fade-up"] {
+    html.js-ready [data-animate="fade-up"] {
       opacity: 0;
       transform: translateY(30px);
     }
-    [data-animate="fade-up"].animate {
+    html.js-ready [data-animate="fade-up"].animate {
       opacity: 1;
       transform: translateY(0);
     }
@@ -1543,7 +1586,7 @@
     <!-- Masthead -->
     <header class="masthead">
       <div class="masthead-left">
-        <img src="data:," alt="Luciano Federico Pereira" class="masthead-avatar" id="avatar-img" width="48" height="48">
+        <img src="https://avatars.githubusercontent.com/lucianofedericopereira" alt="Luciano Federico Pereira" class="masthead-avatar" width="48" height="48">
         <div class="masthead-info">
           <span class="masthead-title" itemprop="jobTitle">
             <strong>Full‑Stack Developer &amp; Architect</strong>
@@ -2004,21 +2047,11 @@
   <script id="page-js">
     "use strict";
 
-    // Shared image data for favicon and avatar
-    const AVATAR_DATA = "data:image/webp;base64,UklGRo4EAABXRUJQVlA4IIIEAADQFwCdASpgAGAAPpE8mEglo6KhLxS8MLASCWMAzUXh2j6OlJIXUtIat/quIzEO7h4LZgLCHTRSr+En1nBUz6peyqcNL4HdhaeTfmjlQ6ERa3Zn/V0rdneW5Cv00q4Mmg2t7GXJCZWcL1IXd4DR0Iu3OEepV1XYqU5iupaMY3ucEgcZeHL9VTPUUOkQ/J9B/ksz3M7kv+tgktWYj3S7+SgXi3KaFRL6FbEcaFEk9r5CIT44qs1PUpyuybRb8wfRQ3BmP4+7bNIAAP7z/DOxoZjjeLUDtDdtZde7Gp9Rneqvc4mX0fCXLrudPqX7Viio+LfnbzUpGCeb8TIdAy6V1EOAh9NGd3kg4vAn9e+TWJ5F2SqLpOwiALRuYFkZK3RHxPrHvsONn9HWO3CekJfE6mPxzll5xKdOR6OBGB0F8g2qLW1UCR6b41T5mXrNBzgwRnwGIidYbxjyJm25EWvk063UNSXevEeV/oZHoWhWKNySbNDooYt6rNny5PDyAEKz7FU/oRfKucLAnkImm9aFt2Z3Qr/caSlocjnqXI7rNHywUvrADjonvbDM18HWum2OIcZahIkIjwwuKDjMOso/KYZrB7aZR48IAEP6m86dWTdDj6nsBjXBCYS5yX4+PKv0qVBoCjQbgQUxYes8zxG7Z37qFstXcLqLknsL9mgJXfLfcK6ko/spqR4EyDStqjlMDz80IV5aqgvM93SOUlx/ASz0IyT/UEXCwYkId4hGB65vXJGe/NGYsh0WBtsuQejhh886b0+Fn++gHPe+MwzKGTsvVWP6HgGLjRb0A+AdkdAwAwqZXDzfGBkITwM4AdWjSQ4m7Ne8xuXdrDfJ9SLQi0yw8xKfXmuEYW53p804iaFndbX1LW9JHQ3izvdoYGPmWP1L9T3F3ce6EnF42L6NI6O+1iLj59z6k+2znRDabavFxCRV+o4ZKmBrN2hGFV6E6GD0puFfh2SrJwt0yJ3LcCZWXO2cM9abbsVBDO/vtQ4lV3Ud6yS8iYFAPI0fbvryti9vtWYZHV1J3HpolD6f8M45bvIIZrT2VUEG6yO6Bv0SmpEr4QnEjVAlOR6er6PxNP0DRj9hhb7tv1LJVu5z8jQl+PmSduKVzzIrdD9ttvU1os7toAR7yj5B0cqkj6M1i3izuqlMQqVLUdbAhHliO9J1zKc2Nt8yZDf3NR2SPx/u+Te096geMjj+nfXTeGPu6Bu5SRSPyCd3qalWlPhagKn0o/d8u1+x7t13I2QLpYE3eZzYkXIO7MW4SoGOG5VXUaZRO30vP/QKXNfhjfVQhDOErhYhhkgIXdidhFzlIXRjoFjCys24mdR6G8LktC+NOi59S4TKr5IwjLYcSchMrrkF2ITdoAVLx7MOi16UqN20zCh+IGQVnqJco3HRovdtfNCH2Ud7/nP5g9Di75ZECJD6ClJ7T+Ng8GUeIJc5fq7brn5K4Bt/F/yuGVfNBGQoVmoi7ne8F7h3oMdy7BB9d4+8EgZ18QEilcPC1I71kwdpKMviKkGoFpypiDjGZWV/rAAAAA==";
-    document.getElementById('favicon').href = AVATAR_DATA;
-    document.getElementById('avatar-img').src = AVATAR_DATA;
-
-    /**
-     * CVEntry - Base class for CV components with enhanced ARIA support
-     * Provides locale-aware aria-label generation using template placeholders
-     */
+    /** CVEntry - Base class for CV custom elements with locale-aware ARIA labels */
     class CVEntry extends HTMLElement {
-      static observedAttributes = Object.freeze(['locale']);
-      static labelAttributes = Object.freeze([]);
-      static labelTemplates = Object.freeze({});
-      static #placeholderRe = /{(\d+)}/g;
+      static get observedAttributes() { return ['locale']; }
       #initialized = false;
+      #placeholderRe = /{(\d+)}/g;
 
       get locale() {
         return this.getAttribute('locale') ?? document.documentElement.lang ?? 'en';
@@ -2042,100 +2075,71 @@
       }
 
       #updateAriaLabel(locale) {
-        const { labelAttributes, labelTemplates } = this.constructor;
+        const Ctor = this.constructor;
+        const labelAttributes = Ctor.labelAttributes ?? [];
+        const labelTemplates = Ctor.labelTemplates ?? {};
         if (!labelAttributes.length && !labelTemplates[locale]) return;
         const values = labelAttributes.map(attr => this.getAttribute(attr) ?? '');
         const template = labelTemplates[locale] ?? labelTemplates.en ?? '';
         if (template) {
           this.setAttribute(
             'aria-label',
-            template.replace(CVEntry.#placeholderRe, (_, i) => values[i])
+            template.replace(this.#placeholderRe, (_, i) => values[i])
           );
         }
       }
     }
 
-    /**
-     * PersonEntry - Profile section with dynamic aria-label
-     */
-    class PersonEntry extends CVEntry {
-      static labelAttributes = Object.freeze(['data-name']);
-      static labelTemplates = Object.freeze({
-        en: 'Profile of {0}',
-        es: 'Perfil de {0}',
-        it: 'Profilo di {0}'
-      });
-      static { customElements.define('person-entry', this); }
-    }
+    /** PersonEntry - Profile section */
+    class PersonEntry extends CVEntry {}
+    PersonEntry.labelAttributes = Object.freeze(['data-name']);
+    PersonEntry.labelTemplates = Object.freeze({
+      en: 'Profile of {0}', es: 'Perfil de {0}', it: 'Profilo di {0}'
+    });
 
-    /**
-     * SummaryEntry - Professional summary section
-     */
-    class SummaryEntry extends CVEntry {
-      static labelAttributes = Object.freeze([]);
-      static labelTemplates = Object.freeze({
-        en: 'Professional summary',
-        es: 'Perfil profesional',
-        it: 'Profilo professionale'
-      });
-      static { customElements.define('summary-entry', this); }
-    }
+    /** SummaryEntry - Professional summary section */
+    class SummaryEntry extends CVEntry {}
+    SummaryEntry.labelAttributes = Object.freeze([]);
+    SummaryEntry.labelTemplates = Object.freeze({
+      en: 'Professional summary', es: 'Perfil profesional', it: 'Profilo professionale'
+    });
 
-    /**
-     * ExperienceEntry - Work experience with dynamic aria-label
-     */
-    class ExperienceEntry extends CVEntry {
-      static labelAttributes = Object.freeze(['position', 'company']);
-      static labelTemplates = Object.freeze({
-        en: '{0} at {1}',
-        es: '{0} en {1}',
-        it: '{0} presso {1}'
-      });
-      static { customElements.define('experience-entry', this); }
-    }
+    /** ExperienceEntry - Work experience section */
+    class ExperienceEntry extends CVEntry {}
+    ExperienceEntry.labelAttributes = Object.freeze(['position', 'company']);
+    ExperienceEntry.labelTemplates = Object.freeze({
+      en: '{0} at {1}', es: '{0} en {1}', it: '{0} presso {1}'
+    });
 
-    /**
-     * EducationEntry - Education with dynamic aria-label
-     */
-    class EducationEntry extends CVEntry {
-      static labelAttributes = Object.freeze(['degree', 'school']);
-      static labelTemplates = Object.freeze({
-        en: '{0} at {1}',
-        es: '{0} en {1}',
-        it: '{0} presso {1}'
-      });
-      static { customElements.define('education-entry', this); }
-    }
+    /** EducationEntry - Education section */
+    class EducationEntry extends CVEntry {}
+    EducationEntry.labelAttributes = Object.freeze(['degree', 'school']);
+    EducationEntry.labelTemplates = Object.freeze({
+      en: '{0} at {1}', es: '{0} en {1}', it: '{0} presso {1}'
+    });
 
-    /**
-     * SkillsEntry - Skills category section
-     */
-    class SkillsEntry extends CVEntry {
-      static labelAttributes = Object.freeze(['category']);
-      static labelTemplates = Object.freeze({
-        en: 'Skills: {0}',
-        es: 'Habilidades: {0}',
-        it: 'Competenze: {0}'
-      });
-      static { customElements.define('skills-entry', this); }
-    }
+    /** SkillsEntry - Skills section */
+    class SkillsEntry extends CVEntry {}
+    SkillsEntry.labelAttributes = Object.freeze(['category']);
+    SkillsEntry.labelTemplates = Object.freeze({
+      en: 'Skills: {0}', es: 'Habilidades: {0}', it: 'Competenze: {0}'
+    });
 
-    /**
-     * LanguagesEntry - Languages section
-     */
-    class LanguagesEntry extends CVEntry {
-      static labelAttributes = Object.freeze([]);
-      static labelTemplates = Object.freeze({
-        en: 'Languages',
-        es: 'Idiomas',
-        it: 'Lingue'
-      });
-      static { customElements.define('languages-entry', this); }
-    }
+    /** LanguagesEntry - Languages section */
+    class LanguagesEntry extends CVEntry {}
+    LanguagesEntry.labelAttributes = Object.freeze([]);
+    LanguagesEntry.labelTemplates = Object.freeze({
+      en: 'Languages', es: 'Idiomas', it: 'Lingue'
+    });
 
-    /**
-     * Syntax Highlighter - Static utility for code tokenization
-     */
+    customElements.define('person-entry', PersonEntry);
+    customElements.define('summary-entry', SummaryEntry);
+    customElements.define('experience-entry', ExperienceEntry);
+    customElements.define('education-entry', EducationEntry);
+    customElements.define('skills-entry', SkillsEntry);
+    customElements.define('languages-entry', LanguagesEntry);
+
+    /** SyntaxHighlighter - Tokenizes HTML/CSS/JS for code viewer */
     const SyntaxHighlighter = Object.freeze({
       patterns: Object.freeze({
         html: Object.freeze({
@@ -2337,13 +2341,11 @@
       }
     });
 
-    /**
-     * CodeViewer - Accessible dialog for viewing page source
-     */
-    class CodeViewer {
-      static #TAB_NAMES = Object.freeze(['HTML', 'CSS', 'JavaScript']);
-      static #MODES = Object.freeze(['html', 'css', 'js']);
+    /** CodeViewer - Modal dialog for viewing page source code */
+    const CV_TAB_NAMES = Object.freeze(['HTML', 'CSS', 'JavaScript']);
+    const CV_MODES = Object.freeze(['html', 'css', 'js']);
 
+    class CodeViewer {
       #dialog;
       #overlay;
       #trigger;
@@ -2354,7 +2356,6 @@
       #contents;
       #announcement;
       #mainContent;
-
       #isOpen = false;
       #currentTab = 0;
       #sourceCache = null;
@@ -2362,7 +2363,6 @@
       #abortController = null;
       #previousActiveElement = null;
       #savedScrollY = 0;
-
       #boundHandleKeydown;
       #boundHandleCodeLinkClick;
 
@@ -2507,7 +2507,7 @@
         this.#tabs[index].focus();
 
         if (this.#announcement) {
-          this.#announcement.textContent = `${CodeViewer.#TAB_NAMES[index]} tab selected`;
+          this.#announcement.textContent = `${CV_TAB_NAMES[index]} tab selected`;
         }
       }
 
@@ -2580,7 +2580,7 @@
       }
 
       #renderPanel(index) {
-        const mode = CodeViewer.#MODES[index];
+        const mode = CV_MODES[index];
         const container = this.#contents[mode];
         if (!container) return;
 
@@ -2629,11 +2629,10 @@
           fragment.appendChild(lineEl);
         }
 
-        // Add empty lines at end for scroll padding
         for (let i = 0; i < 3; i++) {
           const emptyLine = document.createElement('span');
           emptyLine.className = 'code-line';
-          emptyLine.innerHTML = '&nbsp;';
+          emptyLine.textContent = '\u00A0';
           fragment.appendChild(emptyLine);
         }
 
@@ -2655,7 +2654,7 @@
         link.className = 'code-link';
         link.dataset.tab = tabIndex;
         link.textContent = '...';
-        link.setAttribute('aria-label', `View ${CodeViewer.#TAB_NAMES[tabIndex]} code`);
+        link.setAttribute('aria-label', `View ${CV_TAB_NAMES[tabIndex]} code`);
         lineEl.appendChild(link);
 
         if (parts[1]) {
@@ -2674,16 +2673,14 @@
       }
     }
 
-    /**
-     * LocaleSwitcher - Language selection with keyboard support
-     */
-    class LocaleSwitcher {
-      static #announcements = Object.freeze({
-        en: 'Language changed to English',
-        es: 'Idioma cambiado a español',
-        it: 'Lingua cambiata in italiano'
-      });
+    /** LocaleSwitcher - Language selection with keyboard navigation */
+    const LOCALE_ANNOUNCEMENTS = Object.freeze({
+      en: 'Language changed to English',
+      es: 'Idioma cambiado a español',
+      it: 'Lingua cambiata in italiano'
+    });
 
+    class LocaleSwitcher {
       #container;
       #abortController = null;
 
@@ -2727,14 +2724,12 @@
 
         const announcement = document.getElementById('locale-announcement');
         if (announcement) {
-          announcement.textContent = LocaleSwitcher.#announcements[locale] ?? '';
+          announcement.textContent = LOCALE_ANNOUNCEMENTS[locale] ?? '';
         }
 
         this.#updateUI(locale);
         this.#updatePdfLink(locale);
         this.#updateCVEntries(locale);
-
-        // Update availability indicator with new locale
         updateAvailability();
       }
 
@@ -2754,7 +2749,6 @@
       }
 
       #updateCVEntries(locale) {
-        // Update all custom CV components with new locale
         const cvEntries = document.querySelectorAll(
           'person-entry, summary-entry, experience-entry, education-entry, skills-entry, languages-entry'
         );
@@ -2769,9 +2763,7 @@
       }
     }
 
-    /**
-     * ScrollAnimator - Intersection Observer for scroll animations
-     */
+    /** ScrollAnimator - Triggers animations when elements enter viewport */
     class ScrollAnimator {
       #observer;
       #lineObserver;
@@ -2809,7 +2801,6 @@
       }
     }
 
-    // Initialize
     if (document.readyState === 'loading') {
       document.addEventListener('DOMContentLoaded', init, { once: true });
     } else {
@@ -2817,6 +2808,8 @@
     }
 
     function init() {
+      document.documentElement.classList.add('js-ready');
+
       new CodeViewer();
 
       const localeSwitcher = document.querySelector('[data-locale-switcher]');
@@ -2824,43 +2817,33 @@
         new LocaleSwitcher(localeSwitcher);
       }
 
-      // Only enable animations if user hasn't requested reduced motion
       if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
         new ScrollAnimator();
+      } else {
+        document.querySelectorAll('[data-animate]').forEach(el => el.classList.add('animate'));
       }
 
-      // Decode protected contact info
       decodeProtected();
-
-      // Update availability indicator
       updateAvailability();
-      // Update every minute
       setInterval(updateAvailability, 60000);
     }
 
-    /**
-     * Update phone availability indicator based on Italy time (9-17)
-     */
+    /** Updates phone availability indicator based on Italy business hours (Mon-Fri 9-17 CET) */
     function updateAvailability() {
       const indicator = document.querySelector('[data-availability]');
       const phoneLink = document.querySelector('.phone-availability a[data-type="tel"]');
       if (!indicator) return;
 
-      // Get current time in Italy (CET/CEST)
       const now = new Date();
       const italyTime = new Date(now.toLocaleString('en-US', { timeZone: 'Europe/Rome' }));
       const hour = italyTime.getHours();
-      const day = italyTime.getDay(); // 0 = Sunday, 6 = Saturday
+      const day = italyTime.getDay();
 
-      // Available Monday-Friday, 9:00-17:00
       const isWeekday = day >= 1 && day <= 5;
       const isWorkHours = hour >= 9 && hour < 17;
       const isAvailable = isWeekday && isWorkHours;
 
-      // Get current locale
       const locale = document.documentElement.lang || 'en';
-
-      // Localized messages
       const messages = {
         en: {
           available: 'Available now (9am-5pm CET)',
@@ -2883,13 +2866,11 @@
       indicator.dataset.available = isAvailable;
       indicator.setAttribute('aria-label', tooltipText);
 
-      // Update visible tooltip
       const tooltip = document.querySelector('[data-availability-tooltip]');
       if (tooltip) {
         tooltip.textContent = tooltipText;
       }
 
-      // Disable/enable phone link based on availability
       if (phoneLink) {
         if (isAvailable) {
           phoneLink.classList.remove('disabled');
@@ -2903,7 +2884,6 @@
           phoneLink.setAttribute('tabindex', '0');
         }
 
-        // Handle click prevention for disabled state (only attach once)
         if (!phoneLink.dataset.clickHandlerAttached) {
           phoneLink.addEventListener('click', (e) => {
             if (phoneLink.classList.contains('disabled')) {
@@ -2915,10 +2895,7 @@
       }
     }
 
-    /**
-     * Decode XOR-obfuscated contact information
-     * Protects email/phone from basic scrapers while remaining accessible
-     */
+    /** Decodes XOR-obfuscated contact info to protect from scrapers */
     function decodeProtected() {
       const decode = (encoded) => {
         if (!encoded || encoded.length < 4 || encoded.length % 2 !== 0) return '';
