@@ -93,6 +93,7 @@
     </thead>
     <tbody>
     <!-- BLOG-POST-LIST:START -->
+<tr><td>Jan. 2026</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/code/jinja2tt2-a-perl-transpiler/">Code › Jinja2TT2: A Perl Transpiler</a></td></tr>
 <tr><td>Jan. 2026</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/design/the-joy-division-effect-how-i-learned-programming-by-making-waves/">Design › The Joy Division Effect: How I Learned Programming by Making Waves</a></td></tr>
 <tr><td>Jan. 2026</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/code/stop-dockerizing-your-dev-databases/">Code › Stop Dockerizing Your Dev Databases</a></td></tr>
 <tr><td>Jan. 2026</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/design/building-a-self-documenting-portfolio-page/">Design › Building a Self-Documenting Portfolio Page</a></td></tr>
