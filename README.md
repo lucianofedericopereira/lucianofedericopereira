@@ -93,6 +93,7 @@
     </thead>
     <tbody>
     <!-- BLOG-POST-LIST:START -->
+<tr><td>Mar. 2026</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/design/the-green-gaslight-why-delivery-isnt-learning/">Design › The Green Gaslight: Why Delivery Isn’t Learning</a></td></tr>
 <tr><td>Feb. 2026</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/code/in-praise-of-hobbyist-languages-the-unsung-heroes-of-software-development/">Code › In Praise of “Hobbyist Languages”: The Unsung Heroes of Software Development</a></td></tr>
 <tr><td>Jan. 2026</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/code/jinja2tt2-a-perl-transpiler/">Code › Jinja2TT2: A Perl Transpiler</a></td></tr>
 <tr><td>Jan. 2026</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/design/the-joy-division-effect-how-i-learned-programming-by-making-waves/">Design › The Joy Division Effect: How I Learned Programming by Making Waves</a></td></tr>
@@ -102,7 +103,6 @@
 <tr><td>Nov. 2025</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/code/automating--git-repository-backups/">Code › Bash: Automating Self-Hosting Git Repository Backups</a></td></tr>
 <tr><td>Nov. 2025</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/code/managing-bookmarks-with-linkding-and-podman/">Code › Bash: Managing Bookmarks with Linkding and Podman</a></td></tr>
 <tr><td>Oct. 2024</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/code/email-obfuscation/">Code › JavaScript Email Obfuscation with XOR Encoding</a></td></tr>
-<tr><td>Apr. 2023</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/design/star-rating/">Design › CSS: Star Rating</a></td></tr>
 <!-- BLOG-POST-LIST:END -->
     </tbody>
 </table>
