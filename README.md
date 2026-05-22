@@ -93,16 +93,16 @@
     </thead>
     <tbody>
     <!-- BLOG-POST-LIST:START -->
-<tr><td>Mar. 2026</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/design/the-green-gaslight-why-delivery-isnt-learning/">Design › The Green Gaslight: Why Delivery Isn’t Learning</a></td></tr>
-<tr><td>Feb. 2026</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/code/in-praise-of-hobbyist-languages-the-unsung-heroes-of-software-development/">Code › In Praise of “Hobbyist Languages”: The Unsung Heroes of Software Development</a></td></tr>
-<tr><td>Jan. 2026</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/code/jinja2tt2-a-perl-transpiler/">Code › Jinja2TT2: A Perl Transpiler</a></td></tr>
-<tr><td>Jan. 2026</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/design/the-joy-division-effect-how-i-learned-programming-by-making-waves/">Design › The Joy Division Effect: How I Learned Programming by Making Waves</a></td></tr>
-<tr><td>Jan. 2026</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/code/stop-dockerizing-your-dev-databases/">Code › Stop Dockerizing Your Dev Databases</a></td></tr>
-<tr><td>Jan. 2026</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/design/building-a-self-documenting-portfolio-page/">Design › Building a Self-Documenting Portfolio Page</a></td></tr>
-<tr><td>Nov. 2025</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/design/unlocking-the-xterm-color-palette/">Design › Bash: Unlocking the Xterm Color Palette</a></td></tr>
-<tr><td>Nov. 2025</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/code/automating--git-repository-backups/">Code › Bash: Automating Self-Hosting Git Repository Backups</a></td></tr>
-<tr><td>Nov. 2025</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/code/managing-bookmarks-with-linkding-and-podman/">Code › Bash: Managing Bookmarks with Linkding and Podman</a></td></tr>
-<tr><td>Oct. 2024</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/code/email-obfuscation/">Code › JavaScript Email Obfuscation with XOR Encoding</a></td></tr>
+<tr><td>May. 2026</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/design/oh-my-gruvbox/">Design › Oh My GruvBox: Bringing Retro Colors to Oh My Posh</a></td></tr>
+<tr><td>May. 2026</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/code/autocommit-teaching-github-actions/">Code › AutoCommit: The Green Grid as a Learning Device</a></td></tr>
+<tr><td>May. 2026</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/code/linknim-bookmark-server/">Code › Linknim: A Bookmark Server Written in Nim</a></td></tr>
+<tr><td>May. 2026</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/code/vapor-chamber-vue-command-bus/">Code › Vapor Chamber: A Command Bus for Vue Vapor</a></td></tr>
+<tr><td>May. 2026</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/code/groove-nim-version-control/">Code › Groove: Save States for Solo Development</a></td></tr>
+<tr><td>Apr. 2026</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/code/nemo-sushi-preview/">Code › Nemo Sushi Preview: Quick Look for Linux</a></td></tr>
+<tr><td>Apr. 2026</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/code/nimbase-terminal-database/">Code › NimBase: xBase Programming for the Modern Linux Terminal</a></td></tr>
+<tr><td>Apr. 2026</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/code/mysqlite-sqlite-mysql-protocol/">Code › MySQLite: MySQL Protocol Over SQLite</a></td></tr>
+<tr><td>Apr. 2026</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/code/waybar-weather-widget/">Code › Waybar Weather Widget: Live Weather in Your Status Bar</a></td></tr>
+<tr><td>Mar. 2026</td><td align="left"><a href="https://lucianofedericopereira.github.io/codecraft/code/rest-api-blueprints/">Code › REST API Blueprints: Seven Production-Grade Implementations</a></td></tr>
 <!-- BLOG-POST-LIST:END -->
     </tbody>
 </table>
