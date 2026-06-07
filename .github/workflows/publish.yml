@@ -43,10 +43,13 @@ jobs:
       - name: Install dependencies
         run: pip install -r git-metrics/requirements.txt
 
+      - name: Install cairo (for PNG output)
+        run: sudo apt-get update && sudo apt-get install -y libcairo2
+
       - name: Generate GitHub statistics
         run: |
           python git-metrics/generate_stats.py \
-            --token ${{ secrets.GITHUB_TOKEN }} \
+            --token ${{ secrets.METRICS_TOKEN }} \
             --username ${{ env.USERNAME }} \
             --output assets/stats.png \
             --format png \
