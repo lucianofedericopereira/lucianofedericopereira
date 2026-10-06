@@ -20,13 +20,7 @@
 <h3 align="center">Current stack of technical and interpersonal competencies:</h3>
 <br>
 
- <details>
-    <summary align="center">
-        <a href="#stack">
-        <img src="./assets/rotate.svg" alt="See more">
-        </a>
-    </summary>
- <p align="center" id="stack">
+ <p align="center">
     <picture>
         <img src="./assets/badges/api.svg" alt="API Restful design">
     </picture>
@@ -88,7 +82,7 @@
         <img src="./assets/badges/linux.svg" alt="Linux, Shell, System Administration">
     </picture>
 </p>
-</details>
+
 <br>
 <hr>
 <h3 align="center">Recent Writing</h3>
