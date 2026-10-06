@@ -22,9 +22,11 @@
 
  <details>
     <summary align="center">
+        <a href="#stack">
         <img src="./assets/rotate.svg" alt="See more">
+        </a>
     </summary>
- <p align="center">
+ <p align="center" id="stack">
     <picture>
         <img src="./assets/badges/api.svg" alt="API Restful design">
     </picture>
