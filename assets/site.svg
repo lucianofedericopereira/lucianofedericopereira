@@ -1,12 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 32">
-<style>text { font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; font-weight:600; font-size: 16px; fill: #233} text:hover {text-decoration:underline} @media ( prefers-color-scheme: dark) { text {fill:#dfe2e2} }</style>
-<text x="40" y="22">C.V. Curriculum Vitae</text>
-<path fill="#969289" d="M27 0H5C2.23858 0 0 2.23858 0 5V27C0 29.7614 2.23858 32 5 32H27C29.7614 32 32 29.7614 32 27V5C32 2.23858 29.7614 0 27 0Z"/>
-<g transform="translate(2.5908027,2.8294596)">
-<circle cx="7.2268343" cy="5.4531403" r="1.9985956" style="fill:#ffffff;fill-opacity:1;stroke-width:0.46125"/>
-<path style="fill:#ffffff;fill-opacity:1;stroke-width:0.46125" d="m 3.2799204,12.287479 h 7.8933686 c 0.275828,0 0.503224,-0.224629 0.465401,-0.49815 C 11.366092,9.8170242 9.9482091,8.2907486 7.2268353,8.2907486 c -2.7213741,0 -4.1392561,1.5262756 -4.4118548,3.4985804 -0.038284,0.273521 0.1891125,0.49815 0.4649399,0.49815 z"/>
-<rect x="15.176014" y="5.2215915" width="8.8320122" height="1.7665868" style="fill:#ffffff;fill-opacity:1;stroke-width:0.46125"/>
-<rect x="15.176014" y="10.52089"  width="8.8320122" height="1.7665868" style="fill:#ffffff;fill-opacity:1;stroke-width:0.46125"/>
-<rect x="2.8103681" y="15.820651" width="21.197659" height="1.7665868" style="fill:#ffffff;fill-opacity:1;stroke-width:0.46125"/>
-<rect x="2.8103681" y="21.119949" width="21.197659" height="1.7665868" style="fill:#ffffff;fill-opacity:1;stroke-width:0.46125"/>
-</g></svg>
+<svg viewBox="0 0 330 32" width="330" height="32" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="luciano-pereira.pages.dev">
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; }
+    .primary { fill: #24292f; }
+    .muted   { fill: #969289; }
+    .rule    { stroke: #969289; stroke-opacity: .35; }
+    @media (prefers-color-scheme: dark) { .primary { fill: #dfe2e2; } }
+    text:hover { text-decoration: underline; }
+  </style>
+  <rect class="rule" x=".5" y=".5" width="329" height="31" rx="15.5" stroke-width="1"/>
+  <circle cx="17" cy="16" r="6" fill="#bca354"/>
+  <g transform="translate(33 7) scale(.75)" fill="none" stroke="#969289" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></g>
+  <text class="sans primary" x="60" y="21.5" font-size="16">luciano-pereira.pages.dev</text>
+  <text class="sans muted" x="312" y="21.5" font-size="16" text-anchor="end">↗</text>
+</svg>

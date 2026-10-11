@@ -28,11 +28,6 @@
 </p>
 <br>
 
-<h3 align="center">Current stack of technical and interpersonal competencies:</h3>
-<br>
-<hr>
-<h3 align="center">Recent Writing</h3>
-<hr>
 <div align="center">
 <table width="90%">
     <thead width="90%">
@@ -70,7 +65,7 @@
     </a>
     <br>
     <a rel="nofollow noopener noreferrer" href="https://luciano-pereira.pages.dev">
-        <img height="26px" src="./assets/site.svg" alt="Luciano Federico Pereira résumé">
+        <img height="26px" src="./assets/site.svg" alt="luciano-pereira.pages.dev">
     </a>
     <br>
     <a rel="nofollow noopener noreferrer" href="https://bit.ly/lucianofedericopereira">
