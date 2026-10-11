@@ -7,11 +7,28 @@
         <img src="./assets/lucianopereira.svg" alt="Luciano Pereira">
     </picture>
 </p>
-<h2 align="center">
-    Creating clean, scalable, and maintainable solutions
+<p align="center">
+    <a href="mailto:lucianopereira@posteo.es?subject=I%20saw%20your%20GitHub%20Profilee&body=Hi,%20Luciano%20">
+        <img height="26px" src="./assets/mail.svg" alt="mail">
+    </a>
     <br>
-    across the full development lifecycle.
-</h2>
+    <a rel="nofollow noopener noreferrer" href="https://www.linkedin.com/in/lucianofedericopereira">
+        <img height="26px" src="./assets/linkedin.svg" alt="LinkedIn">
+    </a>
+    <br>
+    <a rel="nofollow noopener noreferrer" href="https://luciano-pereira.pages.dev">
+        <img height="26px" src="./assets/site.svg" alt="luciano-pereira.pages.dev">
+    </a>
+    <br>
+    <a rel="nofollow noopener noreferrer" href="https://bit.ly/lucianofedericopereira">
+        <img height="26px" src="./assets/whatsapp.svg" alt="whatsapp">
+    </a>
+</p>
+
+
+
+
+
 <div align="center">
     <picture>
         <img src="./assets/stats.png" alt="GitHub Metrics">
@@ -50,25 +67,3 @@
     </tbody>
 </table>
 </div>
-<p align="center">
-    <br>
-    <picture>
-    <img src="./assets/contact.svg" alt="contact">
-    </picture>
-    <br>
-    <a href="mailto:lucianopereira@posteo.es?subject=I%20saw%20your%20GitHub%20Profilee&body=Hi,%20Luciano%20">
-        <img height="26px" src="./assets/mail.svg" alt="mail">
-    </a>
-    <br>
-    <a rel="nofollow noopener noreferrer" href="https://www.linkedin.com/in/lucianofedericopereira">
-        <img height="26px" src="./assets/linkedin.svg" alt="LinkedIn">
-    </a>
-    <br>
-    <a rel="nofollow noopener noreferrer" href="https://luciano-pereira.pages.dev">
-        <img height="26px" src="./assets/site.svg" alt="luciano-pereira.pages.dev">
-    </a>
-    <br>
-    <a rel="nofollow noopener noreferrer" href="https://bit.ly/lucianofedericopereira">
-        <img height="26px" src="./assets/whatsapp.svg" alt="whatsapp">
-    </a>
-</p>
