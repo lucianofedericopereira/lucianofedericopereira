@@ -17,72 +17,18 @@
         <img src="./assets/stats.png" alt="GitHub Metrics">
     </picture>
 </div>
-<h3 align="center">Current stack of technical and interpersonal competencies:</h3>
-<br>
 
- <p align="center">
+
+
+
+<p align="center">
     <picture>
-        <img src="./assets/badges/api.svg" alt="API Restful design">
-    </picture>
-    <picture>
-        <img src="./assets/badges/docker.svg" alt="Docker, Podman">
-    </picture>
-    <picture>
-        <img src="./assets/badges/postgre.svg" alt="PostgreSQL">
-    </picture>
-    <picture>
-        <img src="./assets/badges/ai.svg" alt="Agents: AI Solution Orchestation">
-    </picture>
-    <picture>
-        <img src="./assets/badges/mongodb.svg" alt="MongoDB">
-    </picture>
-    <picture>
-        <img src="./assets/badges/laravel.svg" alt="Laravel">
-    </picture>
-    <picture>
-        <img src="./assets/badges/php-composer.svg" alt="PHP, Composer">
-    </picture>
-    <picture>
-        <img src="./assets/badges/github.svg" alt="GitHub CI/CD Actions">
-    </picture>
-    <picture>
-        <img src="./assets/badges/python.svg" alt="Python, Pandas, Numpy, Geopandas">
-    </picture>
-    <picture>
-        <img src="./assets/badges/mysql.svg" alt="MySQL, ORM, Eloquent">
-    </picture>
-    <picture>
-        <img src="./assets/badges/git.svg" alt="Git (cli, scripting)">
-    </picture>
-    <picture>
-        <img src="./assets/badges/typescript.svg" alt="typescript">
-    </picture>
-    <picture>
-        <img src="./assets/badges/node.svg" alt="Node.js">
-    </picture>
-    <picture>
-        <img src="./assets/badges/team.svg" alt="Team | Pear Programming">
-    </picture>
-    <picture>
-        <img src="./assets/badges/vue.svg" alt="Vue.js, Vite">
-    </picture>
-    <picture>
-        <img src="./assets/badges/react.svg" alt="React">
-    </picture>
-    <picture>
-        <img src="./assets/badges/agile.svg" alt="Agile, Scrum, Kanban">
-    </picture>
-    <picture>
-        <img src="./assets/badges/html.svg" alt="HTML5, Components">
-    </picture>        
-    <picture>
-        <img src="./assets/badges/tailwind.svg" alt="CSS3, Tailwind 4">
-    </picture>
-    <picture>
-        <img src="./assets/badges/linux.svg" alt="Linux, Shell, System Administration">
+        <img src="./assets/resume.svg">
     </picture>
 </p>
+<br>
 
+<h3 align="center">Current stack of technical and interpersonal competencies:</h3>
 <br>
 <hr>
 <h3 align="center">Recent Writing</h3>
@@ -124,7 +70,7 @@
     </a>
     <br>
     <a rel="nofollow noopener noreferrer" href="https://luciano-pereira.pages.dev">
-        <img height="26px" src="./assets/resume.svg" alt="Luciano Federico Pereira résumé">
+        <img height="26px" src="./assets/site.svg" alt="Luciano Federico Pereira résumé">
     </a>
     <br>
     <a rel="nofollow noopener noreferrer" href="https://bit.ly/lucianofedericopereira">
