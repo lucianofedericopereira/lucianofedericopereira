@@ -7,21 +7,13 @@
     @media (prefers-color-scheme: dark) { .primary { fill: #dfe2e2; } }
     text:hover { text-decoration: underline; }
 
-    .short { display: none; }
-    @media (max-width: 319px) {           /* phone: short name, no arrow */
-      .full, .arrow { display: none; }
-      .short { display: inline; }
-    }
-    @media (max-width: 149px) {           /* very narrow: drop the glyph too */
-      .glyph { display: none; }
-      .short { transform: translateX(-26px); }
-    }
+    .mid, .tiny { display: none; }
+    @media (max-width: 319px) { .wide { display: none; } .mid { display: inline; } }
+    @media (max-width: 149px) { .mid { display: none; } .tiny { display: inline; } }
     .pill { width: calc(100% - 1px); }
   </style>
   <rect class="rule pill" x=".5" y=".5" width="100%" height="31" rx="15.5" stroke-width="1"/>
-  <circle cx="17" cy="16" r="6" fill="#bca354"/>
-  <g class="glyph"><g transform="translate(33 7) scale(.75)" fill="none" stroke="#969289" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></g></g>
-  <text class="sans primary full" x="60" y="21.5" font-size="16">luciano-pereira.pages.dev</text>
-  <text class="sans primary short" x="60" y="21.5" font-size="16">Web</text>
-  <text class="sans muted arrow" x="100%" dx="-18" y="21.5" font-size="16" text-anchor="end">↗</text>
+  <g class="wide"><circle cx="18" cy="16" r="6" fill="#bca354"/><g transform="translate(45 0)"><g transform="translate(-9 7) scale(.75)" fill="none" stroke="#969289" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></g></g><text class="sans primary" x="66" y="16" font-size="16" dominant-baseline="central">luciano-pereira.pages.dev</text><text class="sans muted" x="100%" y="16" font-size="16" dominant-baseline="central" dx="-16" text-anchor="end">↗</text></g>
+  <g class="mid"><svg x="50%" overflow="visible"><circle cx="-38.4453" cy="16" r="6" fill="#bca354"/><g transform="translate(-11.4453 0)"><g transform="translate(-9 7) scale(.75)" fill="none" stroke="#969289" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></g></g><text class="sans primary" x="9.55469" y="16" font-size="16" dominant-baseline="central">Web</text></svg></g>
+  <g class="tiny"><svg x="50%" overflow="visible"><circle cx="-23.4453" cy="16" r="6" fill="#bca354"/><text class="sans primary" x="-5.44531" y="16" font-size="16" dominant-baseline="central">Web</text></svg></g>
 </svg>
