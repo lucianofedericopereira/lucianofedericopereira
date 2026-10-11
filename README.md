@@ -7,36 +7,20 @@
         <img src="./assets/lucianopereira.svg" alt="Luciano Pereira">
     </picture>
 </p>
+
 <p align="center">
-    <a href="mailto:lucianopereira@posteo.es?subject=I%20saw%20your%20GitHub%20Profilee&body=Hi,%20Luciano%20">
-        <img height="26px" src="./assets/mail.svg" alt="mail">
-    </a>
+    <a href="mailto:lucianopereira@posteo.es?subject=I%20saw%20your%20GitHub%20Profile&body=Hi,%20Luciano%20"><img width="45%" height="32" src="./assets/mail.svg" alt="mail"></a>&nbsp;
+    <a rel="nofollow noopener noreferrer" href="https://www.linkedin.com/in/lucianofedericopereira"><img width="45%" height="32" src="./assets/linkedin.svg" alt="LinkedIn"></a>
     <br>
-    <a rel="nofollow noopener noreferrer" href="https://www.linkedin.com/in/lucianofedericopereira">
-        <img height="26px" src="./assets/linkedin.svg" alt="LinkedIn">
-    </a>
-    <br>
-    <a rel="nofollow noopener noreferrer" href="https://luciano-pereira.pages.dev">
-        <img height="26px" src="./assets/site.svg" alt="luciano-pereira.pages.dev">
-    </a>
-    <br>
-    <a rel="nofollow noopener noreferrer" href="https://bit.ly/lucianofedericopereira">
-        <img height="26px" src="./assets/whatsapp.svg" alt="whatsapp">
-    </a>
+    <a href="https://luciano-pereira.pages.dev"><img width="45%" height="32" src="./assets/site.svg" alt="luciano-pereira.pages.dev"></a>&nbsp;
+    <a rel="nofollow noopener noreferrer" href="https://bit.ly/lucianofedericopereira"><img width="45%" height="32" src="./assets/whatsapp.svg" alt="whatsapp"></a>
 </p>
-
-
-
-
 
 <div align="center">
     <picture>
         <img src="./assets/stats.png" alt="GitHub Metrics">
     </picture>
 </div>
-
-
-
 
 <p align="center">
     <picture>
