@@ -30,17 +30,16 @@
         <img src="./assets/resume.svg">
     </picture>
 </p>
-<br>
 
 <!-- BLOG-POST-LIST:START -->
 <p align="center">
-<a href="https://lucianofedericopereira.github.io/codecraft/design/oh-my-gruvbox/"><img width="45%" src="./assets/posts/card-1.svg" alt="Oh My GruvBox: Bringing Retro Colors to Oh My Posh"></a>&nbsp;
-<a href="https://lucianofedericopereira.github.io/codecraft/code/autocommit-teaching-github-actions/"><img width="45%" src="./assets/posts/card-2.svg" alt="AutoCommit: The Green Grid as a Learning Device"></a>
+<a href="https://lucianofedericopereira.github.io/codecraft/design/oh-my-gruvbox/"><img width="48%" src="./assets/posts/card-1.svg" alt="Oh My GruvBox: Bringing Retro Colors to Oh My Posh"></a>&nbsp;
+<a href="https://lucianofedericopereira.github.io/codecraft/code/autocommit-teaching-github-actions/"><img width="48%" src="./assets/posts/card-2.svg" alt="AutoCommit: The Green Grid as a Learning Device"></a>
 <br>
-<a href="https://lucianofedericopereira.github.io/codecraft/code/linknim-bookmark-server/"><img width="45%" src="./assets/posts/card-3.svg" alt="Linknim: A Bookmark Server Written in Nim"></a>&nbsp;
-<a href="https://lucianofedericopereira.github.io/codecraft/code/vapor-chamber-vue-command-bus/"><img width="45%" src="./assets/posts/card-4.svg" alt="Vapor Chamber: A Command Bus for Vue Vapor"></a>
+<a href="https://lucianofedericopereira.github.io/codecraft/code/linknim-bookmark-server/"><img width="48%" src="./assets/posts/card-3.svg" alt="Linknim: A Bookmark Server Written in Nim"></a>&nbsp;
+<a href="https://lucianofedericopereira.github.io/codecraft/code/vapor-chamber-vue-command-bus/"><img width="48%" src="./assets/posts/card-4.svg" alt="Vapor Chamber: A Command Bus for Vue Vapor"></a>
 <br>
-<a href="https://lucianofedericopereira.github.io/codecraft/code/groove-nim-version-control/"><img width="45%" src="./assets/posts/card-5.svg" alt="Groove: Save States for Solo Development"></a>&nbsp;
-<a href="https://lucianofedericopereira.github.io/codecraft/code/nemo-sushi-preview/"><img width="45%" src="./assets/posts/card-6.svg" alt="Nemo Sushi Preview: Quick Look for Linux"></a>
+<a href="https://lucianofedericopereira.github.io/codecraft/code/groove-nim-version-control/"><img width="48%" src="./assets/posts/card-5.svg" alt="Groove: Save States for Solo Development"></a>&nbsp;
+<a href="https://lucianofedericopereira.github.io/codecraft/code/nemo-sushi-preview/"><img width="48%" src="./assets/posts/card-6.svg" alt="Nemo Sushi Preview: Quick Look for Linux"></a>
 </p>
 <!-- BLOG-POST-LIST:END -->
