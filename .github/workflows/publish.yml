@@ -15,8 +15,8 @@ env:
   PYTHON_VERSION: "3.x"
   USERNAME: "lucianofedericopereira"
   FEED_URL: "https://lucianofedericopereira.github.io/codecraft/feed.xml"
-  FEED_TEMPLATE: "<tr><td>$date</td><td align=\"left\"><a href=\"$url\">$title</a></td></tr>"
-  FEED_DATE_FORMAT: "mmm. yyyy"
+  FEED_CARDS: "6"
+  FEED_SECTION_COLORS: "Code=#6e7695,Design=#bc776f"
 
 jobs:
   github-stats:
@@ -92,12 +92,13 @@ jobs:
           python feed-to-posts/update_readme.py \
             --feed-url '${{ env.FEED_URL }}' \
             --readme-path 'README.md' \
-            --template '${{ env.FEED_TEMPLATE }}' \
-            --date-format '${{ env.FEED_DATE_FORMAT }}'
+            --cards '${{ env.FEED_CARDS }}' \
+            --cards-dir 'assets/posts' \
+            --section-colors '${{ env.FEED_SECTION_COLORS }}'
 
       - name: Commit changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add README.md
+          git add README.md assets/posts
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update blog posts" && git push)
