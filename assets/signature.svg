@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1070 410" role="img" aria-label="Luciano Pereira" display="block" fill-rule="evenodd" clip-rule="evenodd"
      stroke-linejoin="round" stroke-miterlimit="2" preserveAspectRatio="xMidYMin meet" style="width:100%;height:auto">
   <style>
-    .col {fill:#24292f}
+    .col {fill:#1f2328}
     @media (prefers-color-scheme: dark) {
-        .col {fill:#dfe2e2}
+        .col {fill:#f0f6fc}
     }
   </style>
   <g class="col">

@@ -1,10 +1,16 @@
 <svg width="100%" height="32" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="luciano-pereira.pages.dev">
   <style>
     .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; }
-    .primary { fill: #24292f; }
-    .muted   { fill: #969289; }
-    .rule    { stroke: #969289; stroke-opacity: .35; }
-    @media (prefers-color-scheme: dark) { .primary { fill: #dfe2e2; } }
+    .primary { fill: #1f2328; }
+    .muted   { fill: #57544e; }
+    .line    { stroke: #57544e; }
+    .rule    { stroke: #57544e; stroke-opacity: .35; }
+    @media (prefers-color-scheme: dark) {
+      .primary { fill: #f0f6fc; }
+      .muted   { fill: #b1aea7; }
+      .line    { stroke: #b1aea7; }
+      .rule    { stroke: #b1aea7; }
+    }
     text:hover { text-decoration: underline; }
 
     .mid, .tiny { display: none; }
@@ -13,7 +19,7 @@
     .pill { width: calc(100% - 1px); }
   </style>
   <rect class="rule pill" x=".5" y=".5" width="100%" height="31" rx="15.5" stroke-width="1"/>
-  <g class="wide"><circle cx="18" cy="16" r="6" fill="#bca354"/><g transform="translate(45 0)"><g transform="translate(-9 7) scale(.75)" fill="none" stroke="#969289" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></g></g><text class="sans primary" x="66" y="16" font-size="16" dominant-baseline="central">luciano-pereira.pages.dev</text><text class="sans muted" x="100%" y="16" font-size="16" dominant-baseline="central" dx="-16" text-anchor="end">↗</text></g>
-  <g class="mid"><svg x="50%" overflow="visible"><circle cx="-54.5391" cy="16" r="6" fill="#bca354"/><g transform="translate(-27.5391 0)"><g transform="translate(-9 7) scale(.75)" fill="none" stroke="#969289" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></g></g><text class="sans primary" x="-6.53906" y="16" font-size="16" dominant-baseline="central">Web</text></svg></g>
+  <g class="wide"><circle cx="18" cy="16" r="6" fill="#bca354"/><g transform="translate(45 0)"><g transform="translate(-9 7) scale(.75)" fill="none" class="line" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></g></g><text class="sans primary" x="66" y="16" font-size="16" dominant-baseline="central">luciano-pereira.pages.dev</text><text class="sans muted" x="100%" y="16" font-size="16" dominant-baseline="central" dx="-16" text-anchor="end">↗</text></g>
+  <g class="mid"><svg x="50%" overflow="visible"><circle cx="-54.5391" cy="16" r="6" fill="#bca354"/><g transform="translate(-27.5391 0)"><g transform="translate(-9 7) scale(.75)" fill="none" class="line" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></g></g><text class="sans primary" x="-6.53906" y="16" font-size="16" dominant-baseline="central">Web</text></svg></g>
   <g class="tiny"><svg x="50%" overflow="visible"><circle cx="-39.5391" cy="16" r="6" fill="#bca354"/><text class="sans primary" x="-21.5391" y="16" font-size="16" dominant-baseline="central">Web</text></svg></g>
 </svg>

@@ -1,9 +1,9 @@
 <svg viewBox="0 0 360 64" width="360" height="64" xmlns="http://www.w3.org/2000/svg">
 <style>
-    path { fill: #24292f}
+    path { fill: #1f2328}
     rect { fill: #cdc8bc}
     @media (prefers-color-scheme: dark) {
-      path { fill: #dfe2e2; transition: 0.3s ease-in-out; }
+      path { fill: #f0f6fc; transition: 0.3s ease-in-out; }
       rect { fill: #ada89c; transition: 0.3s ease-in-out; }
     }
 </style>

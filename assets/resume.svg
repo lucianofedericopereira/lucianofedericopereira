@@ -8,7 +8,7 @@
     .empty   { fill: #ebedf0; }
     @media (prefers-color-scheme: dark) {
       .primary { fill: #f0f6fc; }
-      .muted   { fill: #a6a39b; }
+      .muted   { fill: #b1aea7; }
       .empty   { fill: #2d333b; }
     }
 
@@ -24,7 +24,7 @@
 
   <!-- EXPERIENCE -->
   <g class="rise a1">
-    <text class="sans muted" x="40" y="48" font-size="24">21 Years of Experience</text>
+    <text class="sans muted" x="40" y="48" font-size="24"><tspan class="primary">21</tspan> Years of Experience</text>
     <clipPath id="bar"><rect x="40" y="72" width="840" height="24" rx="12"/></clipPath>
     <g clip-path="url(#bar)">
       <rect x="40.0" y="72" width="132.3" height="24" fill="#6788a5"/>
@@ -42,72 +42,72 @@
     <text class="sans muted" x="774.2" y="118" font-size="13">2024</text>
     <text class="sans muted" x="880" y="118" font-size="13" text-anchor="end">now</text>
     <circle cx="48" cy="164" r="8" fill="#6e7695"/>
-    <text class="sans primary" x="70" y="170" font-size="18"><tspan font-weight="600">Beauty Luxury</tspan> · Senior Full-Stack Developer &amp; Architect</text>
+    <text class="sans primary" x="70" y="170" font-size="18"><tspan font-weight="600">Senior Full-Stack Developer &amp; Architect</tspan> · Beauty Luxury</text>
     <text class="sans muted" x="880" y="170" font-size="15" text-anchor="end">Mar 2024 – Present</text>
     <text class="sans muted" x="70" y="196" font-size="16">Full-stack $4M e-commerce: 6-layer event-driven cache (-93% DB load), PHPStan L8</text>
     <text class="sans muted" x="70" y="218" font-size="16">Conversion funnel, GA4/FB CAPI analytics, live chat &amp; AI agent context loader</text>
     <circle cx="48" cy="262" r="8" fill="#bc776f"/>
-    <text class="sans primary" x="70" y="268" font-size="18"><tspan font-weight="600">Rolling Code</tspan> · Lead Web Development Instructor</text>
+    <text class="sans primary" x="70" y="268" font-size="18"><tspan font-weight="600">Lead Web Development Instructor</tspan> · Rolling Code</text>
     <text class="sans muted" x="880" y="268" font-size="15" text-anchor="end">Nov 2022 – Jan 2024</text>
     <text class="sans muted" x="70" y="294" font-size="16">Taught full-stack JS &amp; algorithms to 80+ devs · high 12-month placement rate</text>
     <text class="sans muted" x="70" y="316" font-size="16">Technical lead mentoring junior devs &amp; designing bilingual curricula</text>
     <circle cx="48" cy="360" r="8" fill="#bca354"/>
-    <text class="sans primary" x="70" y="366" font-size="18"><tspan font-weight="600">Mobillers</tspan> · Senior Software Engineer</text>
+    <text class="sans primary" x="70" y="366" font-size="18"><tspan font-weight="600">Senior Software Engineer</tspan> · Mobillers</text>
     <text class="sans muted" x="880" y="366" font-size="15" text-anchor="end">Jan 2018 – Oct 2022</text>
     <text class="sans muted" x="70" y="392" font-size="16">Scaled international B2B/B2C SaaS platforms (React, Node, Python, PHP)</text>
     <text class="sans muted" x="70" y="414" font-size="16">AWS auto-scaling, Redis caching &amp; CloudFormation IaC (-70% origin traffic)</text>
     <circle cx="48" cy="458" r="8" fill="#6e93bc"/>
-    <text class="sans primary" x="70" y="464" font-size="18"><tspan font-weight="600">Mediaciones.ar</tspan> · Legal Tech Developer &amp; Mediator</text>
+    <text class="sans primary" x="70" y="464" font-size="18"><tspan font-weight="600">Legal Tech Developer &amp; Mediator</tspan> · Mediaciones.ar</text>
     <text class="sans muted" x="880" y="464" font-size="15" text-anchor="end">Mar 2016 – Dec 2017</text>
     <text class="sans muted" x="70" y="490" font-size="16">Architected automated mediation platform (processed 10,000+ dispute cases)</text>
     <text class="sans muted" x="70" y="512" font-size="16">Established cross-functional conflict-resolution protocols &amp; codebase reviews</text>
     <circle cx="48" cy="556" r="8" fill="#bcb57b"/>
-    <text class="sans primary" x="70" y="562" font-size="18"><tspan font-weight="600">365 Carilo</tspan> · Co-Founder &amp; CTO</text>
+    <text class="sans primary" x="70" y="562" font-size="18"><tspan font-weight="600">Co-Founder &amp; CTO</tspan> · 365 Carilo</text>
     <text class="sans muted" x="880" y="562" font-size="15" text-anchor="end">Jan 2009 – Dec 2015</text>
     <text class="sans muted" x="70" y="588" font-size="16">Built publishing platform for luxury media (polo, real estate, luxury auto)</text>
     <text class="sans muted" x="70" y="610" font-size="16">Reached 100% of Cariló's 7,000 residences &amp; 20,000 affluent subscribers</text>
     <circle cx="48" cy="654" r="8" fill="#6788a5"/>
-    <text class="sans primary" x="70" y="660" font-size="18"><tspan font-weight="600">Consejo de la Magistratura C.A.B.A.</tspan> · Product Owner</text>
+    <text class="sans primary" x="70" y="660" font-size="18"><tspan font-weight="600">Product Owner</tspan> · Consejo de la Magistratura C.A.B.A.</text>
     <text class="sans muted" x="880" y="660" font-size="15" text-anchor="end">Sep 2005 – Dec 2008</text>
     <text class="sans muted" x="70" y="686" font-size="16">Paperless judiciary case-management platform (~400,000 legal cases)</text>
     <text class="sans muted" x="70" y="708" font-size="16">Led cross-functional team on mission-critical system with 10,000+ users</text>
   </g>
   <!-- SKILLS -->
   <g class="rise a2">
-    <text class="sans muted" x="40" y="772" font-size="24">7 Skill Areas</text>
+    <text class="sans muted" x="40" y="772" font-size="24">Skills</text>
     <circle cx="48" cy="810" r="8" fill="#6e7695"/>
-    <text class="sans muted" x="70" y="816" font-size="15">Engineering</text>
-    <text class="sans primary" x="70" y="842" font-size="16">System Design · Software Architecture</text>
-    <text class="sans primary" x="70" y="864" font-size="16">Domain-Driven Design · Event-Driven</text>
-    <text class="sans primary" x="70" y="886" font-size="16">Scalability</text>
+    <text class="sans primary" font-weight="600" x="70" y="816" font-size="15">Engineering</text>
+    <text class="sans muted" x="70" y="842" font-size="16">System Design · Software Architecture</text>
+    <text class="sans muted" x="70" y="864" font-size="16">Domain-Driven Design · Event-Driven</text>
+    <text class="sans muted" x="70" y="886" font-size="16">Scalability</text>
     <circle cx="488" cy="810" r="8" fill="#6e93bc"/>
-    <text class="sans muted" x="510" y="816" font-size="15">Frontend</text>
-    <text class="sans primary" x="510" y="842" font-size="16">HTML · CSS · Tailwind · JS · TS · React · Vue</text>
-    <text class="sans primary" x="510" y="864" font-size="16">Vite · Inertia · Web Components</text>
+    <text class="sans primary" font-weight="600" x="510" y="816" font-size="15">Frontend</text>
+    <text class="sans muted" x="510" y="842" font-size="16">HTML · CSS · Tailwind · JS · TS · React · Vue</text>
+    <text class="sans muted" x="510" y="864" font-size="16">Vite · Inertia · Web Components</text>
     <circle cx="48" cy="920" r="8" fill="#bc776f"/>
-    <text class="sans muted" x="70" y="926" font-size="15">Backend</text>
-    <text class="sans primary" x="70" y="952" font-size="16">PHP · Laravel · Node.js · Composer · Blade</text>
-    <text class="sans primary" x="70" y="974" font-size="16">REST API · WebSockets · Microservices</text>
+    <text class="sans primary" font-weight="600" x="70" y="926" font-size="15">Backend</text>
+    <text class="sans muted" x="70" y="952" font-size="16">PHP · Laravel · Node.js · Composer · Blade</text>
+    <text class="sans muted" x="70" y="974" font-size="16">REST API · WebSockets · Microservices</text>
     <circle cx="488" cy="920" r="8" fill="#6788a5"/>
-    <text class="sans muted" x="510" y="926" font-size="15">Data</text>
-    <text class="sans primary" x="510" y="952" font-size="16">MySQL · PostgreSQL · MongoDB · Redis</text>
-    <text class="sans primary" x="510" y="974" font-size="16">Eloquent ORM · Python · Pandas</text>
+    <text class="sans primary" font-weight="600" x="510" y="926" font-size="15">Data</text>
+    <text class="sans muted" x="510" y="952" font-size="16">MySQL · PostgreSQL · MongoDB · Redis</text>
+    <text class="sans muted" x="510" y="974" font-size="16">Eloquent ORM · Python · Pandas</text>
     <circle cx="48" cy="1008" r="8" fill="#bca354"/>
-    <text class="sans muted" x="70" y="1014" font-size="15">DevOps</text>
-    <text class="sans primary" x="70" y="1040" font-size="16">Docker · AWS · CI/CD · Actions · Git · PHPStan</text>
-    <text class="sans primary" x="70" y="1062" font-size="16">Pest · Playwright · Tests</text>
+    <text class="sans primary" font-weight="600" x="70" y="1014" font-size="15">DevOps</text>
+    <text class="sans muted" x="70" y="1040" font-size="16">Docker · AWS · CI/CD · Actions · Git · PHPStan</text>
+    <text class="sans muted" x="70" y="1062" font-size="16">Pest · Playwright · Tests</text>
     <circle cx="488" cy="1008" r="8" fill="#bc7766"/>
-    <text class="sans muted" x="510" y="1014" font-size="15">E-commerce</text>
-    <text class="sans primary" x="510" y="1040" font-size="16">WooCommerce · Stripe · PayPal · GTM</text>
-    <text class="sans primary" x="510" y="1062" font-size="16">Events · Analytics · GDPR · Security · Caching</text>
+    <text class="sans primary" font-weight="600" x="510" y="1014" font-size="15">E-commerce</text>
+    <text class="sans muted" x="510" y="1040" font-size="16">WooCommerce · Stripe · PayPal · GTM</text>
+    <text class="sans muted" x="510" y="1062" font-size="16">Events · Analytics · GDPR · Security · Caching</text>
     <circle cx="48" cy="1096" r="8" fill="#bcb57b"/>
-    <text class="sans muted" x="70" y="1102" font-size="15">Workflows</text>
-    <text class="sans primary" x="70" y="1128" font-size="16">Agile · Scrum · Kanban · CLI &amp; Scripting</text>
-    <text class="sans primary" x="70" y="1150" font-size="16">Remote Work</text>
+    <text class="sans primary" font-weight="600" x="70" y="1102" font-size="15">Workflows</text>
+    <text class="sans muted" x="70" y="1128" font-size="16">Agile · Scrum · Kanban · CLI &amp; Scripting</text>
+    <text class="sans muted" x="70" y="1150" font-size="16">Remote Work</text>
   </g>
   <!-- EDUCATION -->
   <g class="rise a3">
-    <text class="sans muted" x="40" y="1214" font-size="24">7 Degrees &amp; Certifications</text>
+    <text class="sans muted" x="40" y="1214" font-size="24">Education &amp; Certifications</text>
     <text class="sans muted" x="40" y="1258" font-size="15">2022</text>
     <text class="sans primary" x="104" y="1258" font-size="17">M.Sc. Data Science<tspan class="muted"> · U.B.A.</tspan></text>
     <text class="sans muted" x="40" y="1288" font-size="15">2014</text>
@@ -125,25 +125,25 @@
   </g>
   <!-- LANGUAGES -->
   <g class="rise a4">
-    <text class="sans muted" x="540" y="1214" font-size="24">3 Spoken Languages</text>
-    <text class="sans muted" x="540" y="1258" font-size="15">Spanish</text>
-    <text class="sans primary" x="880" y="1258" font-size="17" text-anchor="end">Native</text>
+    <text class="sans muted" x="540" y="1214" font-size="24">Spoken Languages</text>
+    <text class="sans primary" x="540" y="1258" font-size="17">Spanish</text>
+    <text class="sans muted" x="880" y="1258" font-size="15" text-anchor="end">Native</text>
     <rect fill="#9be9a8" x="540.0" y="1270" width="51.7" height="12" rx="3"/>
     <rect fill="#9be9a8" x="597.7" y="1270" width="51.7" height="12" rx="3"/>
     <rect fill="#40c463" x="655.3" y="1270" width="51.7" height="12" rx="3"/>
     <rect fill="#40c463" x="713.0" y="1270" width="51.7" height="12" rx="3"/>
     <rect fill="#30a14e" x="770.7" y="1270" width="51.7" height="12" rx="3"/>
     <rect fill="#216e39" x="828.3" y="1270" width="51.7" height="12" rx="3"/>
-    <text class="sans muted" x="540" y="1330" font-size="15">English</text>
-    <text class="sans primary" x="880" y="1330" font-size="17" text-anchor="end">C2 · Proficient</text>
+    <text class="sans primary" x="540" y="1330" font-size="17">English</text>
+    <text class="sans muted" x="880" y="1330" font-size="15" text-anchor="end">C2 · Proficient</text>
     <rect fill="#9be9a8" x="540.0" y="1342" width="51.7" height="12" rx="3"/>
     <rect fill="#9be9a8" x="597.7" y="1342" width="51.7" height="12" rx="3"/>
     <rect fill="#40c463" x="655.3" y="1342" width="51.7" height="12" rx="3"/>
     <rect fill="#40c463" x="713.0" y="1342" width="51.7" height="12" rx="3"/>
     <rect fill="#30a14e" x="770.7" y="1342" width="51.7" height="12" rx="3"/>
     <rect fill="#216e39" x="828.3" y="1342" width="51.7" height="12" rx="3"/>
-    <text class="sans muted" x="540" y="1402" font-size="15">Italian</text>
-    <text class="sans primary" x="880" y="1402" font-size="17" text-anchor="end">B2 · Upper Intermediate</text>
+    <text class="sans primary" x="540" y="1402" font-size="17">Italian</text>
+    <text class="sans muted" x="880" y="1402" font-size="15" text-anchor="end">B2 · Upper Intermediate</text>
     <rect fill="#9be9a8" x="540.0" y="1414" width="51.7" height="12" rx="3"/>
     <rect fill="#9be9a8" x="597.7" y="1414" width="51.7" height="12" rx="3"/>
     <rect fill="#40c463" x="655.3" y="1414" width="51.7" height="12" rx="3"/>
