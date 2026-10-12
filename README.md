@@ -14,6 +14,9 @@
     <br>
     <a href="https://luciano-pereira.pages.dev"><img width="45%" height="32" src="./assets/site.svg" alt="luciano-pereira.pages.dev"></a>&nbsp;
     <a rel="nofollow noopener noreferrer" href="https://bit.ly/lucianofedericopereira"><img width="45%" height="32" src="./assets/whatsapp.svg" alt="whatsapp"></a>
+    <br>
+    <a href="https://lucianofedericopereira.github.io/codecraft/"><img width="45%" height="32" src="./assets/blog.svg" alt="Blog"></a>&nbsp;
+    <a rel="nofollow noopener noreferrer" href="https://orcid.org/0009-0002-4591-6568"><img width="45%" height="32" src="./assets/orcid.svg" alt="ORCID 0009-0002-4591-6568"></a>
 </p>
 
 <div align="center">
