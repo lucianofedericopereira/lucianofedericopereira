@@ -18,7 +18,7 @@
 
 <div align="center">
     <picture>
-        <img src="./assets/stats.png" alt="GitHub Metrics">
+        <img src="./assets/stats.svg" alt="GitHub Metrics">
     </picture>
 </div>
 

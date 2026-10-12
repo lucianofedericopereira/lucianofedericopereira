@@ -14,7 +14,6 @@ permissions:
 env:
   PYTHON_VERSION: "3.x"
   USERNAME: "lucianofedericopereira"
-  AUTHOR_NAMES: "Luciano Pereira, Luciano Federico Pereira, lucianofedericopereira, lucianofedericopereira@users.noreply.github.com, lucianopereira@posteo.es"
   FEED_URL: "https://lucianofedericopereira.github.io/codecraft/feed.xml"
   FEED_TEMPLATE: "<tr><td>$date</td><td align=\"left\"><a href=\"$url\">$title</a></td></tr>"
   FEED_DATE_FORMAT: "mmm. yyyy"
@@ -26,40 +25,36 @@ jobs:
     steps:
       # Checkout your profile repo (root repo)
       - name: Checkout profile repo
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       # Checkout git-metrics into a subfolder
       - name: Checkout git-metrics
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           repository: lucianofedericopereira/git-metrics
           path: git-metrics
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: ${{ env.PYTHON_VERSION }}
 
       - name: Install dependencies
         run: pip install -r git-metrics/requirements.txt
 
-      - name: Install cairo (for PNG output)
-        run: sudo apt-get update && sudo apt-get install -y libcairo2
-
       - name: Generate GitHub statistics
         run: |
           python git-metrics/generate_stats.py \
             --token ${{ secrets.METRICS_TOKEN }} \
             --username ${{ env.USERNAME }} \
-            --output assets/stats.png \
-            --format png \
-            --author-names "${{ env.AUTHOR_NAMES }}"
+            --output assets/stats.svg \
+            --merge-languages "Blade=PHP"
 
       - name: Commit changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add assets/stats.png
+          git add assets/stats.svg
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update GitHub stats" && git pull --rebase origin main && git push)
 
   update-readme-with-blog:
@@ -69,7 +64,7 @@ jobs:
     steps:
       # Checkout your profile repo (root repo)
       - name: Checkout profile repo
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           ref: main
 
@@ -79,13 +74,13 @@ jobs:
 
       # Checkout feed-to-posts into a subfolder
       - name: Checkout feed-to-posts
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           repository: lucianofedericopereira/feed-to-posts
           path: feed-to-posts
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: ${{ env.PYTHON_VERSION }}
 
