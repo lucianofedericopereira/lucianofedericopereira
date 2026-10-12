@@ -1,13 +1,14 @@
 <svg viewBox="0 0 960 1478" width="960" height="1478" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Resume — Luciano Federico Pereira: experience, skills, education, languages">
   <style>
     .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; }
-    .primary { fill: #24292f; }
-    .muted   { fill: #969289; }
+    .primary { fill: #1f2328; }
+    .muted   { fill: #57544e; }
     .rule    { stroke: #969289; stroke-opacity: .35; }
     .wash    { fill: #969289; fill-opacity: .08; }
     .empty   { fill: #ebedf0; }
     @media (prefers-color-scheme: dark) {
-      .primary { fill: #dfe2e2; }
+      .primary { fill: #f0f6fc; }
+      .muted   { fill: #a6a39b; }
       .empty   { fill: #2d333b; }
     }
 
