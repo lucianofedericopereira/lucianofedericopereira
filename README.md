@@ -23,16 +23,16 @@
 </p>
 
 <p align="center">
-    <picture><source media="(max-width: 1011px)" srcset="./assets/resume/experience.svg"><img width="784" src="./assets/resume/experience-wide.svg" alt="21 Years of Experience"></picture>
-    <picture><source media="(max-width: 1011px)" srcset="./assets/resume/job-1.svg"><img width="784" src="./assets/resume/job-1-wide.svg" alt="Senior Full-Stack Developer & Architect · Beauty Luxury"></picture>
-    <picture><source media="(max-width: 1011px)" srcset="./assets/resume/job-2.svg"><img width="784" src="./assets/resume/job-2-wide.svg" alt="Lead Web Development Instructor · Rolling Code"></picture>
-    <picture><source media="(max-width: 1011px)" srcset="./assets/resume/job-3.svg"><img width="784" src="./assets/resume/job-3-wide.svg" alt="Senior Software Engineer · Mobillers"></picture>
-    <picture><source media="(max-width: 1011px)" srcset="./assets/resume/job-4.svg"><img width="784" src="./assets/resume/job-4-wide.svg" alt="Legal Tech Developer & Mediator · Mediaciones.ar"></picture>
-    <picture><source media="(max-width: 1011px)" srcset="./assets/resume/job-5.svg"><img width="784" src="./assets/resume/job-5-wide.svg" alt="Co-Founder & CTO · 365 Carilo"></picture>
-    <picture><source media="(max-width: 1011px)" srcset="./assets/resume/job-6.svg"><img width="784" src="./assets/resume/job-6-wide.svg" alt="Product Owner · Consejo de la Magistratura C.A.B.A."></picture>
-    <picture><source media="(max-width: 1011px)" srcset="./assets/resume/skills-heading.svg"><img width="784" src="./assets/resume/skills-heading-wide.svg" alt="Skills"></picture>
-    <picture><source media="(max-width: 1011px)" srcset="./assets/resume/skills.svg"><img width="784" src="./assets/resume/skills-wide.svg" alt="Engineering, Frontend, Backend, Data, DevOps, E-commerce, Workflows"></picture>
-    <picture><source media="(max-width: 1011px)" srcset="./assets/resume/education.svg"><img width="784" src="./assets/resume/education-wide.svg" alt="Education & Certifications, Spoken Languages"></picture>
+    <picture><source media="(max-width: 1011px)" srcset="./assets/resume/experience-mobile.svg"><img width="784" src="./assets/resume/experience-wide.svg" alt="21 Years of Experience"></picture>
+    <picture><source media="(max-width: 1011px)" srcset="./assets/resume/job-1-mobile.svg"><img width="784" src="./assets/resume/job-1-wide.svg" alt="Senior Full-Stack Developer & Architect · Beauty Luxury"></picture>
+    <picture><source media="(max-width: 1011px)" srcset="./assets/resume/job-2-mobile.svg"><img width="784" src="./assets/resume/job-2-wide.svg" alt="Lead Web Development Instructor · Rolling Code"></picture>
+    <picture><source media="(max-width: 1011px)" srcset="./assets/resume/job-3-mobile.svg"><img width="784" src="./assets/resume/job-3-wide.svg" alt="Senior Software Engineer · Mobillers"></picture>
+    <picture><source media="(max-width: 1011px)" srcset="./assets/resume/job-4-mobile.svg"><img width="784" src="./assets/resume/job-4-wide.svg" alt="Legal Tech Developer & Mediator · Mediaciones.ar"></picture>
+    <picture><source media="(max-width: 1011px)" srcset="./assets/resume/job-5-mobile.svg"><img width="784" src="./assets/resume/job-5-wide.svg" alt="Co-Founder & CTO · 365 Carilo"></picture>
+    <picture><source media="(max-width: 1011px)" srcset="./assets/resume/job-6-mobile.svg"><img width="784" src="./assets/resume/job-6-wide.svg" alt="Product Owner · Consejo de la Magistratura C.A.B.A."></picture>
+    <picture><source media="(max-width: 1011px)" srcset="./assets/resume/skills-heading-mobile.svg"><img width="784" src="./assets/resume/skills-heading-wide.svg" alt="Skills"></picture>
+    <picture><source media="(max-width: 1011px)" srcset="./assets/resume/skills-mobile.svg"><img width="784" src="./assets/resume/skills-wide.svg" alt="Engineering, Frontend, Backend, Data, DevOps, E-commerce, Workflows"></picture>
+    <picture><source media="(max-width: 1011px)" srcset="./assets/resume/education-mobile.svg"><img width="784" src="./assets/resume/education-wide.svg" alt="Education & Certifications, Spoken Languages"></picture>
 </p>
 
 <!-- BLOG-POST-LIST:START -->

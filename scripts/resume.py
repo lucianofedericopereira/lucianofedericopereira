@@ -110,12 +110,12 @@ def experience_heading():
     ticks += f'\n    <text class="sans muted" x="{WIDE_W}" y="92" font-size="13" text-anchor="end">now</text>'
     label = f'{years} Years of Experience'
     return {'experience-wide.svg': svg(WIDE_W, 104, label, heading + bar(WIDE_W) + ticks),
-            'experience.svg': svg(CARD_W, 86, label, heading + bar(RIGHT))}
+            'experience-mobile.svg': svg(CARD_W, 86, label, heading + bar(RIGHT))}
 
 
 def heading(name, text):
     body = f'\n    <text class="sans muted" x="0" y="30" font-size="24">{e(text)}</text>'
-    return {f'{name}-wide.svg': svg(WIDE_W, 44, text, body), f'{name}.svg': svg(CARD_W, 44, text, body)}
+    return {f'{name}-wide.svg': svg(WIDE_W, 44, text, body), f'{name}-mobile.svg': svg(CARD_W, 44, text, body)}
 
 
 def job_row(job):
@@ -130,15 +130,16 @@ def job_row(job):
 
 
 def job_card(job):
-    """Mobile: dates, role, company, then the bullets wrapped to the card"""
+    """Mobile: role, company, dates, then the bullets wrapped to the card"""
     _, color, dates, role, company, bullets = job
-    body = f'\n    <text class="sans muted" x="{TEXT_X}" y="16" font-size="14">{e(dates)}</text>'
-    y = 42
-    body += f'\n    <circle cx="8" cy="{y - 6}" r="8" fill="{color}"/>'
+    y = 22
+    body = f'\n    <circle cx="8" cy="{y - 6}" r="8" fill="{color}"/>'
     for line in role:
         body += f'\n    <text class="sans primary" x="{TEXT_X}" y="{y}" font-size="18" font-weight="600">{e(line)}</text>'
         y += 24
     body += f'\n    <text class="sans primary" x="{TEXT_X}" y="{y}" font-size="16">{e(company)}</text>'
+    y += 20
+    body += f'\n    <text class="sans muted" x="{TEXT_X}" y="{y}" font-size="14">{e(dates)}</text>'
     y += 6
     for lines in bullets:
         y += 8
@@ -197,7 +198,7 @@ def section(name, blocks, label):
     """Desktop: two columns 784 wide; mobile: one column 400 wide, stretched like the job cards"""
     wide, wide_h = place(blocks, 2)
     stack, stack_h = place(blocks, 1)
-    return {f'{name}-wide.svg': svg(WIDE_W, wide_h, label, wide), f'{name}.svg': svg(CARD_W, stack_h, label, stack)}
+    return {f'{name}-wide.svg': svg(WIDE_W, wide_h, label, wide), f'{name}-mobile.svg': svg(CARD_W, stack_h, label, stack)}
 
 
 def main():
@@ -208,7 +209,7 @@ def main():
 
     for i, job in enumerate(EXPERIENCE, 1):
         files[f'job-{i}-wide.svg'] = job_row(job)
-        files[f'job-{i}.svg'] = job_card(job)
+        files[f'job-{i}-mobile.svg'] = job_card(job)
 
     files.update(section('skills', [skill_block(s) for s in SKILLS],
                          'Skills: ' + '; '.join(f'{n}: {" · ".join(items)}' for n, _, items in SKILLS)))
