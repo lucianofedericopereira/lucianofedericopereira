@@ -1,0 +1,24 @@
+<svg viewBox="0 0 784 100" width="784" height="100" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Co-Founder &amp; CTO · 365 Carilo · Jan 2009 – Dec 2015">
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; }
+    .primary { fill: #1f2328; }
+    .muted   { fill: #57544e; }
+    .empty   { fill: #ebedf0; }
+    @media (prefers-color-scheme: dark) {
+      .primary { fill: #f0f6fc; }
+      .muted   { fill: #b1aea7; }
+      .empty   { fill: #2d333b; }
+    }
+
+    .rise { opacity: 0; animation: rise .7s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    @media (prefers-reduced-motion: reduce) { .rise { animation: none; opacity: 1; } }
+  </style>
+  <g class="rise">
+    <circle cx="8" cy="16" r="8" fill="#bcb57b"/>
+    <text class="sans primary" x="26" y="22" font-size="18"><tspan font-weight="600">Co-Founder &amp; CTO</tspan> · 365 Carilo</text>
+    <text class="sans muted" x="784" y="22" font-size="15" text-anchor="end">Jan 2009 – Dec 2015</text>
+    <text class="sans muted" x="26" y="48" font-size="16">Built publishing platform for luxury media (polo, real estate, luxury auto)</text>
+    <text class="sans muted" x="26" y="70" font-size="16">Reached 100% of Cariló's 7,000 residences &amp; 20,000 affluent subscribers</text>
+  </g>
+</svg>
