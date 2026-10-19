@@ -1,4 +1,4 @@
-<svg viewBox="-8 -8 416 158" width="416" height="158" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Linknim: A Bookmark Server Written in Nim · Code · 3 min read">
+<svg viewBox="0 0 400 142" width="400" height="142" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Linknim: A Bookmark Server Written in Nim · Code · 3 min read">
   <style>
     .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; }
     .primary { fill: #1f2328; }
@@ -11,8 +11,9 @@
       .accent  { fill: #4493f8; }
       .rule    { stroke: #b1aea7; }
     }
-    .narrow { display: none; }
-    @media (max-width: 260px) { .wide { display: none; } .narrow { display: inline; } }
+    .mid, .narrow { display: none; }
+    @media (max-width: 389px) { .wide { display: none; } .mid { display: inline; } }
+    @media (max-width: 260px) { .mid { display: none; } .narrow { display: inline; } }
     
   </style>
   <rect class="rule" x=".5" y=".5" width="399" height="141" rx="12" stroke-width="1"/>
@@ -24,6 +25,14 @@
     <text class="sans muted" x="16" y="102" font-size="13">that stores everything in plain CSV and INI…</text>
     <circle cx="22" cy="123" r="6" fill="#6e7695"/>
     <text class="sans muted" x="34" y="127" font-size="13">Code · 3 min read</text>
+  </g>
+  <g class="mid">
+    <path class="muted" transform="translate(16 17) scale(1.375)" d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"/>
+    <text class="sans accent" x="48" y="36" font-size="22" font-weight="600">Linknim</text>
+    <text class="sans primary" x="16" y="70" font-size="18">A Bookmark Server Written in Nim</text>
+    <text class="sans muted" x="16" y="96" font-size="17">A self-hosted bookmark manager…</text>
+    <circle cx="24" cy="121" r="8" fill="#6e7695"/>
+    <text class="sans muted" x="40" y="127" font-size="17">Code · 3 min read</text>
   </g>
   <g class="narrow">
     <path class="muted" transform="translate(16 16) scale(2.25)" d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"/>

@@ -1,0 +1,54 @@
+<svg viewBox="0 0 400 254" width="400" height="254" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub metrics — Luciano Pereira: 32 languages">
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; }
+    .primary { fill: #1f2328; }
+    .muted   { fill: #57544e; }
+    .empty   { fill: #ebedf0; }
+    @media (prefers-color-scheme: dark) {
+      .primary { fill: #f0f6fc; }
+      .muted   { fill: #b1aea7; }
+      .empty   { fill: #2d333b; }
+    }
+
+    .rise { opacity: 0; animation: rise .7s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    .a1 { animation-delay: .05s; }
+    .a2 { animation-delay: .15s; }
+    .a3 { animation-delay: .25s; }
+    @media (prefers-reduced-motion: reduce) { .rise { animation: none; opacity: 1; } }
+    
+  </style>
+
+  <!-- LANGUAGES -->
+  <g class="rise a3">
+    <text class="sans muted" x="16" y="38" font-size="24"><tspan class="primary">32</tspan> Languages</text>
+    <clipPath id="lang-bar"><rect x="16" y="88" width="368" height="24" rx="12"/></clipPath>
+    <g clip-path="url(#lang-bar)">
+      <rect class="empty" x="16" y="88" width="368" height="24"/>
+      <rect x="16.0" y="88" width="230.8" height="24" fill="#6E7695"/>
+      <rect x="245.8" y="88" width="51.6" height="24" fill="#BC7766"/>
+      <rect x="296.4" y="88" width="20.9" height="24" fill="#BCA354"/>
+      <rect x="316.3" y="88" width="18.7" height="24" fill="#6E93BC"/>
+      <rect x="334.0" y="88" width="15.0" height="24" fill="#BCB57B"/>
+      <rect x="348.0" y="88" width="14.1" height="24" fill="#6788A5"/>
+      <rect x="361.1" y="88" width="11.1" height="24" fill="#76B89A"/>
+      <rect x="371.3" y="88" width="12.7" height="24" fill="#858585"/>
+    </g>
+    <circle cx="24" cy="146" r="8" fill="#6E7695"/>
+    <text class="sans primary" x="42" y="152" font-size="16">PHP<tspan class="muted"> 62.4%</tspan></text>
+    <circle cx="208" cy="146" r="8" fill="#BC7766"/>
+    <text class="sans primary" x="226" y="152" font-size="16">HTML<tspan class="muted"> 13.7%</tspan></text>
+    <circle cx="24" cy="172" r="8" fill="#BCA354"/>
+    <text class="sans primary" x="42" y="178" font-size="16">Nim<tspan class="muted"> 5.4%</tspan></text>
+    <circle cx="208" cy="172" r="8" fill="#6E93BC"/>
+    <text class="sans primary" x="226" y="178" font-size="16">TypeScript<tspan class="muted"> 4.8%</tspan></text>
+    <circle cx="24" cy="198" r="8" fill="#BCB57B"/>
+    <text class="sans primary" x="42" y="204" font-size="16">JavaScript<tspan class="muted"> 3.8%</tspan></text>
+    <circle cx="208" cy="198" r="8" fill="#6788A5"/>
+    <text class="sans primary" x="226" y="204" font-size="16">Python<tspan class="muted"> 3.6%</tspan></text>
+    <circle cx="24" cy="224" r="8" fill="#76B89A"/>
+    <text class="sans primary" x="42" y="230" font-size="16">Vue<tspan class="muted"> 2.8%</tspan></text>
+    <circle cx="208" cy="224" r="8" fill="#858585"/>
+    <text class="sans primary" x="226" y="230" font-size="16">Others<tspan class="muted"> 3.5%</tspan></text>
+  </g>
+</svg>

@@ -48,13 +48,14 @@ jobs:
             --token ${{ secrets.METRICS_TOKEN }} \
             --username ${{ env.USERNAME }} \
             --output assets/stats.svg \
-            --merge-languages "Blade=PHP"
+            --merge-languages "Blade=PHP" \
+            --panels
 
       - name: Commit changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add assets/stats.svg
+          git add assets/stats-*.svg
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update GitHub stats" && git pull --rebase origin main && git push)
 
   update-readme-with-blog:
