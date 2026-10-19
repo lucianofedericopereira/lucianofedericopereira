@@ -1,0 +1,52 @@
+<svg viewBox="0 0 784 120" width="784" height="120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="21 Years of Experience">
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; }
+    .primary { fill: #1f2328; }
+    .muted   { fill: #57544e; }
+    .empty   { fill: #ebedf0; }
+    @media (prefers-color-scheme: dark) {
+      .primary { fill: #f0f6fc; }
+      .muted   { fill: #b1aea7; }
+      .empty   { fill: #2d333b; }
+    }
+
+    .rise { opacity: 0; animation: rise .7s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    @media (prefers-reduced-motion: reduce) { .rise { animation: none; opacity: 1; } }
+    .narrow { display: none; }
+    @media (max-width: 783px) { .wide { display: none; } .narrow { display: inline; } }
+  </style>
+  <g class="rise">
+    <g class="wide">
+    <text class="sans muted" x="16" y="38" font-size="24"><tspan class="primary">21</tspan> Years of Experience</text>
+    <clipPath id="bar-wide"><rect x="16" y="60" width="752" height="24" rx="12"/></clipPath>
+    <g clip-path="url(#bar-wide)">
+      <rect x="16.0" y="60" width="118.4" height="24" fill="#6788a5"/>
+      <rect x="134.4" y="60" width="254.6" height="24" fill="#bcb57b"/>
+      <rect x="389.0" y="60" width="65.1" height="24" fill="#6e93bc"/>
+      <rect x="454.2" y="60" width="171.7" height="24" fill="#bca354"/>
+      <rect x="625.9" y="60" width="47.4" height="24" fill="#bc776f"/>
+      <rect x="673.3" y="60" width="94.7" height="24" fill="#6e7695"/>
+    </g>
+    <text class="sans muted" x="16.0" y="106" font-size="13">2005</text>
+    <text class="sans muted" x="134.4" y="106" font-size="13">2009</text>
+    <text class="sans muted" x="389.0" y="106" font-size="13">2016</text>
+    <text class="sans muted" x="454.2" y="106" font-size="13">2018</text>
+    <text class="sans muted" x="625.9" y="106" font-size="13">2022</text>
+    <text class="sans muted" x="673.3" y="106" font-size="13">2024</text>
+    <text class="sans muted" x="768" y="106" font-size="13" text-anchor="end">now</text>
+    </g>
+    <g class="narrow">
+    <text class="sans muted" x="16" y="50" font-size="44"><tspan class="primary">21</tspan> Years of Experience</text>
+    <clipPath id="bar-narrow"><rect x="16" y="72" width="752" height="32" rx="16"/></clipPath>
+    <g clip-path="url(#bar-narrow)">
+      <rect x="16.0" y="72" width="118.4" height="32" fill="#6788a5"/>
+      <rect x="134.4" y="72" width="254.6" height="32" fill="#bcb57b"/>
+      <rect x="389.0" y="72" width="65.1" height="32" fill="#6e93bc"/>
+      <rect x="454.2" y="72" width="171.7" height="32" fill="#bca354"/>
+      <rect x="625.9" y="72" width="47.4" height="32" fill="#bc776f"/>
+      <rect x="673.3" y="72" width="94.7" height="32" fill="#6e7695"/>
+    </g>
+    </g>
+  </g>
+</svg>

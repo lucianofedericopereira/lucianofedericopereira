@@ -1,0 +1,29 @@
+<svg viewBox="0 0 400 242" width="400" height="242" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Senior Full-Stack Developer &amp; Architect · Beauty Luxury · Mar 2024 – Present">
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; }
+    .primary { fill: #1f2328; }
+    .muted   { fill: #57544e; }
+    .empty   { fill: #ebedf0; }
+    @media (prefers-color-scheme: dark) {
+      .primary { fill: #f0f6fc; }
+      .muted   { fill: #b1aea7; }
+      .empty   { fill: #2d333b; }
+    }
+
+    .rise { opacity: 0; animation: rise .7s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    @media (prefers-reduced-motion: reduce) { .rise { animation: none; opacity: 1; } }
+  </style>
+  <g class="rise">
+    <text class="sans muted" x="42" y="24" font-size="14">Mar 2024 – Present</text>
+    <circle cx="24" cy="44" r="8" fill="#6e7695"/>
+    <text class="sans primary" x="42" y="50" font-size="18" font-weight="600">Senior Full-Stack Developer &amp;</text>
+    <text class="sans primary" x="42" y="74" font-size="18" font-weight="600">Architect</text>
+    <text class="sans primary" x="42" y="98" font-size="16">Beauty Luxury</text>
+    <text class="sans muted" x="42" y="126" font-size="16">Full-stack $4M e-commerce:</text>
+    <text class="sans muted" x="42" y="148" font-size="16">6-layer event-driven cache</text>
+    <text class="sans muted" x="42" y="170" font-size="16">(-93% DB load), PHPStan L8</text>
+    <text class="sans muted" x="42" y="200" font-size="16">Conversion funnel, GA4/FB CAPI analytics,</text>
+    <text class="sans muted" x="42" y="222" font-size="16">live chat &amp; AI agent context loader</text>
+  </g>
+</svg>
