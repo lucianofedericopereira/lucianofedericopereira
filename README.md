@@ -18,8 +18,8 @@
 </p>
 
 <p align="center">
-    <img width="390" src="./assets/stats-profile.svg" alt="GitHub Metrics">
-    <img width="390" src="./assets/stats-languages.svg" alt="Languages">
+    <picture><source media="(max-width: 1011px)" srcset="./assets/stats-profile.svg" width="784"><img width="390" src="./assets/stats-profile.svg" alt="GitHub Metrics"></picture>
+    <picture><source media="(max-width: 1011px)" srcset="./assets/stats-languages.svg" width="784"><img width="390" src="./assets/stats-languages.svg" alt="Languages"></picture>
 </p>
 
 <p align="center">
@@ -37,11 +37,11 @@
 
 <!-- BLOG-POST-LIST:START -->
 <p align="center">
-<a href="https://lucianofedericopereira.github.io/codecraft/design/oh-my-gruvbox/"><img width="390" src="./assets/posts/card-1.svg" alt="Oh My GruvBox: Bringing Retro Colors to Oh My Posh"></a>
-<a href="https://lucianofedericopereira.github.io/codecraft/code/autocommit-teaching-github-actions/"><img width="390" src="./assets/posts/card-2.svg" alt="AutoCommit: The Green Grid as a Learning Device"></a>
-<a href="https://lucianofedericopereira.github.io/codecraft/code/linknim-bookmark-server/"><img width="390" src="./assets/posts/card-3.svg" alt="Linknim: A Bookmark Server Written in Nim"></a>
-<a href="https://lucianofedericopereira.github.io/codecraft/code/vapor-chamber-vue-command-bus/"><img width="390" src="./assets/posts/card-4.svg" alt="Vapor Chamber: A Command Bus for Vue Vapor"></a>
-<a href="https://lucianofedericopereira.github.io/codecraft/code/groove-nim-version-control/"><img width="390" src="./assets/posts/card-5.svg" alt="Groove: Save States for Solo Development"></a>
-<a href="https://lucianofedericopereira.github.io/codecraft/code/nemo-sushi-preview/"><img width="390" src="./assets/posts/card-6.svg" alt="Nemo Sushi Preview: Quick Look for Linux"></a>
+<a href="https://lucianofedericopereira.github.io/codecraft/design/oh-my-gruvbox/"><picture><source media="(max-width: 1011px)" srcset="./assets/posts/card-1.svg" width="784"><img width="390" src="./assets/posts/card-1.svg" alt="Oh My GruvBox: Bringing Retro Colors to Oh My Posh"></picture></a>
+<a href="https://lucianofedericopereira.github.io/codecraft/code/autocommit-teaching-github-actions/"><picture><source media="(max-width: 1011px)" srcset="./assets/posts/card-2.svg" width="784"><img width="390" src="./assets/posts/card-2.svg" alt="AutoCommit: The Green Grid as a Learning Device"></picture></a>
+<a href="https://lucianofedericopereira.github.io/codecraft/code/linknim-bookmark-server/"><picture><source media="(max-width: 1011px)" srcset="./assets/posts/card-3.svg" width="784"><img width="390" src="./assets/posts/card-3.svg" alt="Linknim: A Bookmark Server Written in Nim"></picture></a>
+<a href="https://lucianofedericopereira.github.io/codecraft/code/vapor-chamber-vue-command-bus/"><picture><source media="(max-width: 1011px)" srcset="./assets/posts/card-4.svg" width="784"><img width="390" src="./assets/posts/card-4.svg" alt="Vapor Chamber: A Command Bus for Vue Vapor"></picture></a>
+<a href="https://lucianofedericopereira.github.io/codecraft/code/groove-nim-version-control/"><picture><source media="(max-width: 1011px)" srcset="./assets/posts/card-5.svg" width="784"><img width="390" src="./assets/posts/card-5.svg" alt="Groove: Save States for Solo Development"></picture></a>
+<a href="https://lucianofedericopereira.github.io/codecraft/code/nemo-sushi-preview/"><picture><source media="(max-width: 1011px)" srcset="./assets/posts/card-6.svg" width="784"><img width="390" src="./assets/posts/card-6.svg" alt="Nemo Sushi Preview: Quick Look for Linux"></picture></a>
 </p>
 <!-- BLOG-POST-LIST:END -->
