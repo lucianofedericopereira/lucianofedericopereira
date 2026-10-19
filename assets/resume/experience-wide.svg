@@ -1,0 +1,36 @@
+<svg viewBox="0 0 784 104" width="784" height="104" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="21 Years of Experience">
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; }
+    .primary { fill: #1f2328; }
+    .muted   { fill: #57544e; }
+    .empty   { fill: #ebedf0; }
+    @media (prefers-color-scheme: dark) {
+      .primary { fill: #f0f6fc; }
+      .muted   { fill: #b1aea7; }
+      .empty   { fill: #2d333b; }
+    }
+
+    .rise { opacity: 0; animation: rise .7s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    @media (prefers-reduced-motion: reduce) { .rise { animation: none; opacity: 1; } }
+  </style>
+  <g class="rise">
+    <text class="sans muted" x="0" y="30" font-size="24"><tspan class="primary">21</tspan> Years of Experience</text>
+    <clipPath id="bar"><rect x="0" y="46" width="784" height="24" rx="12"/></clipPath>
+    <g clip-path="url(#bar)">
+      <rect x="0.0" y="46" width="123.5" height="24" fill="#6788a5"/>
+      <rect x="123.5" y="46" width="265.4" height="24" fill="#bcb57b"/>
+      <rect x="388.9" y="46" width="67.9" height="24" fill="#6e93bc"/>
+      <rect x="456.8" y="46" width="179.0" height="24" fill="#bca354"/>
+      <rect x="635.8" y="46" width="49.4" height="24" fill="#bc776f"/>
+      <rect x="685.2" y="46" width="98.8" height="24" fill="#6e7695"/>
+    </g>
+    <text class="sans muted" x="0.0" y="92" font-size="13">2005</text>
+    <text class="sans muted" x="123.5" y="92" font-size="13">2009</text>
+    <text class="sans muted" x="388.9" y="92" font-size="13">2016</text>
+    <text class="sans muted" x="456.8" y="92" font-size="13">2018</text>
+    <text class="sans muted" x="635.8" y="92" font-size="13">2022</text>
+    <text class="sans muted" x="685.2" y="92" font-size="13">2024</text>
+    <text class="sans muted" x="784" y="92" font-size="13" text-anchor="end">now</text>
+  </g>
+</svg>

@@ -55,9 +55,8 @@ LANGUAGES = [  # (name, CEFR level 1-6, label)
     ('Italian', 4, 'B2 · Upper Intermediate'),
 ]
 
-CARD_W, RIGHT, TEXT_X = 400, 384, 26  # content flush left; the right 16px is the gutter between paired cards
-WIDE_W = 784                           # two cards side by side
-NARROW_BELOW = 600                     # strips rendered narrower than this switch to the large mobile heading
+CARD_W, RIGHT, TEXT_X = 400, 384, 26  # mobile: one 400-wide column, stretched to the page; content flush left
+WIDE_W = 784                           # desktop: two 384 columns and a 16px gutter
 
 STYLE = '''  <style>
     .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "DejaVu Sans", Helvetica, Arial, sans-serif; }
@@ -73,60 +72,50 @@ STYLE = '''  <style>
     .rise { opacity: 0; animation: rise .7s cubic-bezier(.2,.7,.2,1) forwards; }
     @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
     @media (prefers-reduced-motion: reduce) { .rise { animation: none; opacity: 1; } }
-%s  </style>'''
-
-STRIP_CSS = f'''    .narrow {{ display: none; }}
-    @media (max-width: {NARROW_BELOW - 1}px) {{ .wide {{ display: none; }} .narrow {{ display: inline; }} }}
-'''
+  </style>'''
 
 
 def e(text):
     return escape(text, quote=False)
 
 
-def svg(width, height, label, body, css=''):
+def svg(width, height, label, body):
     return f'''<svg viewBox="0 0 {width} {height}" width="{width}" height="{height}" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="{escape(label)}">
-{STYLE % css}
+{STYLE}
   <g class="rise">{body}
   </g>
 </svg>
 '''
 
 
-def experience_strip():
-    """Heading and tenure bar; on mobile a larger heading and a thicker bar without ticks"""
+def experience_heading():
+    """Heading and tenure bar: desktop with year ticks, mobile without (the cards carry the dates)"""
     years = int(NOW - EXPERIENCE[-1][0])
     chrono = list(reversed(EXPERIENCE))
     first, span = chrono[0][0], NOW - chrono[0][0]
-    px = WIDE_W / span
+    heading = f'\n    <text class="sans muted" x="0" y="30" font-size="24"><tspan class="primary">{years}</tspan> Years of Experience</text>'
 
-    def bar(y, h, clip):
+    def bar(width):
+        px = width / span
         segs = ''
         for i, (start, color, *_) in enumerate(chrono):
             end = chrono[i + 1][0] if i + 1 < len(chrono) else NOW
-            segs += f'\n      <rect x="{(start - first) * px:.1f}" y="{y}" width="{(end - start) * px:.1f}" height="{h}" fill="{color}"/>'
-        return (f'\n    <clipPath id="{clip}"><rect x="0" y="{y}" width="{WIDE_W}" height="{h}" rx="{h // 2}"/></clipPath>'
-                f'\n    <g clip-path="url(#{clip})">{segs}\n    </g>')
+            segs += f'\n      <rect x="{(start - first) * px:.1f}" y="46" width="{(end - start) * px:.1f}" height="24" fill="{color}"/>'
+        return (f'\n    <clipPath id="bar"><rect x="0" y="46" width="{width}" height="24" rx="12"/></clipPath>'
+                f'\n    <g clip-path="url(#bar)">{segs}\n    </g>')
 
+    px = WIDE_W / span
     ticks = ''.join(f'\n    <text class="sans muted" x="{(start - first) * px:.1f}" y="92" font-size="13">{int(start)}</text>'
                     for start, *_ in chrono)
     ticks += f'\n    <text class="sans muted" x="{WIDE_W}" y="92" font-size="13" text-anchor="end">now</text>'
-    heading = f'<tspan class="primary">{years}</tspan> Years of Experience'
-    body = f'''
-    <g class="wide">
-    <text class="sans muted" x="0" y="30" font-size="24">{heading}</text>{bar(46, 24, 'bar-wide')}{ticks}
-    </g>
-    <g class="narrow">
-    <text class="sans muted" x="0" y="42" font-size="44">{heading}</text>{bar(60, 32, 'bar-narrow')}
-    </g>'''
-    return svg(WIDE_W, 104, f'{years} Years of Experience', body, STRIP_CSS)
+    label = f'{years} Years of Experience'
+    return {'experience-wide.svg': svg(WIDE_W, 104, label, heading + bar(WIDE_W) + ticks),
+            'experience.svg': svg(CARD_W, 86, label, heading + bar(RIGHT))}
 
 
-def heading_strip(text):
-    body = f'''
-    <text class="sans muted wide" x="0" y="30" font-size="24">{e(text)}</text>
-    <text class="sans muted narrow" x="0" y="40" font-size="44">{e(text)}</text>'''
-    return svg(WIDE_W, 50, text, body, STRIP_CSS)
+def heading(name, text):
+    body = f'\n    <text class="sans muted" x="0" y="30" font-size="24">{e(text)}</text>'
+    return {f'{name}-wide.svg': svg(WIDE_W, 44, text, body), f'{name}.svg': svg(CARD_W, 44, text, body)}
 
 
 def job_row(job):
@@ -159,27 +148,27 @@ def job_card(job):
     return svg(CARD_W, y + 26, f'{" ".join(role)} · {company} · {dates}', body)
 
 
-def skill_card(skill):
+def skill_block(skill):
+    """(body, height) of one skill group at the origin"""
     name, color, items = skill
-    height = 44 + 22 * (len(items) - 1) + 24
     body = (f'\n    <circle cx="8" cy="12" r="8" fill="{color}"/>'
             f'\n    <text class="sans primary" x="{TEXT_X}" y="18" font-size="15" font-weight="600">{e(name)}</text>')
     body += ''.join(f'\n    <text class="sans muted" x="{TEXT_X}" y="{44 + 22 * i}" font-size="16">{e(line)}</text>'
                     for i, line in enumerate(items))
-    return svg(CARD_W, height, f'{name}: {" · ".join(items)}', body)
+    return body, 44 + 22 * (len(items) - 1) + 24
 
 
-def education_card():
+def education_block():
     body = '\n    <text class="sans muted" x="0" y="30" font-size="24">Education &amp; Certifications</text>'
     for i, (year, title, school) in enumerate(EDUCATION):
         y = 70 + i * 46
         body += (f'\n    <text class="sans muted" x="0" y="{y}" font-size="15">{year}</text>'
                  f'\n    <text class="sans primary" x="48" y="{y}" font-size="17">{e(title)}</text>'
                  f'\n    <text class="sans muted" x="48" y="{y + 20}" font-size="15">{e(school)}</text>')
-    return svg(CARD_W, 70 + (len(EDUCATION) - 1) * 46 + 20 + 20, 'Education & Certifications', body)
+    return body, 70 + (len(EDUCATION) - 1) * 46 + 20 + 20
 
 
-def languages_card():
+def languages_block():
     body = '\n    <text class="sans muted" x="0" y="30" font-size="24">Spoken Languages</text>'
     seg_gap, seg_h, step = 6, 12, 64
     seg_w = (RIGHT - 5 * seg_gap) / 6
@@ -190,27 +179,41 @@ def languages_card():
         for k in range(6):
             paint = f'fill="{GREENS[k]}"' if k < level else 'class="empty"'
             body += f'\n    <rect {paint} x="{k * (seg_w + seg_gap):.1f}" y="{y + 12}" width="{seg_w:.1f}" height="{seg_h}" rx="3"/>'
-    height = 70 + (len(LANGUAGES) - 1) * step + 12 + seg_h + 20
-    return svg(CARD_W, height, 'Spoken Languages: ' + ', '.join(f'{n} {l}' for n, _, l in LANGUAGES), body)
+    return body, 70 + (len(LANGUAGES) - 1) * step + 12 + seg_h + 20
+
+
+def place(blocks, cols):
+    """Lay (body, height) blocks out in `cols` columns of CARD_W + gutter; returns (body, height)"""
+    out, y = '', 0
+    for i in range(0, len(blocks), cols):
+        row = blocks[i:i + cols]
+        for j, (body, _) in enumerate(row):
+            out += f'\n    <g transform="translate({j * (WIDE_W - CARD_W + 16)} {y})">{body}\n    </g>'
+        y += max(h for _, h in row)
+    return out, y
+
+
+def section(name, blocks, label):
+    """Desktop: two columns 784 wide; mobile: one column 400 wide, stretched like the job cards"""
+    wide, wide_h = place(blocks, 2)
+    stack, stack_h = place(blocks, 1)
+    return {f'{name}-wide.svg': svg(WIDE_W, wide_h, label, wide), f'{name}.svg': svg(CARD_W, stack_h, label, stack)}
 
 
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     for stale in OUT.glob('*.svg'):
         stale.unlink()
-    files = {'experience.svg': experience_strip(), 'skills.svg': heading_strip('Skills')}
+    files = {**experience_heading(), **heading('skills-heading', 'Skills')}
 
     for i, job in enumerate(EXPERIENCE, 1):
         files[f'job-{i}-wide.svg'] = job_row(job)
         files[f'job-{i}.svg'] = job_card(job)
 
-    for i, skill in enumerate(SKILLS, 1):
-        files[f'skill-{i}.svg'] = skill_card(skill)
-    # 1px tall, fills the empty half of an odd last row so its card sits left instead of centred
-    files['spacer.svg'] = f'<svg viewBox="0 0 {CARD_W} 1" width="{CARD_W}" height="1" xmlns="http://www.w3.org/2000/svg"/>\n'
-
-    files['education.svg'] = education_card()
-    files['languages.svg'] = languages_card()
+    files.update(section('skills', [skill_block(s) for s in SKILLS],
+                         'Skills: ' + '; '.join(f'{n}: {" · ".join(items)}' for n, _, items in SKILLS)))
+    files.update(section('education', [education_block(), languages_block()],
+                         'Education & Certifications; Spoken Languages: ' + ', '.join(f'{n} {l}' for n, _, l in LANGUAGES)))
 
     for name, content in files.items():
         (OUT / name).write_text(content, encoding='utf-8')
