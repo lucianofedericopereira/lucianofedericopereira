@@ -22,21 +22,21 @@
   <!-- LANGUAGES -->
   <g class="rise a3">
     <text class="sans muted" x="0" y="38" font-size="24"><tspan class="primary">32</tspan> Languages</text>
-    <text class="sans muted" x="0" y="60" font-size="15"><tspan class="primary">101.4 MB</tspan> of code</text>
+    <text class="sans muted" x="0" y="60" font-size="15"><tspan class="primary">102.0 MB</tspan> of code</text>
     <clipPath id="lang-bar"><rect x="0" y="88" width="384" height="24" rx="12"/></clipPath>
     <g clip-path="url(#lang-bar)">
       <rect class="empty" x="0" y="88" width="384" height="24"/>
-      <rect x="0.0" y="88" width="240.6" height="24" fill="#6E7695"/>
-      <rect x="239.6" y="88" width="53.7" height="24" fill="#BC7766"/>
-      <rect x="292.3" y="88" width="21.7" height="24" fill="#BCA354"/>
-      <rect x="313.0" y="88" width="19.6" height="24" fill="#6E93BC"/>
-      <rect x="331.6" y="88" width="15.7" height="24" fill="#BCB57B"/>
-      <rect x="346.3" y="88" width="14.8" height="24" fill="#6788A5"/>
-      <rect x="360.0" y="88" width="11.6" height="24" fill="#76B89A"/>
-      <rect x="370.6" y="88" width="13.4" height="24" fill="#858585"/>
+      <rect x="0.0" y="88" width="240.2" height="24" fill="#6E7695"/>
+      <rect x="239.2" y="88" width="53.8" height="24" fill="#BC7766"/>
+      <rect x="292.0" y="88" width="21.6" height="24" fill="#BCA354"/>
+      <rect x="312.6" y="88" width="19.5" height="24" fill="#6E93BC"/>
+      <rect x="331.1" y="88" width="16.0" height="24" fill="#BCB57B"/>
+      <rect x="346.0" y="88" width="14.7" height="24" fill="#6788A5"/>
+      <rect x="359.7" y="88" width="11.5" height="24" fill="#76B89A"/>
+      <rect x="370.2" y="88" width="13.8" height="24" fill="#858585"/>
     </g>
     <circle cx="8" cy="146" r="8" fill="#6E7695"/>
-    <text class="sans primary" x="26" y="152" font-size="16">PHP<tspan class="muted"> 62.4%</tspan></text>
+    <text class="sans primary" x="26" y="152" font-size="16">PHP<tspan class="muted"> 62.3%</tspan></text>
     <circle cx="192" cy="146" r="8" fill="#BC7766"/>
     <text class="sans primary" x="210" y="152" font-size="16">HTML<tspan class="muted"> 13.7%</tspan></text>
     <circle cx="8" cy="172" r="8" fill="#BCA354"/>
@@ -44,12 +44,12 @@
     <circle cx="192" cy="172" r="8" fill="#6E93BC"/>
     <text class="sans primary" x="210" y="178" font-size="16">TypeScript<tspan class="muted"> 4.8%</tspan></text>
     <circle cx="8" cy="198" r="8" fill="#BCB57B"/>
-    <text class="sans primary" x="26" y="204" font-size="16">JavaScript<tspan class="muted"> 3.8%</tspan></text>
+    <text class="sans primary" x="26" y="204" font-size="16">JavaScript<tspan class="muted"> 3.9%</tspan></text>
     <circle cx="192" cy="198" r="8" fill="#6788A5"/>
     <text class="sans primary" x="210" y="204" font-size="16">Python<tspan class="muted"> 3.6%</tspan></text>
     <circle cx="8" cy="224" r="8" fill="#76B89A"/>
-    <text class="sans primary" x="26" y="230" font-size="16">Vue<tspan class="muted"> 2.8%</tspan></text>
+    <text class="sans primary" x="26" y="230" font-size="16">Vue<tspan class="muted"> 2.7%</tspan></text>
     <circle cx="192" cy="224" r="8" fill="#858585"/>
-    <text class="sans primary" x="210" y="230" font-size="16">Others<tspan class="muted"> 3.5%</tspan></text>
+    <text class="sans primary" x="210" y="230" font-size="16">Others<tspan class="muted"> 3.6%</tspan></text>
   </g>
 </svg>
