@@ -22,29 +22,29 @@
   <!-- LANGUAGES -->
   <g class="rise a3">
     <text class="sans muted" x="0" y="38" font-size="24"><tspan class="primary">33</tspan> Languages</text>
-    <text class="sans muted" x="0" y="60" font-size="15"><tspan class="primary">105.1 MB</tspan> of code</text>
+    <text class="sans muted" x="0" y="60" font-size="15"><tspan class="primary">104.8 MB</tspan> of code</text>
     <clipPath id="lang-bar"><rect x="0" y="88" width="384" height="24" rx="12"/></clipPath>
     <g clip-path="url(#lang-bar)">
       <rect class="empty" x="0" y="88" width="384" height="24"/>
-      <rect x="0.0" y="88" width="233.7" height="24" fill="#6E7695"/>
-      <rect x="232.7" y="88" width="55.5" height="24" fill="#BC7766"/>
-      <rect x="287.1" y="88" width="21.6" height="24" fill="#6E93BC"/>
-      <rect x="307.7" y="88" width="21.0" height="24" fill="#BCA354"/>
-      <rect x="327.7" y="88" width="16.1" height="24" fill="#BCB57B"/>
-      <rect x="342.8" y="88" width="14.7" height="24" fill="#6788A5"/>
+      <rect x="0.0" y="88" width="234.4" height="24" fill="#6E7695"/>
+      <rect x="233.4" y="88" width="55.6" height="24" fill="#BC7766"/>
+      <rect x="288.1" y="88" width="21.1" height="24" fill="#BCA354"/>
+      <rect x="308.1" y="88" width="20.3" height="24" fill="#6E93BC"/>
+      <rect x="327.5" y="88" width="16.2" height="24" fill="#BCB57B"/>
+      <rect x="342.7" y="88" width="14.8" height="24" fill="#6788A5"/>
       <rect x="356.5" y="88" width="11.2" height="24" fill="#76B89A"/>
       <rect x="366.7" y="88" width="17.3" height="24" fill="#858585"/>
     </g>
     <circle cx="8" cy="146" r="8" fill="#6E7695"/>
-    <text class="sans primary" x="26" y="152" font-size="16">PHP<tspan class="muted"> 60.6%</tspan></text>
+    <text class="sans primary" x="26" y="152" font-size="16">PHP<tspan class="muted"> 60.8%</tspan></text>
     <circle cx="192" cy="146" r="8" fill="#BC7766"/>
     <text class="sans primary" x="210" y="152" font-size="16">HTML<tspan class="muted"> 14.2%</tspan></text>
-    <circle cx="8" cy="172" r="8" fill="#6E93BC"/>
-    <text class="sans primary" x="26" y="178" font-size="16">TypeScript<tspan class="muted"> 5.4%</tspan></text>
-    <circle cx="192" cy="172" r="8" fill="#BCA354"/>
-    <text class="sans primary" x="210" y="178" font-size="16">Nim<tspan class="muted"> 5.2%</tspan></text>
+    <circle cx="8" cy="172" r="8" fill="#BCA354"/>
+    <text class="sans primary" x="26" y="178" font-size="16">Nim<tspan class="muted"> 5.2%</tspan></text>
+    <circle cx="192" cy="172" r="8" fill="#6E93BC"/>
+    <text class="sans primary" x="210" y="178" font-size="16">TypeScript<tspan class="muted"> 5.0%</tspan></text>
     <circle cx="8" cy="198" r="8" fill="#BCB57B"/>
-    <text class="sans primary" x="26" y="204" font-size="16">JavaScript<tspan class="muted"> 3.9%</tspan></text>
+    <text class="sans primary" x="26" y="204" font-size="16">JavaScript<tspan class="muted"> 4.0%</tspan></text>
     <circle cx="192" cy="198" r="8" fill="#6788A5"/>
     <text class="sans primary" x="210" y="204" font-size="16">Python<tspan class="muted"> 3.6%</tspan></text>
     <circle cx="8" cy="224" r="8" fill="#76B89A"/>
