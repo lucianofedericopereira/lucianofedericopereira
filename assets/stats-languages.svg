@@ -29,14 +29,14 @@
       <rect x="0.0" y="88" width="233.9" height="24" fill="#6E7695"/>
       <rect x="232.9" y="88" width="53.7" height="24" fill="#BC7766"/>
       <rect x="285.6" y="88" width="21.7" height="24" fill="#6E93BC"/>
-      <rect x="306.3" y="88" width="20.5" height="24" fill="#BCA354"/>
-      <rect x="325.8" y="88" width="15.8" height="24" fill="#BCB57B"/>
+      <rect x="306.2" y="88" width="20.5" height="24" fill="#BCA354"/>
+      <rect x="325.7" y="88" width="15.8" height="24" fill="#BCB57B"/>
       <rect x="340.6" y="88" width="14.3" height="24" fill="#6788A5"/>
       <rect x="353.9" y="88" width="10.9" height="24" fill="#76B89A"/>
-      <rect x="363.8" y="88" width="20.2" height="24" fill="#858585"/>
+      <rect x="363.7" y="88" width="20.3" height="24" fill="#858585"/>
     </g>
     <circle cx="8" cy="146" r="8" fill="#6E7695"/>
-    <text class="sans primary" x="26" y="152" font-size="16">PHP<tspan class="muted"> 60.7%</tspan></text>
+    <text class="sans primary" x="26" y="152" font-size="16">PHP<tspan class="muted"> 60.6%</tspan></text>
     <circle cx="192" cy="146" r="8" fill="#BC7766"/>
     <text class="sans primary" x="210" y="152" font-size="16">HTML<tspan class="muted"> 13.7%</tspan></text>
     <circle cx="8" cy="172" r="8" fill="#6E93BC"/>
